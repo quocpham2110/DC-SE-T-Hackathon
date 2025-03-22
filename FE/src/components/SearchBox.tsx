@@ -4,12 +4,14 @@ import { MdRefresh } from 'react-icons/md';
 import { TripsData, TripsEntity } from '../models/trips';
 import { VehiclePosition } from '../models/vehiclePosition';
 import { FilteredBusData } from '../models/filteredBus';
+import useBusTrackingStore from '../stores/busTrackingStore';
 
 const SearchBox = () => {
     const [query, setQuery] = useState<string>("")
     const [filterRoutes, setFilteredRoutes] = useState<string[]>([])
     const [selectedRoute, setSelectedRoute] = useState<string>("")
     const [filteredTrips, setFilteredTrips] = useState<FilteredBusData[]>([])
+    const [selectedTrip, setSelectedTrip] = useState<FilteredBusData | undefined>(undefined)
 
     const routeIds = useMemo(() => ([
         "101", "112", "118", "121", "211", "216", "224", "227", "301", "302",
@@ -123,8 +125,49 @@ const SearchBox = () => {
         }
     }, [routeIds, fetchingVehiclePosition])
 
-    const handleTrackBus = (busData: FilteredBusData) => {
-        console.log(`bus data: `, busData)
+
+    const { setData } = useBusTrackingStore(state => state)
+
+    // Keep tracking bus 
+    const handlekBusTracking = (busData: FilteredBusData) => {
+        if (busData.trip_id === selectedTrip?.trip_id)
+
+            console.log(`bus data: `, busData)
+        const body = {
+            trip_id: busData.trip_id,
+            vehicle_id: busData.vehicle_id
+        }
+
+        fetch(`${apiURL}/${endPoints.trackBus}`, {
+            method: 'POST',
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(body),
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(`[API-POST-track-bus] `, data)
+                if (data.length) {
+                    setSelectedTrip(busData)
+                    setData({
+                        info: {
+                            position: {
+                                latitude: data[0].latitude,
+                                longitude: data[0].longitude,
+                            },
+                            timestamp: data[0].timestamp,
+                            trip_id: data[0].trip_id,
+                            vehicle_id: data[0].vehicle_id,
+                            trip_headsign: data[0].trip_headsign,
+                            direction_name: data[0].direction_name,
+                            route_id: data[0].route_id,
+                            crowd_color: data[3].crowd_color
+                        },
+                        shapes: data[1],
+                    })
+                } else {
+                    alert('Cannot track this bus right now')
+                }
+            })
     }
 
     return (
@@ -173,19 +216,23 @@ const SearchBox = () => {
                     )
                 }
             </div>
+
+            {/* Show the list of filterd and transformed buses data */}
             {
-                filteredTrips.length > 0 && !fetching && (
+                selectedRoute && !fetching && (
                     <div className='text-map-primary mt-3'>
                         <p className='italic text-sm'>
                             {filteredTrips.length} live bus{filteredTrips.length > 1 ? 'es' : ''} found
                         </p>
                         <ul className='flex flex-col gap-y-2 mt-2 px-2 py-1 max-h-[50vh] overflow-y-auto rounded-md'>
                             {
-                                filteredTrips.map((busData: FilteredBusData) => (
+                                filteredTrips.length > 0 && filteredTrips.map((busData: FilteredBusData) => (
                                     <li key={busData.trip_id}
-                                        className='text-gray-100 px-3 py-2 rounded-md border border-map-primary
-                                        hover:bg-map-primary hover:text-map-secondary cursor-pointer'
-                                        onClick={() => handleTrackBus(busData)}
+                                        className={selectedTrip?.trip_id === busData.trip_id ?
+                                            `px-3 py-2 text-smrounded-md border  bg-gray-600 rounded-md` :
+                                            `text-gray-100 px-3 py-2 rounded-md border border-map-primary
+                                            hover:bg-map-primary hover:text-map-secondary cursor-pointer`}
+                                        onClick={() => handlekBusTracking(busData)}
                                     >
                                         <p>
                                             {busData.direction_name}
@@ -199,6 +246,8 @@ const SearchBox = () => {
                     </div>
                 )
             }
+
+            {/* Show the loading icon */}
             {
                 fetching && (
                     <div className='text-center mt-4'>
