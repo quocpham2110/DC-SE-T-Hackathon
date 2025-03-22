@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
+from api.v1.route.routes import router
 
 app = FastAPI()
 
@@ -17,3 +17,6 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {"welcome to": "bus buddy"}
+
+
+app.include_router(router, prefix="/api/v1")
