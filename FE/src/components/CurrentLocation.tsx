@@ -48,7 +48,7 @@ const CurrentLocation = () => {
     return (
         <>
             <div ref={controlDivRef}>
-                <button className='ml-0.5 mt-1 p-2  cursor-pointer bg-white rounded-full outline outline-map-secondary
+                <button className='ml-0.5 mt-1 p-2  cursor-pointer bg-white rounded-full outline outline-gray-400
                 hover:bg-map-primary duration-200 hover:scale-120'
                     onClick={onClick}
                 >
