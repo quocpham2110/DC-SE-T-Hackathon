@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from api.v1.route.routes import router
 from api.v1.service.alerts import alert
+from api.v1.service.update_passanger import update_passanger
 app = FastAPI()
 
 # Add CORS middleware
@@ -21,3 +22,4 @@ def read_root():
 
 app.include_router(router, prefix="/api/v1")
 app.include_router(alert, prefix="/api/v1/alerts")
+app.include_router(update_passanger, prefix="/api/v1/passanger")
