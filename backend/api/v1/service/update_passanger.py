@@ -1,5 +1,3 @@
-import json
-from google.protobuf.json_format import MessageToJson
 from google.transit import gtfs_realtime_pb2
 import requests
 from fastapi import APIRouter, HTTPException, Header, Depends
@@ -8,7 +6,7 @@ import os
 from pydantic import BaseModel
 from database.queries import Queries
 from fastapi.responses import JSONResponse
-
+from datetime import datetime
 load_dotenv()
 
 update_passanger = APIRouter()
@@ -19,6 +17,13 @@ update_passanger = APIRouter()
 class Driver_status(BaseModel):
     vehicle_id: str
     status: bool
+
+
+class PassengerUpdate(BaseModel):
+    vehicle_id: str
+    passenger_in: int
+    passenger_out: int
+    timestamp: datetime
 
 
 API_KEY = os.environ.get("API_KEY")
@@ -52,10 +57,51 @@ def parse_realtime_data(filelink):
 # end of the helper functions ------------------
 
 
-@update_passanger.get("/update_passengers")
-async def Update_passangers():
-    """"""
-    pass
+@update_passanger.post("/update_passengers")
+async def Update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
+    """Fetch real-time transit trip updates."""
+
+    # Fetch real-time vehicle data
+    feed = parse_realtime_data(
+        "https://drtonline.durhamregiontransit.com/gtfsrealtime/VehiclePositions"
+    )
+
+    if not feed:
+        raise HTTPException(
+            status_code=500, detail="Failed to fetch real-time data"
+        )
+
+    for entity in feed.entity:
+        vehicle = entity.vehicle
+        # Correctly accessing vehicle ID
+        if hasattr(vehicle, "vehicle") and data.vehicle_id == vehicle.vehicle.id:
+            db_query = Queries()
+
+            # Insert or Update passenger_in count
+            if data.passenger_in:
+                db_query.run_query(f"""
+                        INSERT INTO passengers ( vehicle_id, passenger_in, timestamp)
+                        VALUES ('{data.vehicle_id}',  {data.passenger_in}, '{data.timestamp}')
+                        ON CONFLICT (vehicle_id)
+                        DO UPDATE SET 
+                            passenger_in = COALESCE(passengers.passenger_in, 0) + {data.passenger_in},
+                            timestamp = '{data.timestamp}';
+                    """)
+                return {"message": "Passenger count updated successfully for passenger_in"}
+
+            # Insert or Update passenger_out count
+            elif data.passenger_out:
+                db_query.run_query(f"""
+                        INSERT INTO passengers ( vehicle_id,  passenger_out, timestamp)
+                        VALUES ( '{data.vehicle_id}',  {data.passenger_out}, '{data.timestamp}')
+                        ON CONFLICT (vehicle_id)
+                        DO UPDATE SET 
+                            passenger_out = COALESCE(passengers.passenger_out, 0) + {data.passenger_out},
+                            timestamp = '{data.timestamp}';
+                    """)
+                return {"message": "Passenger count updated successfully for passenger_out"}
+
+    raise HTTPException(status_code=404, detail="Vehicle not found")
 
 
 @update_passanger.post("/update_Status")
