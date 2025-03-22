@@ -1,0 +1,9 @@
+#root {
+  margin: 0 auto;
+}
+
+/* map dimension */
+.leaflet-container {
+  height: 100vh;
+  width: 80vw;
+}
