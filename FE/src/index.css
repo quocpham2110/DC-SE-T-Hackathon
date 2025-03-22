@@ -1,2 +1,8 @@
 @import 'tailwindcss';
 @tailwind utilities;
+
+/* Set the main theme color for project */
+@theme {
+    --color-map-primary: #75c3aa;
+    --color-map-secondary: #2a473e;
+}
