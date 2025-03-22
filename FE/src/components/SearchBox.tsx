@@ -1,9 +1,15 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
+import { apiURL, endPoints } from '../config';
+import { MdRefresh } from 'react-icons/md';
+import { TripsData, TripsEntity } from '../models/trips';
+import { VehiclePosition } from '../models/vehiclePosition';
+import { FilteredBusData } from '../models/filteredBus';
 
 const SearchBox = () => {
     const [query, setQuery] = useState<string>("")
     const [filterRoutes, setFilteredRoutes] = useState<string[]>([])
     const [selectedRoute, setSelectedRoute] = useState<string>("")
+    const [filteredTrips, setFilteredTrips] = useState<FilteredBusData[]>([])
 
     const routeIds = useMemo(() => ([
         "101", "112", "118", "121", "211", "216", "224", "227", "301", "302",
@@ -41,40 +47,167 @@ const SearchBox = () => {
         console.log(`Selected route: ${route}`)
         setQuery(route)
         setSelectedRoute(route)
+        fetchingTrips(route)
     }
 
+    const [fetching, setFetching] = useState<boolean>(false)
+
+
     // Everytime route is selected => fetch API get the trips (realtime) and filter it.
-    useEffect(() => {
-        if (routeIds.includes(selectedRoute)) {
-            // TODO
+    const fetchingVehiclePosition = useCallback(() => {
+        return fetch(`${apiURL}/${endPoints.vehiclePosition}`)
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(`[API-GET-vehiclePosition] `, data)
+                return data
+            })
+    }, [])
+
+    const fetchingTrips = useCallback((route: string) => {
+        if (routeIds.includes(route)) {
+            setFetching(true)
+            fetch(`${apiURL}/${endPoints.trips}`)
+                .then(res => res.json())
+                .then((data: TripsData) => {
+                    console.log(`[API-GET-trips] `, data)
+                    const currentTime = new Date().getTime();
+                    const trips = data.entity
+                    const filteredData = trips.filter((trip: TripsEntity) => {
+                        const firstStop = trip.tripUpdate.stopTimeUpdate[0]
+                        const lastStop = trip.tripUpdate.stopTimeUpdate[trip.tripUpdate.stopTimeUpdate.length - 1]
+
+                        return (
+                            trip.tripUpdate.trip.routeId === route
+                            && (+firstStop.arrival.time * 1000) <= currentTime
+                            && (+lastStop.arrival.time * 1000) >= currentTime
+                        )
+                    })
+
+                    console.log(`filtered trip: ${route} `, filteredData)
+                    return filteredData.map((data: TripsEntity) => ({
+                        trip_id: data.tripUpdate.trip.tripId,
+                        timestamp: data.tripUpdate.timestamp,
+                        vehicle_id: data.tripUpdate.vehicle.id,
+                        direction_name: data.direction_name,
+                        trip_headsign: data.trip_headsign,
+                        latitude: 0,
+                        longitude: 0,
+                    }))
+                })
+                .then(async (buses: FilteredBusData[]) => {
+                    if (!buses.length) {
+                        return;
+                    }
+                    try {
+                        const result: FilteredBusData[] = []
+                        const vehiclePositionData = await fetchingVehiclePosition()
+
+                        vehiclePositionData.forEach((vehicle: VehiclePosition) => {
+                            const idx = buses.findIndex((bus: FilteredBusData) =>
+                                bus.trip_id === vehicle.trip_id
+                                && bus.vehicle_id === vehicle.vehicle_id
+                            )
+                            if (idx > -1) {
+                                result.push({ ...buses[idx], latitude: vehicle.latitude, longitude: vehicle.longitude })
+                            }
+                        })
+                        console.log(`Transformed data - result: `, result)
+                        setFilteredTrips(result)
+                    } catch (e: unknown) {
+                        console.log(`[ERROR] vehicle position API ${e}`)
+                    }
+                })
+                .finally(() => {
+                    setFetching(false)
+                })
         }
-    }, [selectedRoute, routeIds])
+    }, [routeIds, fetchingVehiclePosition])
+
+    const handleTrackBus = (busData: FilteredBusData) => {
+        console.log(`bus data: `, busData)
+    }
 
     return (
-        <div className='relative'>
-            <input className='w-full px-4 py-3 outline-map-primary bg-white rounded-lg'
-                onChange={handleOnChange}
-                onFocus={handleOnFocus}
-                onBlur={handleOnBlur}
-                type="text" value={query}
-                placeholder='Search a bus...'
-            />
-            {
-                filterRoutes.length > 0 && (
-                    <ul className='absolute top-full mt-2 p-1 bg-white rounded-md w-full gap-y-1 max-h-[40vh] overflow-y-auto'>
-                        {filterRoutes.map((route: string) =>
-                            <li className='text-center py-2 rounded-md cursor-pointer
+        <>
+            <div className='relative'>
+                <input className='w-full px-4 py-3 outline-map-primary bg-white rounded-lg'
+                    onChange={handleOnChange}
+                    onFocus={handleOnFocus}
+                    onBlur={handleOnBlur}
+                    type="text" value={query}
+                    placeholder='Search a bus...'
+                />
+                {
+                    filterRoutes.length > 0 && (
+                        <ul className='absolute top-full mt-2 p-1 bg-white rounded-md w-full gap-y-1 max-h-[40vh] overflow-y-auto'>
+                            {filterRoutes.map((route: string) =>
+                                <li className='text-center py-2 rounded-md cursor-pointer
                             hover:bg-map-primary'
-                                key={route}
-                                onClick={() => handleSelectRoute(route)}
+                                    key={route}
+                                    onClick={() => handleSelectRoute(route)}
+                                >
+                                    {route}
+                                </li>
+                            )}
+                        </ul>
+                    )
+                }
+            </div >
+            <div className='mt-4 text-gray-200 flex flex-row items-center'>
+                <p className=''>
+                    Selected bus:
+                </p>
+                {
+                    selectedRoute && (
+                        <div className='flex-1 flex items-center justify-between'>
+                            <p className='bg-map-primary rounded-lg px-4 py-2 ml-3 text-map-secondary'>
+                                {selectedRoute}
+                            </p>
+                            <button className='p-2 text-map-primary cursor-pointer 
+                            hover:bg-map-primary hover:text-map-secondary hover:shadow-md rounded-full'
+                                onClick={() => fetchingTrips(selectedRoute)}
                             >
-                                {route}
-                            </li>
-                        )}
-                    </ul>
+                                <MdRefresh size={20} />
+                            </button>
+                        </div>
+                    )
+                }
+            </div>
+            {
+                filteredTrips.length > 0 && !fetching && (
+                    <div className='text-map-primary mt-3'>
+                        <p className='italic text-sm'>
+                            {filteredTrips.length} live bus{filteredTrips.length > 1 ? 'es' : ''} found
+                        </p>
+                        <ul className='flex flex-col gap-y-2 mt-2 px-2 py-1 max-h-[50vh] overflow-y-auto rounded-md'>
+                            {
+                                filteredTrips.map((busData: FilteredBusData) => (
+                                    <li key={busData.trip_id}
+                                        className='text-gray-100 px-3 py-2 rounded-md border border-map-primary
+                                        hover:bg-map-primary hover:text-map-secondary cursor-pointer'
+                                        onClick={() => handleTrackBus(busData)}
+                                    >
+                                        <p>
+                                            {busData.direction_name}
+                                        </p>
+                                        <p>
+                                            {busData.trip_headsign}
+                                        </p>
+                                    </li>
+                                ))}
+                        </ul>
+                    </div>
                 )
             }
-        </div>
+            {
+                fetching && (
+                    <div className='text-center mt-4'>
+                        <span className='inline-block w-10 h-10 border-4 border-t-transparent border-map-primary animate-spin rounded-full'></span>
+                    </div>
+                )
+            }
+
+        </>
     );
 }
 
