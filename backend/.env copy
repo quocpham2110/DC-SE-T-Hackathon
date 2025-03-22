@@ -1,0 +1,5 @@
+POSTGRES_DB=bus-buddy
+POSTGRES_USER=bus-buddy-employee
+POSTGRES_PASSWORD=admin
+Host=localhost
+ports=5432

@@ -1,0 +1,1859 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding,preferred
+10,10,Garden Northbound @ Bassett (South stop),,43.90333273838791,-78.94155897953233,,,0,,,1,2
+100,100,McQuay Northbound @ Dundas,,43.87593224,-78.961715,,,0,,,1,2
+1000,1000,Glen Northbound @ Medina,,43.87268331,-78.855412,,,0,,,1,2
+1001,1001,Northbound @ 825 Glen,,43.87529628,-78.856489,,,0,,,1,2
+1002,1002,Malaga Westbound @ Oxford,,43.875507,-78.858799,,,0,,,1,2
+1003,1003,Malaga Westbound @ Park,,43.874698,-78.862502,,,0,,,1,1
+101,101,McQuay Northbound @ Moonstone,,43.878431,-78.96314599999998,,,0,,,1,2
+1014,1014,Malaga Eastbound @ Park,,43.87443,-78.863301,,,0,,,2,2
+1015,1015,Malaga Eastbound @ Oxford (West side stop),,43.875032,-78.86054799999998,,,0,,,1,2
+1016,1016,Malaga Eastbound @ Oxford (East side stop),,43.875586,-78.857982,,,0,,,1,2
+1017,1017,Southbound @ 830 Glen,,43.87507063000001,-78.85656,,,0,,,1,2
+1018,1018,Glen Southbound @ Medina,,43.87281378,-78.855636,,,0,,,1,2
+1019,1019,Glen Southbound @ Porter,,43.871258,-78.854967,,,0,,,1,2
+102,102,McQuay Northbound @ Kennett,,43.879593,-78.965224,,,0,,,1,2
+1020,1020,Wentworth Eastbound @ Ravine,,43.87253,-78.84718,,,0,,,1,2
+1023,1023,Simcoe Southbound @ Ritson,,43.872059,-78.841181,,,0,,,1,2
+1024,1024,Simcoe Southbound @ Wellington,,43.870666,-78.8386,,,0,,,1,2
+1025,1025,Simcoe Southbound @ Kawartha,,43.86897900000001,-78.835431,,,0,,,1,2
+1027,1027,Westbound @ 60 Lakeview Park,,43.863287,-78.82959099999998,,,0,,,1,2
+1029,1029,Lakeview Park Westbound @ Ritson,,43.861379,-78.836721,,,0,,,1,2
+103,103,McQuay Northbound @ Balsdon,,43.881326,-78.966408,,,0,,,1,2
+1030,1030,Valley Westbound @ Ritson,,43.86425,-78.83846,,,0,,,1,2
+1032,1032,Phillip Murray Southbound @ Scugog,,43.86300700000001,-78.84441,,,0,,,1,2
+1033,1033,Cedar Northbound @ Phillip Murray,,43.86144322995122,-78.84781779532226,,,0,,,1,2
+104,104,McQuay Northbound @ Bonacord,,43.8836627,-78.9673866,,,0,,,1,2
+1052,1052,Eastbound @ 1733 Victoria,,43.867405,-78.899322,,,0,,,2,1
+1053,1053,Eastbound @ 555 Bloor,,43.8748675,-78.8787787,,,0,,,1,2
+1055,1055,Eastbound @ 249 Bloor,,43.878406,-78.864296,,,0,,,1,2
+1056,1056,Bloor Eastbound @ Oxford,,43.879381,-78.860118,,,0,,,1,2
+1057,1057,Bloor Eastbound @ Simcoe,,43.880241,-78.856285,,,0,,,1,2
+1058,1058,Bloor Eastbound @ Albert,,43.880885,-78.853414,,,0,,,1,2
+1059,1059,Bloor Eastbound @ Merritt,,43.8816337,-78.8499396,,,0,,,1,2
+106,106,McQuay Northbound @ Renfield,,43.888336,-78.969264,,,0,,,1,2
+1066,1066,Eastbound @ 887 Bloor,,43.888433,-78.819826,,,0,,,2,2
+1067,1067,Grandview Southbound @ Bloor (South side stop),,43.889648,-78.813063,,,0,,,1,2
+1068,1068,Grandview Southbound @ Downview,,43.88767,-78.810582,,,0,,,1,2
+1069,1069,Grandview Southbound @ Norman,,43.88659650000001,-78.8095866,,,0,,,1,2
+107,107,McQuay Northbound @ Jacob,,43.89000200000001,-78.97109399999998,,,0,,,1,2
+1070,1070,Grandview Eastbound @ Southdown,,43.886499,-78.806985,,,0,,,1,2
+1071,1071,Townline Northbound @ Grandview,,43.88752003,-78.80497908,,,0,,,1,2
+108,108,McQuay Westbound @ Muir,,43.889791,-78.97463999999998,,,0,,,1,2
+1080,1080,Westbound @ 882 Bloor,,43.888469,-78.820015,,,0,,,1,2
+1083,1083,Bloor Westbound @ Farewell,,43.885798,-78.83223599999998,,,0,,,1,2
+1084,1084,Bloor Westbound @ Holland,,43.885282,-78.83441,,,0,,,1,2
+1088,1088,Bloor Westbound @ Merritt,,43.881681,-78.85046,,,0,,,1,2
+1089,1089,Bloor Westbound @ Simcoe,,43.880638,-78.855267,,,0,,,1,2
+1090,1090,Bloor Westbound @ Oxford,,43.8794327,-78.86027799999998,,,0,,,1,2
+1091,1091,Bloor Westbound @ Park,,43.878553,-78.864334,,,0,,,1,2
+1096,1096,Simcoe Northbound @ Wentworth,,43.874477,-78.845479,,,0,,,1,2
+1097,1097,Simcoe Northbound @ Wolfe,,43.876246,-78.848778,,,0,,,1,2
+11,11,Garden Northbound @ Rossland (Durham Region Headquarters),,43.898916,-78.939531,,,0,,,1,2
+110,110,Country Lane Northbound @ Rossland,,43.894933,-78.965943,,,0,,,1,2
+1101,1101,Eastbound @ 1189 Colonel Sam,,43.878222,-78.807633,,,0,,,1,2
+1118,1118,Farewell Southbound @ Bloor,,43.884732,-78.83069399999998,,,0,,,1,2
+1119,1119,Farewell Southbound @ Raleigh,,43.881319,-78.829233,,,0,,,1,1
+1120,1120,Farewell Southbound @ Wentworth,,43.8799536,-78.8286811,,,0,,,1,2
+1132,1132,Park Northbound @ Quebec,,43.887357,-78.869767,,,0,,,2,2
+1133,1133,King Westbound @ Townline,,43.90656,-78.81421,,,0,,,1,1
+1134,1134,King Westbound @ Athabasca,,43.906087,-78.818826,,,0,,,1,2
+1135,1135,King Westbound @ Kingsway College,,43.905816,-78.821771,,,0,,,1,2
+1136,1136,King Westbound @ Keewatin,,43.90592800000001,-78.827635,,,0,,,1,2
+1137,1137,King Westbound @ Melrose,,43.90541000000001,-78.829896,,,0,,,1,2
+1138,1138,Harmony Northbound @ King,,43.905084,-78.834293,,,0,,,1,1
+1139,1139,Harmony Northbound @ Regent,,43.907681,-78.835475,,,0,,,1,2
+114,114,Country Lane Northbound @ Wetherburn,,43.896118,-78.966829,,,0,,,1,2
+1140,1140,Harmony Northbound @ Eastbourne,,43.908962,-78.836021,,,0,,,1,2
+1141,1141,Harmony Northbound @ Adelaide,,43.91195900000001,-78.837306,,,0,,,2,1
+1142,1142,Northbound @ 443 Harmony,,43.917231,-78.839598,,,0,,,1,2
+1143,1143,Harmony Northbound @ Swiss,,43.933475,-78.84678599999998,,,0,,,1,2
+1144,1144,Harmony Northbound @ Grand Ridge,,43.935668,-78.847728,,,0,,,1,2
+1145,1145,Harmony Southbound @ Adelaide,,43.91292,-78.83798,,,0,,,1,1
+1146,1146,Harmony Southbound @ Eastbourne,,43.90900100000001,-78.836235,,,0,,,1,2
+1147,1147,Harmony Southbound @ Regent,,43.907603,-78.835614,,,0,,,1,2
+1148,1148,Harmony Southbound @ King,,43.904711,-78.83438599999998,,,0,,,1,1
+1149,1149,Harmony Southbound @ Palace,,43.90330500000001,-78.833634,,,0,,,1,2
+115,115,Country Lane Northbound @ Gartshore,,43.898544,-78.969667,,,0,,,1,2
+1150,1150,Harmony Southbound @ Hoskin,,43.901176,-78.83266999999998,,,0,,,1,2
+1151,1151,Southbound @ 188 Harmony,,43.899357,-78.831854,,,0,,,2,2
+1152,1152,Harmony Southbound @ Florell,,43.896955,-78.830782,,,0,,,1,2
+1153,1153,Harmony Northbound @ Old Harmony,,43.89775,-78.830938,,,0,,,1,2
+1154,1154,Harmony Northbound @ Hoskin,,43.899752,-78.831838,,,0,,,1,2
+1155,1155,Harmony Northbound @ Palace,,43.90378813,-78.833706,,,0,,,2,2
+1156,1156,King Westbound @ Harmony,,43.90424800000001,-78.835009,,,0,,,2,1
+1157,1157,Bond Northbound @ Riverside,,43.90426723,-78.837534,,,0,,,1,2
+1158,1158,Bond Westbound @ Claymore (East side stop),,43.90453,-78.84238999999998,,,0,,,1,2
+1159,1159,Bond Westbound @ Claymore (West side stop),,43.904135,-78.844005,,,0,,,1,1
+116,116,Country Lane Northbound @ Randolph,,43.900852,-78.970374,,,0,,,1,2
+1160,1160,Bond Westbound @ Cadillac,,43.90335675,-78.847111,,,0,,,1,2
+1161,1161,Bond Westbound @ Patricia,,43.902664,-78.84988199999998,,,0,,,1,2
+1162,1162,Bond Westbound @ Oshawa Boulevard,,43.901254,-78.85265699999998,,,0,,,1,2
+1163,1163,Bond Westbound @ Ritson,,43.900548,-78.855176,,,0,,,1,1
+1164,1164,Bond Westbound @ Mary,,43.899252,-78.86069,,,0,,,1,2
+1165,1165,Bond Westbound @ Simcoe,,43.89857640000001,-78.8638232,,,0,,,2,1
+1166,1166,Bond Westbound @ Centre,,43.8980427,-78.86599339999998,,,0,,,1,1
+1167,1167,Bond Westbound @ Arena,,43.8971812,-78.8700233,,,0,,,2,2
+1169,1169,Bond Westbound @ Park,,43.896215,-78.87463099999998,,,0,,,1,1
+117,117,Country Lane Northbound @ Twin Streams,,43.9031059,-78.9716001,,,0,,,1,2
+1171,1171,Bond Westbound @ Gibbons,,43.895268,-78.878156,,,0,,,1,2
+1172,1172,Bond Westbound @ Stevenson,,43.89388328,-78.884232,,,0,,,1,1
+1173,1173,King Westbound @ Waverly,,43.892156,-78.888154,,,0,,,1,2
+1174,1174,King Westbound @ Thornton,,43.89066900000001,-78.894721,,,0,,,1,1
+1175,1175,King Eastbound @ Thornton,,43.8910876,-78.8920772,,,0,,,1,1
+1176,1176,King Eastbound @ Waverly,,43.891958,-78.88811099999998,,,0,,,1,2
+1177,1177,King Eastbound @ Stevenson,,43.89334800000001,-78.88199,,,0,,,1,1
+1178,1178,King Eastbound @ Gibbons,,43.89406180000001,-78.8787275,,,0,,,1,2
+118,118,Country Lane Northbound @ Medland,,43.907044,-78.973335,,,0,,,1,2
+1181,1181,King Eastbound @ Warren,,43.895479,-78.872558,,,0,,,2,1
+1183,1183,King Eastbound @ Midtown,,43.896359,-78.868644,,,0,,,2,2
+1185,1185,King Eastbound @ Mary,,43.898339,-78.860061,,,0,,,2,2
+1186,1186,King Eastbound @ Drew,,43.899141,-78.856595,,,0,,,2,2
+1187,1187,King Eastbound @ Rowe,,43.89992500000001,-78.853177,,,0,,,1,1
+1188,1188,King Eastbound @ Central Park,,43.901002,-78.848573,,,0,,,1,2
+1189,1189,King Eastbound @ Cadillac,,43.901543,-78.846174,,,0,,,1,2
+119,119,Country Lane Northbound @ Taunton,,43.9105664,-78.9766051,,,0,,,1,2
+1190,1190,King Eastbound @ Wilson,,43.902215,-78.843385,,,0,,,2,1
+1192,1192,King Eastbound @ Farewell,,43.903023,-78.839804,,,0,,,1,2
+1193,1193,King Eastbound @ Riverside,,43.90361,-78.837145,,,0,,,1,2
+1194,1194,King Eastbound @ Harmony,,43.904153,-78.834637,,,0,,,1,2
+1195,1195,King Eastbound @ Melrose,,43.905525,-78.828657,,,0,,,1,2
+1196,1196,King Eastbound @ Keewatin,,43.905856,-78.82687,,,0,,,1,2
+1197,1197,King Eastbound @ Grandview,,43.90560521,-78.823016,,,0,,,1,2
+1198,1198,King Eastbound @ Rockcliffe,,43.905817,-78.820278,,,0,,,1,2
+1199,1199,King Eastbound @ Eastlawn,,43.90612500000001,-78.816804,,,0,,,1,2
+12,12,Northbound @ 3093 Garden,,43.901464,-78.940766,,,0,,,1,2
+1200,1200,King Eastbound @ Townline,,43.906406,-78.813775,,,0,,,1,1
+1217,1217,Courtice Southbound @ Moyse (Courtice Community Complex),,43.914105,-78.778936,,,0,,,2,2
+1218,1218,Highway 2 Westbound @ Courtice,,43.911594,-78.779235,,,0,,,1,1
+1219,1219,Highway 2 Westbound @ Trulls,,43.911048,-78.788115,,,0,,,1,1
+1220,1220,Highway 2 Westbound @ Sandringham,,43.909174,-78.79601,,,0,,,2,2
+1221,1221,Highway 2 Westbound @ Prestonvale,,43.908585,-78.797674,,,0,,,1,1
+1222,1222,Highway 2 Westbound @ Centerfield,,43.90764200000001,-78.803571,,,0,,,1,1
+1223,1223,Highway 2 Westbound @ Varcoe,,43.907163,-78.807587,,,0,,,1,2
+1224,1224,Highway 2 Eastbound @ Darlington Boulevard,,43.906907,-78.808273,,,0,,,1,2
+1225,1225,Highway 2 Eastbound @ Old Kingston,,43.907393,-78.803827,,,0,,,1,1
+1226,1226,Courtice Southbound @ Highway 2,,43.910864,-78.777544,,,0,,,2,2
+1227,1227,Sandringham Westbound @ Short,,43.909137,-78.778369,,,0,,,1,2
+1228,1228,Avondale Southbound @ Stagemaster,,43.907937,-78.779807,,,0,,,1,2
+1229,1229,Avondale Southbound @ Brownstone,,43.90579242,-78.780964,,,0,,,1,2
+1230,1230,Avondale Southbound @ Farmington,,43.904046,-78.781861,,,0,,,1,2
+1231,1231,Trulls Northbound @ Avondale,,43.903403,-78.784876,,,0,,,1,2
+1232,1232,Northbound @ 2501 Trulls,,43.90456300000001,-78.785437,,,0,,,1,2
+1233,1233,Sandringham Westbound @ Bushford,,43.9059139,-78.78781669999998,,,0,,,1,2
+1234,1234,Sandringham Westbound @ Yorkville,,43.90300993000001,-78.790682,,,0,,,1,2
+1242,1242,King Eastbound @ Simcoe,,43.89762300000001,-78.863176,,,0,,,2,1
+1244,1244,Highway 2 Eastbound @ Prestonvale,,43.908429,-78.797456,,,0,,,1,1
+1245,1245,Highway 2 Eastbound @ Trulls,,43.910829,-78.787906,,,0,,,1,1
+125,125,Taunton Eastbound @ Cochrane,,43.912852,-78.96736199999998,,,0,,,2,2
+1252,1252,Olive Westbound @ Viewmount,,43.896941,-78.821096,,,0,,,1,2
+1255,1255,Olive Westbound @ Florell,,43.89598841,-78.82724399999998,,,0,,,1,2
+1257,1257,Olive Westbound @ Elmridge,,43.89510700000001,-78.83126799999998,,,0,,,1,1
+1258,1258,Olive Westbound @ Poplar,,43.894441,-78.834343,,,0,,,1,2
+1259,1259,Olive Westbound @ Baldwin,,43.89386600000001,-78.836928,,,0,,,1,2
+1260,1260,Olive Westbound @ Wilson,,43.893383,-78.839031,,,0,,,1,2
+1261,1261,Olive Westbound @ Highland,,43.892828,-78.841487,,,0,,,1,2
+1262,1262,Olive Westbound @ Lasalle,,43.892535,-78.842817,,,0,,,1,2
+1263,1263,Olive Westbound @ Verdun,,43.891779,-78.846057,,,0,,,1,2
+1264,1264,Olive Westbound @ Ritson,,43.890989,-78.849481,,,0,,,2,2
+1265,1265,Olive Westbound @ Drew,,43.89046,-78.851768,,,0,,,2,2
+1266,1266,Olive Westbound @ Court,,43.889641,-78.855284,,,0,,,1,2
+127,127,Cochrane Southbound @ Medland,,43.909537,-78.966002,,,0,,,1,2
+1276,1276,Gibb Westbound @ Montrave,,43.8881292,-78.87118169999998,,,0,,,1,2
+1277,1277,Gibb Westbound @ Grenfell,,43.887291,-78.874471,,,0,,,1,2
+1278,1278,Westbound @ 450 Gibb,,43.88680200000001,-78.87697,,,0,,,1,2
+1280,1280,Gibb Westbound @ Stevenson (West side stop),,43.88595200000001,-78.880912,,,0,,,1,2
+1281,1281,Gibb Westbound @ Waverly,,43.885118,-78.884574,,,0,,,1,2
+1282,1282,Gibb Westbound @ Vancouver,,43.884493,-78.887244,,,0,,,1,2
+1283,1283,Gibb Eastbound @ Vancouver,,43.884355,-78.88744699999998,,,0,,,1,2
+1284,1284,Gibb Eastbound @ Waverly,,43.885076,-78.884308,,,0,,,1,2
+1285,1285,Gibb Eastbound @ Stevenson (West side stop),,43.885932,-78.88051299999998,,,0,,,1,2
+1286,1286,Gibb Eastbound @ Stevenson (East side stop),,43.88625932,-78.87870599999998,,,0,,,1,2
+1287,1287,Eastbound @ 431 Gibb,,43.886764,-78.876312,,,0,,,1,2
+1288,1288,Gibb Eastbound @ Grenfell,,43.887267,-78.874165,,,0,,,1,2
+1289,1289,Gibb Eastbound @ Montrave,,43.88775900000001,-78.87204699999998,,,0,,,1,2
+129,129,Cochrane Southbound @ Twin Streams,,43.905578,-78.964539,,,0,,,1,2
+1297,1297,Olive Eastbound @ Court,,43.889552,-78.855367,,,0,,,1,2
+1298,1298,Olive Eastbound @ Drew,,43.890302,-78.852093,,,0,,,1,2
+1299,1299,Olive Eastbound @ Oshawa Boulevard,,43.891187,-78.848202,,,0,,,1,2
+13,13,Garden Northbound @ Bassett (North stop),,43.903334,-78.941556,,,0,,,1,2
+1300,1300,Olive Eastbound @ Lasalle,,43.89248,-78.842598,,,0,,,1,2
+1301,1301,Olive Eastbound @ Highland,,43.892801,-78.841125,,,0,,,1,2
+1302,1302,Olive Eastbound @ Windsor,,43.893281,-78.839043,,,0,,,1,2
+1303,1303,Olive Eastbound @ Guelph,,43.89384600000001,-78.836642,,,0,,,1,2
+1304,1304,Olive Eastbound @ Poplar,,43.894358,-78.834306,,,0,,,1,2
+1305,1305,Olive Eastbound @ Elmridge,,43.89498,-78.831355,,,0,,,1,1
+1306,1306,Olive Eastbound @ Harcourt,,43.895449,-78.829032,,,0,,,2,1
+1307,1307,Olive Eastbound @ Florell,,43.89581297,-78.827236,,,0,,,1,2
+1308,1308,Olive Eastbound @ Dianne,,43.89644,-78.824685,,,0,,,1,2
+1309,1309,Olive Eastbound @ Keewatin,,43.896856,-78.821788,,,0,,,1,2
+1339,1339,Rosswell Northbound @ Bloor,,43.891145,-78.798484,,,0,,,2,2
+1353,1353,Northbound @ 1185 Mary,,43.928625,-78.873907,,,0,,,1,2
+1354,1354,Nonquon Northbound @ Mary,,43.931137,-78.87249799999998,,,0,,,1,2
+1355,1355,Mary Northbound @ Nonquon,,43.93247800000001,-78.87221,,,0,,,1,2
+1356,1356,Mary Northbound @ Taunton,,43.93385593,-78.872776,,,0,,,1,2
+1359,1359,Park Southbound @ King,,43.895694,-78.873767,,,0,,,2,2
+1360,1360,Park Southbound @ Pine,,43.893793,-78.87290299999998,,,0,,,2,2
+1361,1361,Park Southbound @ Elmgrove,,43.891968,-78.872083,,,0,,,2,2
+1362,1362,Park Southbound @ Marland,,43.88699031,-78.869855,,,0,,,2,2
+1363,1363,Park Northbound @ John,,43.8922679,-78.8719904,,,0,,,2,2
+1364,1364,Park Northbound @ King,,43.8946786,-78.873147,,,0,,,2,2
+1371,1371,Beatrice Westbound @ Sycamore,,43.929548,-78.869207,,,0,,,1,2
+1372,1372,Beatrice Westbound @ Mary,,43.926963,-78.872625,,,0,,,1,2
+138,138,McQuay Southbound @ Roan,,43.881419,-78.966575,,,0,,,1,2
+139,139,McQuay Southbound @ Kennett,,43.879842,-78.96569599999998,,,0,,,1,2
+1391,1391,King Westbound @ Beaver,,43.918275,-78.585761,,,0,,,2,1
+1392,1392,North Northbound @ Monroe,,43.921392,-78.593264,,,0,,,2,2
+1395,1395,Main Southbound @ Millson Hill,,43.98281,-78.62001,,,0,,,2,2
+1396,1396,Main Southbound @ Centreview,,43.977406,-78.617544,,,0,,,1,2
+14,14,Garden Northbound @ Dryden,,43.904811,-78.942227,,,0,,,1,2
+140,140,McQuay Southbound @ Moonstone,,43.878277,-78.963114,,,0,,,1,2
+1408,1408,Mill Northbound @ King,,43.917763,-78.588888,,,0,,,1,2
+141,141,McQuay Southbound @ Allayden,,43.876649,-78.962215,,,0,,,1,2
+1410,1410,North Southbound @ Grady,,43.921133,-78.593093,,,0,,,2,2
+1411,1411,King Westbound @ North,,43.916949,-78.591266,,,0,,,1,2
+1412,1412,King Eastbound @ Baldwin,,43.91693200000001,-78.590838,,,0,,,2,2
+1413,1413,King Westbound @ Pedwell,,43.915658,-78.59710699999998,,,0,,,1,1
+1414,1414,King Eastbound @ Massey,,43.915331,-78.597667,,,0,,,1,2
+1415,1415,King Westbound @ Rudell,,43.914759,-78.60070899999998,,,0,,,1,2
+1416,1416,Highway 2 Eastbound @ Rudell,,43.914433,-78.60155,,,0,,,2,2
+1430,1430,King Westbound @ Liberty,,43.910554,-78.680784,,,0,,,2,2
+1431,1431,King Westbound @ George,,43.911481,-78.68621,,,0,,,2,2
+1432,1432,King Westbound @ Temperance,,43.91215300000001,-78.688526,,,0,,,2,1
+1433,1433,King Westbound @ Roenigk,,43.912962,-78.695055,,,0,,,1,2
+1436,1436,Highway 2 Westbound @ Boswell,,43.909692,-78.71688,,,0,,,1,2
+1452,1452,King Eastbound @ Roenigk,,43.912771,-78.694976,,,0,,,1,2
+1454,1454,King Eastbound @ Division,,43.911662,-78.687321,,,0,,,2,2
+1455,1455,King Eastbound @ Ontario,,43.911026,-78.684811,,,0,,,2,2
+1456,1456,King Eastbound @ Liberty,,43.91041,-78.680907,,,0,,,1,2
+1476,1476,Scugog Southbound @ Longworth,,43.924876,-78.697139,,,0,,,1,2
+1477,1477,Scugog Southbound @ Jackman,,43.920873,-78.695321,,,0,,,1,2
+1478,1478,Scugog Southbound @ O'Dell,,43.916997,-78.69368299999998,,,0,,,2,2
+1479,1479,Church Eastbound @ Scugog Street,,43.913909,-78.691688,,,0,,,1,2
+1480,1480,Church Eastbound @ Temperance,,43.913138,-78.688545,,,0,,,2,1
+1494,1494,Liberty Southbound @ Park,,43.90430979,-78.67758996,,,0,,,2,2
+1498,1498,Simpson Northbound @ King,,43.911329,-78.675014,,,0,,,1,1
+1499,1499,Prince Eastbound @ Liberty (Lakeridge Health Bowmanville),,43.908346,-78.678921,,,0,,,1,2
+15,15,Garden Northbound @ Willowbrook,,43.908512,-78.943865,,,0,,,1,2
+1504,1504,Clarington Boulevard Southbound @ Prince William,,43.908456,-78.70716,,,0,,,1,1
+151,151,Burns Eastbound @ Henry,,43.870396,-78.943946,,,0,,,2,2
+1519,1519,Pine Grove Westbound @ Nordane,,43.825165,-79.145977,,,0,,,1,2
+152,152,Burns Eastbound @ Centre,,43.871125,-78.940651,,,0,,,2,2
+1547,1547,Strouds Lane Eastbound @ Autumn,,43.825601,-79.132569,,,0,,,1,2
+1548,1548,Strouds Lane Eastbound @ Rosebank,,43.826216,-79.130377,,,0,,,1,2
+1574,1574,Strouds Lane Northbound @ Fernam,,43.827652,-79.126176,,,0,,,1,2
+1575,1575,Strouds Lane Eastbound @ Foxwood Trail,,43.828696,-79.124103,,,0,,,1,2
+1586,1586,Strouds Lane Westbound @ Whites (West side stop),,43.829426,-79.121337,,,0,,,1,2
+1587,1587,Kingston Westbound @ Audley,,43.868228,-78.995249,,,0,,,2,2
+1588,1588,Kingston Westbound @ Alexanders Crossing,,43.86702,-79.00077,,,0,,,1,2
+1590,1590,Kingston Westbound @ Wicks,,43.8643554,-79.0125542,,,0,,,1,2
+1591,1591,Kingston Westbound @ Salem,,43.8634084,-79.0168413,,,0,,,1,1
+1593,1593,Westbound @ 84 Kingston,,43.862111,-79.022563,,,0,,,1,2
+1594,1594,Kingston Westbound @ Harwood,,43.8611712,-79.0267418,,,0,,,1,1
+1595,1595,Westbound @ 132 Kingston,,43.859995,-79.031718,,,0,,,1,2
+1596,1596,Kingston Westbound @ Chapman,,43.859254,-79.035043,,,0,,,1,2
+1597,1597,Kingston Westbound @ Westney Heights Plaza,,43.85832,-79.03932,,,0,,,1,2
+1598,1598,Kingston Westbound @ Westney,,43.85744,-79.043041,,,0,,,1,1
+1599,1599,Kingston Westbound @ Mill,,43.856298,-79.047905,,,0,,,2,2
+16,16,Garden Northbound @ Meadowglen,,43.91038600000001,-78.944674,,,0,,,1,2
+1600,1600,Kingston Westbound @ Church,,43.85465700000001,-79.05529,,,0,,,2,1
+1601,1601,Kingston Westbound @ Elizabeth,,43.853329,-79.060678,,,0,,,1,2
+1602,1602,Kingston Westbound @ Notion,,43.852381,-79.064752,,,0,,,1,2
+1603,1603,Kingston Westbound @ Bainbridge,,43.8501483,-79.0710031,,,0,,,1,2
+1604,1604,Kingston Westbound @ Brock Road,,43.84772,-79.07452499999998,,,0,,,1,1
+1607,1607,Kingston Westbound @ Valley Farm,,43.84172800000001,-79.083084,,,0,,,1,2
+1608,1608,Kingston Westbound @ Glenanna,,43.83815,-79.08748,,,0,,,1,1
+1609,1609,Kingston Westbound @ Liverpool,,43.83548,-79.09104,,,0,,,1,1
+1610,1610,Kingston Westbound @ Walnut,,43.83097019,-79.09672757,,,0,,,1,2
+1611,1611,Kingston Westbound @ Dixie,,43.82906,-79.098675,,,0,,,1,1
+1612,1612,Kingston Westbound @ Fairport,,43.823716,-79.106421,,,0,,,1,1
+1613,1613,Westbound @ 804 Kingston,,43.821703,-79.111949,,,0,,,1,2
+1615,1615,Kingston Westbound @ Steeple Hill,,43.817215,-79.118076,,,0,,,1,1
+1616,1616,Kingston Westbound @ Rosebank,,43.81332,-79.123324,,,0,,,1,2
+1617,1617,Kingston Westbound @ Rougemount,,43.809718,-79.129028,,,0,,,1,2
+1645,1645,West Shore Southbound @ Vistula,,43.82025,-79.105278,,,0,,,1,2
+166,166,Brock Street Northbound @ Arthur,,43.86900700000001,-78.937411,,,0,,,2,2
+1663,1663,West Shore Southbound @ Samford,,43.817692,-79.104211,,,0,,,1,2
+167,167,Brock Street Northbound @ St Peter,,43.87108400000001,-78.93832,,,0,,,2,1
+1674,1674,West Shore Northbound @ Samford,,43.817582,-79.104031,,,0,,,1,2
+168,168,Brock Street Northbound @ Burns,,43.872514,-78.938948,,,0,,,2,2
+1685,1685,Oklahoma Westbound @ West Shore,,43.813826,-79.103099,,,0,,,1,2
+1687,1687,Oklahoma Westbound @ Hillcrest,,43.813024,-79.10671499999998,,,0,,,1,2
+1689,1689,Bayly Eastbound @ West Shore,,43.821218,-79.105446,,,0,,,1,2
+169,169,Brock Street Northbound @ Trent,,43.873574,-78.93940499999998,,,0,,,2,2
+1690,1690,Bayly Eastbound @ 957 Bayly,,43.822764,-79.102195,,,0,,,2,2
+1693,1693,Bayly Eastbound @ St Martins,,43.827085,-79.092836,,,0,,,1,2
+1694,1694,Bayly Eastbound @ Liverpool,,43.828787,-79.08666599999998,,,0,,,1,2
+1695,1695,Bayly Eastbound @ Pickering Station,,43.82915733045823,-79.08495872161193,,,0,,,2,2
+17,17,Garden Northbound @ Cork,,43.91380800000001,-78.946197,,,0,,,1,2
+170,170,Brock Street Northbound @ Gilbert,,43.87664417732835,-78.9408107746133,,,0,,,2,2
+1701,1701,Alyssum Eastbound @ Lublin,,43.824092,-79.075833,,,0,,,1,2
+1703,1703,Sandy Beach Southbound @ Parkham,,43.819293,-79.072432,,,0,,,1,2
+1706,1706,Montgomery Park Eastbound @ OPG Pickering,,43.8143165023665,-79.06519369171588,,,0,,,2,2
+1707,1707,Montgomery Park Eastbound @ Brock Road,,43.815436,-79.06028999999998,,,0,,,2,2
+1709,1709,McKay Northbound @ Montgomery Park,,43.819181,-79.05741,,,0,,,2,2
+171,171,Brock Street Northbound @ Dundas,,43.879703,-78.94210099999998,,,0,,,2,1
+1711,1711,Squires Beach Northbound @ McKay,,43.821982,-79.05191499999998,,,0,,,2,2
+1712,1712,Northbound @ 1111 Squires Beach,,43.824595,-79.053029,,,0,,,2,2
+1713,1713,Clements Westbound @ Squires Beach,,43.827022,-79.054705,,,0,,,2,2
+1714,1714,Westbound @ 1850 Clements,,43.8266135,-79.05666669999998,,,0,,,2,2
+1715,1715,Westbound @ 1768 Clements,,43.825697,-79.060627,,,0,,,2,2
+1716,1716,Clements Westbound @ Brock Road,,43.825146,-79.063235,,,0,,,1,1
+1719,1719,Brock Road Northbound @ Quigley,,43.82876000000001,-79.065535,,,0,,,2,2
+172,172,Brock Street Northbound @ John,,43.882531,-78.943093,,,0,,,2,2
+1724,1724,Brock Road Northbound @ Kingston,,43.848587,-79.07411399999998,,,0,,,1,2
+1729,1729,Liverpool Northbound @ Pickering Parkway,,43.833073,-79.08913099999998,,,0,,,2,2
+173,173,Brock Street Northbound @ Walnut,,43.884079,-78.943797,,,0,,,2,2
+1730,1730,Liverpool Northbound @ Kingston,,43.835391,-79.090151,,,0,,,1,1
+1731,1731,Northbound @ 1851 Liverpool,,43.837643,-79.09107,,,0,,,1,1
+1732,1732,Liverpool Northbound @ Glenanna,,43.83937800000001,-79.091944,,,0,,,1,2
+1733,1733,Northbound @ 1917 Liverpool,,43.840787,-79.092623,,,0,,,1,2
+1734,1734,Liverpool Northbound @ Anton Square,,43.842877,-79.093507,,,0,,,1,2
+174,174,Brock Street Northbound @ Chestnut,,43.88521,-78.944286,,,0,,,2,2
+1741,1741,Liverpool Southbound @ Pickering Parkway,,43.832976,-79.089382,,,0,,,1,2
+1742,1742,Kingston Westbound @ Whites,,43.818764,-79.115943,,,0,,,1,2
+1743,1743,Whites Northbound @ Sheppard,,43.821974,-79.116675,,,0,,,2,2
+1745,1745,Whites Northbound @ Briar Wood,,43.826169,-79.11869299999998,,,0,,,2,2
+1746,1746,Whites Northbound @ Strouds,,43.82930600000001,-79.120021,,,0,,,2,1
+1747,1747,Whites Northbound @ New,,43.833399,-79.121756,,,0,,,2,2
+1748,1748,Northbound @ 1953 Whites,,43.836551,-79.123093,,,0,,,2,2
+1749,1749,Whites Northbound @ Finch,,43.838667,-79.12405,,,0,,,2,2
+175,175,Brock Street Northbound @ Maple,,43.886266,-78.94474599999998,,,0,,,2,2
+1751,1751,Whites Southbound @ Sunbird Trail,,43.84406700000001,-79.126966,,,0,,,1,2
+1753,1753,Whites Southbound @ Finch,,43.83854,-79.124218,,,0,,,2,2
+1754,1754,Southbound @ 1956 Whites,,43.83660900000001,-79.123353,,,0,,,2,2
+1755,1755,Whites Southbound @ Highview,,43.83396548000001,-79.122213,,,0,,,2,2
+1756,1756,Whites Southbound @ Strouds (north stop),,43.829869,-79.120489,,,0,,,2,2
+1757,1757,Whites Southbound @ Bayfield,,43.826304,-79.118976,,,0,,,1,2
+1759,1759,Whites Southbound @ Sheppard,,43.821446,-79.116696,,,0,,,1,2
+176,176,Northbound @ 807 Brock Street,,43.89055,-78.94666,,,0,,,1,2
+1760,1760,Bayly Eastbound @ Sandy Beach,,43.83072700000001,-79.077511,,,0,,,1,2
+1761,1761,Bayly Eastbound @ Alliance,,43.83155,-79.07395099999998,,,0,,,1,2
+1762,1762,Sandy Beach Southbound @ Parkham Eastbound @ Sandy Beach,,43.832321,-79.070556,,,0,,,1,2
+1763,1763,Bayly Eastbound @ Brock Road,,43.83279628,-79.06841759,,,0,,,1,1
+1764,1764,Bayly Eastbound @ Toy,,43.833567,-79.064971,,,0,,,1,2
+1765,1765,Bayly Westbound @ Toy,,43.8336033,-79.0656863,,,0,,,1,2
+1766,1766,Bayly Westbound @ Brock Road,,43.832884,-79.068809,,,0,,,1,1
+1767,1767,Bayly Westbound @ Salk,,43.8324969,-79.0705011,,,0,,,1,2
+1768,1768,Bayly Westbound @ Alliance,,43.83159,-79.074425,,,0,,,1,2
+1769,1769,Bayly Westbound @ Sandy Beach,,43.830956,-79.077296,,,0,,,1,2
+177,177,Brock Street Northbound @ Manning,,43.89226,-78.94736,,,0,,,1,1
+1770,1770,Bayly Westbound @ Krosno,,43.830141,-79.08112199999998,,,0,,,1,2
+1771,1771,Bayly  @ Pickering Station,,43.82978700000001,-79.08286699999998,,,0,,,1,2
+1772,1772,Bayly Westbound @ St Martins,,43.82763700000001,-79.092178,,,0,,,1,2
+1776,1776,Kingston Eastbound @ Rougemount,,43.80911600000001,-79.129988,,,0,,,1,2
+1777,1777,Kingston Eastbound @ Rosebank,,43.812717,-79.123765,,,0,,,1,2
+1778,1778,Kingston Eastbound @ Steeple Hill,,43.816824,-79.11821999999998,,,0,,,1,1
+1779,1779,Kingston Eastbound @ Whites,,43.819366,-79.114699,,,0,,,1,2
+1780,1780,Eastbound @ 817 Kingston,,43.82242200000001,-79.110401,,,0,,,2,2
+1781,1781,Kingston Eastbound @ Fairport,,43.823526,-79.1066,,,0,,,2,1
+1782,1782,Kingston Eastbound @ Dixie,,43.828459,-79.098733,,,0,,,1,1
+1783,1783,Kingston Eastbound @ Walnut,,43.830837,-79.096536,,,0,,,1,2
+1786,1786,Kingston Eastbound @ Glenanna,,43.838707,-79.08637299999998,,,0,,,1,1
+1787,1787,Kingston Eastbound @ Valley Farm,,43.842456,-79.081877,,,0,,,2,2
+1789,1789,Kingston Eastbound @ Brock Road,,43.84806,-79.0734468,,,0,,,1,1
+179,179,Brock Street Northbound @ Wallace,,43.8946592,-78.9483474,,,0,,,1,2
+1790,1790,Kingston Eastbound @ Bainbridge,,43.8504078,-79.0700786,,,0,,,1,2
+1792,1792,Finch Westbound @ Valley Farm,,43.847733,-79.085486,,,0,,,1,2
+18,18,Garden Northbound @ Taunton (South side stop),,43.91657707,-78.947352,,,0,,,1,2
+180,180,Brock Street Northbound @ Rossland,,43.896874,-78.949308,,,0,,,1,2
+181,181,Brock Street Northbound @ Kenneth Hobbs,,43.900152,-78.950988,,,0,,,2,2
+182,182,Brock Street Northbound @ Dryden,,43.903112,-78.95233,,,0,,,2,1
+183,183,Northbound @ 3603 Brock Street,,43.90666800000001,-78.953906,,,0,,,2,2
+1832,1832,Southbound @ 725 Krosno,,43.82171000000001,-79.08241599999998,,,0,,,1,2
+184,184,Brock Street Northbound @ Woodlands,,43.908529,-78.954721,,,0,,,2,1
+1842,1842,Liverpool Southbound @ Haller,,43.8230252,-79.0848981,,,0,,,1,2
+1846,1846,Brock Road Northbound @ Usman,,43.852804,-79.076493,,,0,,,2,2
+1847,1847,Brock Road Northbound @ Major Oaks,,43.854784,-79.077417,,,0,,,2,1
+1849,1849,Dellbrook Westbound @ Melman,,43.858563,-79.08041799999998,,,0,,,1,2
+185,185,Brock Street Northbound @ Joy Thompson,,43.91229400000001,-78.956318,,,0,,,2,2
+1852,1852,Dellbrook Westbound @ Blue Ridge (East stop),,43.8607027,-79.0856358,,,0,,,1,2
+1854,1854,Dellbrook Westbound @ Major Oaks,,43.860264,-79.089584,,,0,,,1,2
+1855,1855,Major Oaks Southbound @ Pepperwood,,43.85834100000001,-79.088725,,,0,,,1,2
+186,186,Brock Street Northbound @ Taunton,,43.91494265,-78.957317,,,0,,,1,2
+1861,1861,Southbound @ 2058 Brock Road (Brock Ridge Community Park),,43.85219,-79.07651799999998,,,0,,,1,2
+1866,1866,Finch Westbound @ Rosefield,,43.846859,-79.089437,,,0,,,1,2
+187,187,Baldwin Northbound @ Broadleaf,,43.91826600000001,-78.958405,,,0,,,1,2
+1872,1872,Finch Westbound @ Duncannon,,43.84232084910814,-79.10971135653655,,,0,,,2,2
+1873,1873,Finch Westbound @ Fairport,,43.84132877809322,-79.11427994082172,,,0,,,2,2
+188,188,Baldwin Northbound @ Robert Attersley,,43.922073,-78.960088,,,0,,,2,2
+1887,1887,Finch Eastbound @ Fairport,,43.841082,-79.114864,,,0,,,2,1
+1888,1888,Finch Eastbound @ Huntsmill,,43.84172743428303,-79.11170584585518,,,0,,,2,2
+189,189,Baldwin Northbound @ Sleepy Hollow,,43.92549000000001,-78.961574,,,0,,,2,2
+1890,1890,Finch Eastbound @ Dixie,,43.843166,-79.105023,,,0,,,2,2
+1894,1894,Finch Eastbound @ Rosefield,,43.84660860000001,-79.0900957,,,0,,,1,2
+190,190,Baldwin Northbound @ Robmar,,43.935355,-78.961073,,,0,,,2,2
+191,191,Baldwin Southbound @ Robmar,,43.935439,-78.96117,,,0,,,2,2
+1915,1915,Glenanna Southbound @ The Esplanade (South side stop),,43.83744,-79.084563,,,0,,,1,2
+192,192,Baldwin Southbound @ Sonley,,43.925998,-78.962027,,,0,,,2,2
+1920,1920,Glenanna Westbound @ Glendale,,43.838509,-79.093254,,,0,,,1,2
+1921,1921,Glenanna Westbound @ Bronte,,43.83803000000001,-79.095309,,,0,,,1,2
+1922,1922,Glenanna Westbound @ Listowell,,43.83683700000001,-79.09910499999998,,,0,,,1,2
+1923,1923,Glenanna Westbound @ Dixie,,43.8364337,-79.1013673,,,0,,,1,2
+193,193,Baldwin Southbound @ Robert Attersley (North side stop),,43.922437,-78.96051,,,0,,,2,2
+1933,1933,Glenanna Eastbound @ Listowell,,43.836731,-79.099024,,,0,,,1,2
+1934,1934,Glenanna Eastbound @ Bowler,,43.83762,-79.096622,,,0,,,1,2
+1935,1935,Glenanna Eastbound @ Glendale,,43.838287,-79.09366799999998,,,0,,,1,2
+1936,1936,Glenanna Southbound @ Kingston,,43.8390289,-79.0881538,,,0,,,1,1
+1947,1947,Pickering Parkway Westbound @ Beechlawn,,43.843901,-79.065168,,,0,,,2,2
+1949,1949,Westbound @ 1738 Pickering Parkway,,43.8436022,-79.0698917,,,0,,,2,2
+195,195,Baldwin Southbound @ Broadleaf,,43.918627,-78.958862,,,0,,,1,2
+196,196,Baldwin Southbound @ Taunton,,43.9161151,-78.95792659999998,,,0,,,2,2
+1960,1960,Pickering Parkway Eastbound @ Valley Farm,,43.836906,-79.078013,,,0,,,2,2
+1961,1961,Pickering Parkway Northbound @ Portland,,43.839791,-79.072916,,,0,,,2,2
+1962,1962,Pickering Parkway Eastbound @ Dreyber,,43.8413,-79.073371,,,0,,,2,2
+1963,1963,Pickering Parkway Eastbound @ Denmar,,43.84296100000001,-79.073721,,,0,,,2,2
+1964,1964,Eastbound @ 1733 Pickering Parkway,,43.843629,-79.070464,,,0,,,2,2
+1965,1965,Eastbound @ 1755 Pickering Parkway,,43.8431731,-79.0678524,,,0,,,2,2
+1966,1966,Pickering Parkway Eastbound @ Beechlawn,,43.84381900000001,-79.065034,,,0,,,2,2
+197,197,Southbound @ 3800 Brock Street,,43.913297,-78.957001,,,0,,,1,2
+198,198,Brock Street Southbound @ Whitburn,,43.909126,-78.955175,,,0,,,2,1
+1986,1986,Liverpool Southbound @ Patmore,,43.824687,-79.085622,,,0,,,1,2
+199,199,Southbound @ 3626 Brock Street,,43.907209,-78.954297,,,0,,,2,2
+200,200,Brock Street Southbound @ James Rowe,,43.903602,-78.952735,,,0,,,2,1
+2002,2002,Liverpool Northbound @ Haller,,43.823093,-79.084806,,,0,,,1,2
+2003,2003,Liverpool Northbound @ Patmore,,43.824917,-79.085611,,,0,,,1,2
+2004,2004,Bayly Eastbound @ Squires Beach,,43.83507642,-79.05785441,,,0,,,2,2
+201,201,Brock Street Southbound @ McCartney,,43.900605,-78.951449,,,0,,,2,2
+2015,2015,Finley Southbound @ Burden,,43.821244,-79.022832,,,0,,,2,2
+2016,2016,Lake Driveway Westbound @ Finley,,43.8190999,-79.01975093,,,0,,,2,2
+202,202,Brock Street Southbound @ Rossland,,43.897776,-78.950113,,,0,,,1,2
+2022,2022,Lake Driveway Northbound @ Hawkins,,43.823774,-79.034075,,,0,,,2,2
+2023,2023,Lake Driveway Northbound @ Kipling,,43.826225,-79.032934,,,0,,,2,2
+2026,2026,Dreyer Eastbound @ Harwood,,43.83100300000001,-79.012911,,,0,,,2,2
+2029,2029,Clover Ridge Southbound @ Bryant,,43.830365,-79.003947,,,0,,,1,2
+203,203,Brock Street Southbound @ Palmerston,,43.89499,-78.94865,,,0,,,1,2
+2030,2030,Clover Ridge Southbound @ Gregory,,43.829063,-79.00503,,,0,,,1,2
+2031,2031,Clover Ridge Westbound @ Crawford,,43.827273,-79.0073526,,,0,,,1,2
+2039,2039,Ashbury Eastbound @ Wiseman,,43.832912,-78.990826,,,0,,,1,2
+204,204,Brock Street Southbound @ Starr (North side stop),,43.89251,-78.94755,,,0,,,1,1
+2041,2041,Ashbury Eastbound @ Audley,,43.832005,-78.985365,,,0,,,1,2
+2046,2046,Audley Northbound @ Handley,,43.8348382,-78.9859383,,,0,,,1,2
+2050,2050,Audley Northbound @ Keywood,,43.848091,-78.987718,,,0,,,1,2
+2052,2052,Monarch Southbound @ Bayly,,43.8419315,-79.02482652,,,0,,,2,2
+2053,2053,Monarch Southbound @ Centennial,,43.839545,-79.023794,,,0,,,2,2
+2054,2054,Southbound @ 556 Monarch,,43.83624600000001,-79.022383,,,0,,,2,2
+2055,2055,Monarch Southbound @ Clements,,43.834733,-79.021721,,,0,,,2,2
+2058,2058,Clover Ridge Westbound @ Harwood,,43.82619600000001,-79.01322,,,0,,,1,1
+206,206,Southbound @ 814 Brock Street,,43.8904162,-78.9467193,,,0,,,1,2
+2065,2065,Harwood Northbound @ Gorton,,43.82833209000001,-79.013822,,,0,,,1,2
+2066,2066,Northbound @ 819 Harwood,,43.83001,-79.014268,,,0,,,1,2
+2067,2067,Northbound @ 721 Harwood,,43.83263,-79.01477,,,0,,,1,2
+2068,2068,Northbound @ 655 Harwood,,43.836126,-79.014843,,,0,,,1,1
+2069,2069,Harwood Northbound @ Emperor (Lakeridge Health Ajax Pickering),,43.837528,-79.01542,,,0,,,1,2
+207,207,Brock Street Southbound @ Maple,,43.886977,-78.945274,,,0,,,2,2
+2070,2070,Harwood Northbound @ Falby,,43.839992,-79.017956,,,0,,,2,2
+2072,2072,Harwood Northbound @ Bayly,,43.843789,-79.018082,,,0,,,1,1
+2073,2073,Harwood Northbound @ Kings Crescent (South stop),,43.846645,-79.019272,,,0,,,1,1
+2074,2074,Harwood Northbound @ Kings Crescent (North stop),,43.84973200000001,-79.02055799999998,,,0,,,1,2
+2076,2076,Harwood Southbound @ Kings Crescent,,43.849235,-79.020696,,,0,,,2,2
+2078,2078,Harwood Southbound @ Bayly,,43.844243,-79.018636,,,0,,,1,1
+2079,2079,Harwood Southbound @ Falby,,43.839809,-79.018227,,,0,,,1,2
+208,208,Brock Street Southbound @ Chestnut,,43.884855,-78.944315,,,0,,,2,2
+2080,2080,Southbound @ 580 Harwood Avenue South (Lakeridge Health Ajax Pickering),,43.83667100000001,-79.015332,,,0,,,1,2
+2081,2081,Harwood Southbound @ Clements,,43.83498800000001,-79.015122,,,0,,,1,2
+2082,2082,Southbound @ 766 Harwood,,43.83234800000001,-79.01500299999998,,,0,,,1,2
+2083,2083,Harwood Southbound @ Westney,,43.831109,-79.014812,,,0,,,1,1
+2088,2088,Range Line Westbound @ Mayor,,43.83037,-78.99327,,,0,,,2,2
+209,209,Brock Street Southbound @ Walnut,,43.883763,-78.943838,,,0,,,2,2
+2092,2092,Pickering Beach Northbound @ Rollo (South stop),,43.8317563,-79.0021836,,,0,,,2,1
+2093,2093,Northbound @ 727 Pickering Beach,,43.83484,-79.00351499999998,,,0,,,1,2
+2094,2094,Pickering Beach Northbound @ Rollo (North stop),,43.8365894,-79.0042527,,,0,,,1,2
+2095,2095,Pickering Beach Northbound @ Howling Crescent,,43.841101,-79.006067,,,0,,,1,1
+2096,2096,Pickering Beach Northbound @ Greenhalf,,43.84355324,-79.006018,,,0,,,1,2
+2097,2097,Pickering Beach Northbound @ Powers Valley,,43.84503584,-79.00557499999998,,,0,,,1,2
+210,210,Brock Street Southbound @ Mary,,43.882233,-78.94316,,,0,,,2,2
+211,211,Brock Street Southbound @ Dundas,,43.87995200000001,-78.942282,,,0,,,2,1
+212,212,Brock Street Southbound @ Gilbert,,43.876878,-78.941093,,,0,,,2,2
+213,213,Brock Street Southbound @ Ontario,,43.87582900000001,-78.940579,,,0,,,2,2
+2136,2136,Harwood Northbound @ Biggs,,43.881794,-79.02769499999998,,,0,,,1,2
+2137,2137,Harwood Northbound @ Woodcock,,43.88408900000001,-79.028774,,,0,,,1,2
+2138,2138,Harwood Westbound @ Woodcock,,43.885292,-79.032422,,,0,,,1,2
+2139,2139,Harwood Northbound @ Williamson,,43.8880633,-79.0372909,,,0,,,1,2
+214,214,Brock Street Southbound @ Trent,,43.873776,-78.939683,,,0,,,2,2
+2141,2141,Harwood Southbound @ Woodcock,,43.88507983,-79.03234399999998,,,0,,,1,2
+2142,2142,Southbound @ 1370 Harwood,,43.884808,-79.030202,,,0,,,1,2
+2143,2143,Harwood Southbound @ Biggs,,43.88232766,-79.028197,,,0,,,1,2
+2144,2144,Harwood Southbound @ Rossland,,43.8802553,-79.0273906,,,0,,,1,2
+2145,2145,Harwood Southbound @ Fishlock,,43.877704,-79.026265,,,0,,,1,2
+2146,2146,Harwood Southbound @ Hibbard,,43.874193,-79.024716,,,0,,,1,2
+2147,2147,Harwood Southbound @ Kerrison,,43.87033000000001,-79.024269,,,0,,,1,2
+2148,2148,Harwood Southbound @ Ringer,,43.867723,-79.02528,,,0,,,1,2
+2149,2149,Harwood Southbound @ Chapman,,43.86438600000001,-79.026404,,,0,,,1,2
+215,215,Southbound @ 786 Brock Street,,43.872757,-78.93923599999998,,,0,,,2,2
+2151,2151,Harwood Southbound @ Kingston,,43.861847,-79.02633899999998,,,0,,,1,2
+2152,2152,Harwood Southbound @ Gardiner,,43.858871,-79.02495999999998,,,0,,,1,2
+2153,2153,Harwood Southbound @ Ontario,,43.857094,-79.024118,,,0,,,2,2
+2154,2154,Harwood Southbound @ Brock Street,,43.855292,-79.023336,,,0,,,1,2
+2155,2155,Harwood Northbound @ Oak,,43.854752,-79.02292199999998,,,0,,,1,2
+2156,2156,Harwood Northbound @ Doric,,43.856625,-79.023745,,,0,,,1,2
+2157,2157,Harwood Northbound @ Mandrake,,43.858455,-79.024518,,,0,,,1,2
+2158,2158,Harwood Northbound @ Kingston,,43.861921,-79.02605,,,0,,,1,2
+2159,2159,Harwood Northbound @ Chapman,,43.863997,-79.026117,,,0,,,1,2
+216,216,Brock Street Southbound @ Burns,,43.871232,-78.938597,,,0,,,2,1
+2160,2160,Harwood Northbound @ Ringer,,43.867257,-79.025183,,,0,,,1,2
+2161,2161,Harwood Northbound @ Kerrison,,43.869841,-79.024135,,,0,,,1,2
+2162,2162,Harwood Northbound @ Hibbard,,43.873823,-79.02424999999998,,,0,,,1,2
+2163,2163,Harwood Northbound @ Fishlock,,43.877314,-79.025754,,,0,,,1,2
+2164,2164,Harwood Northbound @ Rossland,,43.87954400000001,-79.02673,,,0,,,1,2
+2168,2168,Rossland Eastbound @ Pearce,,43.87530000000001,-79.04696,,,0,,,2,2
+2169,2169,Rossland Eastbound @ Westney,,43.876463,-79.04190199999998,,,0,,,1,1
+217,217,Brock Street Southbound @ Arthur,,43.8691799,-78.9376805,,,0,,,2,2
+2171,2171,Rossland Eastbound @ Salem,,43.881463,-79.019467,,,0,,,1,1
+2172,2172,Rossland Eastbound @ Rushworth,,43.883402,-79.011115,,,0,,,1,1
+2173,2173,Rossland Eastbound @ Hilton,,43.884305,-79.007262,,,0,,,2,2
+2174,2174,Rossland Eastbound @ Audley,,43.885035,-79.004013,,,0,,,2,2
+2175,2175,Rossland Eastbound @ Lake Ridge,,43.887478,-78.993144,,,0,,,1,2
+2176,2176,Rossland Westbound @ Lake Ridge,,43.887606,-78.993369,,,0,,,1,2
+2177,2177,Rossland Westbound @ Audley,,43.885183,-79.003906,,,0,,,2,2
+2178,2178,Rossland Westbound @ Hilton,,43.884465,-79.007121,,,0,,,2,2
+2179,2179,Rossland Westbound @ Rushworth,,43.883554,-79.01085999999998,,,0,,,2,1
+2182,2182,Ravenscroft Northbound @ Brennan,,43.864849,-79.049211,,,0,,,2,2
+2183,2183,Ravenscroft Northbound @ Matthews,,43.866904,-79.050094,,,0,,,2,2
+2184,2184,Ravenscroft Northbound @ Delaney,,43.869752,-79.051332,,,0,,,2,2
+2185,2185,Ravenscroft Northbound @ Hyde,,43.872168,-79.052373,,,0,,,2,2
+2204,2204,Church Southbound @ Strickland,,43.868838,-79.061829,,,0,,,2,2
+2205,2205,Southbound @ 570 Church,,43.86716,-79.061098,,,0,,,2,2
+2206,2206,Church Southbound @ Delaney,,43.86411300000001,-79.059791,,,0,,,2,2
+2207,2207,Southbound @ 370 Church,,43.86250900000001,-79.05909,,,0,,,2,2
+2208,2208,Church Southbound @ Meekings,,43.85935,-79.057714,,,0,,,2,2
+2209,2209,Church Southbound @ Kingston,,43.854942,-79.05582,,,0,,,2,2
+2218,2218,Kingston Eastbound @ Wicks,,43.8648288,-79.00946,,,0,,,1,2
+2220,2220,Kingston Eastbound @ Alexanders Crossing,,43.866897,-79.00020499999998,,,0,,,1,2
+2221,2221,Kingston Eastbound @ Audley,,43.867763,-78.996374,,,0,,,2,2
+2233,2233,Kingston Eastbound @ Elizabeth,,43.85324,-79.060413,,,0,,,2,2
+2234,2234,Eastbound @ 625 Kingston,,43.85417000000001,-79.056628,,,0,,,2,1
+2235,2235,Kingston Eastbound @ Mill,,43.85603900000001,-79.048411,,,0,,,2,2
+2236,2236,Kingston Eastbound @ Westney,,43.8576991,-79.0409645,,,0,,,1,1
+2238,2238,Kingston Eastbound @ Ritchie,,43.858841,-79.035728,,,0,,,1,2
+2240,2240,Eastbound @ 113 Kingston,,43.860433,-79.028621,,,0,,,1,2
+2241,2241,Kingston Eastbound @ Harwood,,43.861263,-79.025056,,,0,,,1,1
+2242,2242,Eastbound @ 69 Kingston,,43.862037,-79.021604,,,0,,,1,2
+2244,2244,Rossland Westbound @ Salem,,43.881479,-79.020109,,,0,,,1,2
+2246,2246,Westney Southbound @ Atherton,,43.88795600000001,-79.04816599999998,,,0,,,2,2
+2247,2247,Westney Southbound @ Williamson,,43.88526,-79.047031,,,0,,,2,2
+2248,2248,Southbound @ 1328 Westney,,43.881817,-79.045538,,,0,,,2,2
+2249,2249,Westney Southbound @ Telford,,43.880069,-79.04483999999998,,,0,,,2,2
+225,225,Anderson Northbound @ Dundas,,43.884831,-78.922613,,,0,,,1,2
+2250,2250,Westney Southbound @ Rossland (North side stop),,43.877313,-79.043719,,,0,,,1,2
+2252,2252,Westney Northbound @ Rossland,,43.87696840000001,-79.0432136,,,0,,,1,1
+2253,2253,Westney Northbound @ Telford,,43.879701,-79.044516,,,0,,,2,2
+2254,2254,Northbound @ 1331 Westney,,43.881886,-79.045439,,,0,,,2,2
+2256,2256,Westney Northbound @ Curtis,,43.88721000000001,-79.047648,,,0,,,2,2
+2257,2257,Northbound @ 1753 Westney,,43.88983600000001,-79.048786,,,0,,,2,2
+2258,2258,Westney Southbound @ Rossland (South side stop),,43.87519152,-79.042872,,,0,,,1,1
+2259,2259,Westney Southbound @ Coughlen,,43.872596,-79.041717,,,0,,,1,2
+226,226,Anderson Northbound @ Crawforth,,43.886903,-78.923509,,,0,,,1,2
+2260,2260,Westney Southbound @ Ivers,,43.8698042,-79.04054189999998,,,0,,,1,2
+2261,2261,Westney Southbound @ Delaney,,43.866866,-79.039272,,,0,,,1,1
+2262,2262,Southbound @ 350 Westney,,43.86482,-79.039095,,,0,,,1,2
+2263,2263,Southbound @ 216 Westney,,43.8632403,-79.0398311,,,0,,,1,2
+2264,2264,Westney Southbound @ Millington,,43.860608,-79.041014,,,0,,,2,2
+2265,2265,Westney Southbound @ Kingston (North side stop),,43.857804,-79.041983,,,0,,,1,2
+2266,2266,Westney Southbound @ Bramwell,,43.854027,-79.041345,,,0,,,1,2
+2268,2268,Westney Southbound @ Fairall,,43.846828,-79.03957,,,0,,,1,2
+2269,2269,Westney Southbound @ O'Brien,,43.8434567,-79.03655988,,,0,,,1,2
+227,227,Anderson Northbound @ Frederick,,43.890994,-78.925314,,,0,,,1,2
+2270,2270,Westney Southbound @ Bayly,,43.84046,-79.035459,,,0,,,1,2
+2276,2276,Westney Eastbound @ Harwood,,43.83075500000001,-79.016374,,,0,,,2,2
+2277,2277,Westney Northbound @ Clements,,43.831821,-79.032781,,,0,,,2,2
+228,228,Anderson Northbound @ Maplewood,,43.892564,-78.925967,,,0,,,1,2
+2280,2280,Westney Northbound @ Bayly (North side stop),,43.8412546,-79.0353224,,,0,,,1,2
+2281,2281,Westney Northbound @ O'Brien,,43.843068,-79.036025,,,0,,,1,2
+2282,2282,Westney Northbound @ Ritchie,,43.853799,-79.041066,,,0,,,1,2
+2283,2283,Westney Northbound @ Kingston,,43.85724787,-79.04155679,,,0,,,1,2
+2285,2285,Westney Northbound @ Ravenscroft,,43.861546,-79.040329,,,0,,,1,2
+2286,2286,Westney Northbound @ Magill,,43.866181,-79.038754,,,0,,,1,1
+2287,2287,Westney Northbound @ Ivers,,43.87030193,-79.040561,,,0,,,1,2
+2288,2288,Westney Northbound @ Sullivan,,43.8737626,-79.04188859999998,,,0,,,1,2
+2298,2298,Liverpool Northbound @ Bayly,,43.827964,-79.086894,,,0,,,2,2
+2299,2299,Bayly Eastbound @ Church,,43.83746702,-79.04730836,,,0,,,1,1
+2300,2300,Bayly Eastbound @ Westney,,43.840287,-79.03458,,,0,,,1,2
+2301,2301,Bayly Eastbound @ Finley,,43.841093,-79.030872,,,0,,,1,2
+2302,2302,Bayly Eastbound @ Mackenzie,,43.841851,-79.02756599999998,,,0,,,1,2
+2303,2303,Bayly Eastbound @ Monarch,,43.8423437,-79.025254,,,0,,,1,2
+2304,2304,Bayly Eastbound @ Woodchester,,43.842726,-79.02351899999998,,,0,,,2,2
+2305,2305,Bayly Eastbound @ Kitney,,43.84332238201808,-79.02102331,,,0,,,1,2
+2307,2307,Bayly Eastbound @ Burcher,,43.845278,-79.012218,,,0,,,1,2
+2308,2308,Bayly Eastbound @ Porte,,43.846033,-79.009096,,,0,,,1,2
+2309,2309,Bayly Eastbound @ Pickering Beach,,43.846502,-79.006585,,,0,,,1,1
+2310,2310,Bayly Eastbound @ Shoal Point,,43.848164,-78.99917499999998,,,0,,,2,2
+2311,2311,Bayly Westbound @ Shoal Point,,43.84862720000001,-78.99802099999998,,,0,,,1,2
+2312,2312,Bayly Westbound @ Boone,,43.847892,-79.00124,,,0,,,1,2
+2313,2313,Bayly Westbound @ Salem,,43.846629,-79.007018,,,0,,,2,1
+2314,2314,Bayly Westbound @ Porte,,43.846159,-79.009124,,,0,,,1,2
+2315,2315,Bayly Westbound @ Burcher,,43.845625,-79.01148499999998,,,0,,,1,2
+2316,2316,Bayly Westbound @ Harwood,,43.844242,-79.017732,,,0,,,2,1
+2317,2317,Bayly Westbound @ Commercial,,43.843703,-79.020186,,,0,,,1,2
+2318,2318,Bayly Westbound @ Woodchester,,43.843281,-79.021975,,,0,,,1,2
+2319,2319,Bayly Westbound @ Monarch,,43.842681,-79.024703,,,0,,,1,2
+2320,2320,Bayly Westbound @ Mackenzie,,43.8419865,-79.0278284,,,0,,,1,2
+2321,2321,Bayly Westbound @ Finley,,43.84141000000001,-79.030484,,,0,,,1,2
+2322,2322,Bayly Westbound @ Westney,,43.840417,-79.035039,,,0,,,1,2
+2323,2323,Bayly Westbound @ Squires Beach,,43.83537,-79.05759999999998,,,0,,,2,2
+2324,2324,Bayly Westbound @ Church,,43.83755071,-79.04777984,,,0,,,1,1
+2326,2326,Hunt Westbound @ Mills,,43.84675350879057,-79.02333478682516,,,0,,,2,2
+2328,2328,Fairall Westbound @ Dowty,,43.848622,-79.030842,,,0,,,1,2
+2329,2329,Fairall Westbound @ McMaster,,43.847858,-79.034274,,,0,,,1,2
+2330,2330,Fairall Westbound @ Westney,,43.84696000000001,-79.038432,,,0,,,1,2
+2331,2331,Fairall Eastbound @ Westney (East side stop),,43.8469093,-79.0381401,,,0,,,1,2
+2332,2332,Fairall Eastbound @ McMaster,,43.847784,-79.034135,,,0,,,1,2
+2333,2333,Fairall Eastbound @ Dowty,,43.8488203,-79.0293951,,,0,,,1,2
+2335,2335,Hunt Eastbound @ Harwood,,43.84718321812876,-79.0209055885104,,,0,,,2,2
+2351,2351,Eastbound @ 87 Station,,43.850729,-79.024869,,,0,,,2,2
+2352,2352,Station Eastbound @ Harwood,,43.85141200000001,-79.021846,,,0,,,2,2
+2398,2398,Eastbound @ 43 Taunton,,43.896029,-79.038914,,,0,,,1,2
+2399,2399,Taunton Eastbound @ Middlecote,,43.896906,-79.034803,,,0,,,1,2
+2400,2400,Taunton Eastbound @ Salem,,43.897731,-79.0312632,,,0,,,1,1
+2401,2401,Taunton Eastbound @ Gillett,,43.8993868,-79.0245374,,,0,,,2,2
+2402,2402,Taunton Eastbound @ Warner,,43.901133,-79.017127,,,0,,,2,1
+2403,2403,Taunton Eastbound @ Audley,,43.902546,-79.011461,,,0,,,1,2
+2404,2404,Taunton Westbound @ Audley,,43.90267,-79.011878,,,0,,,2,2
+2405,2405,Taunton Westbound @ Warner,,43.9015153,-79.01660699999998,,,0,,,2,1
+2406,2406,Taunton Westbound @ Salem,,43.8979268,-79.0315523,,,0,,,2,1
+2407,2407,Taunton Westbound @ Middlecote,,43.8972765,-79.0342846,,,0,,,2,2
+2416,2416,Eastbound @ 6 Welwood,,44.087782,-79.1330801,,,0,,,2,2
+2417,2417,Plaza Northbound @ Welwood,,44.089648,-79.131489,,,0,,,2,2
+2418,2418,Toronto Northbound @ Douglas,,44.09199000000001,-79.132073,,,0,,,1,2
+2419,2419,Toronto Northbound @ Elgin Park,,44.097727,-79.12808,,,0,,,1,2
+2420,2420,Toronto Northbound @ Campbell,,44.101583,-79.125598,,,0,,,1,2
+2421,2421,Toronto Northbound @ Poplar,,44.106913,-79.123332,,,0,,,1,2
+2422,2422,Toronto Northbound @ Brock Street (North side stop),,44.109303,-79.122461,,,0,,,1,2
+2424,2424,Toronto Street Southbound @ Brock Street,,44.10911,-79.122648,,,0,,,2,2
+2425,2425,Toronto Southbound @ Peel,,44.105762,-79.124135,,,0,,,1,2
+2426,2426,Toronto Southbound @ Mill,,44.104382,-79.124941,,,0,,,1,2
+2427,2427,Toronto Southbound @ Campbell,,44.102555,-79.125703,,,0,,,2,2
+2428,2428,Reach Eastbound @ East,,44.104907,-79.113612,,,0,,,1,2
+2429,2429,Reach Eastbound @ Hamilton,,44.104684,-79.111752,,,0,,,1,2
+2430,2430,Reach Eastbound @ Testa,,44.104464,-79.109229,,,0,,,1,2
+2431,2431,Reach Northbound @ Coral Creek,,44.104497,-79.108006,,,0,,,1,2
+2433,2433,Franklin Northbound @ Parkside,,44.106913,-79.115832,,,0,,,1,2
+2434,2434,Franklin Northbound @ Brock Street,,44.109968,-79.117222,,,0,,,2,2
+2436,2436,Toronto Southbound @ Elgin Park,,44.09739900000001,-79.128533,,,0,,,1,2
+2437,2437,Toronto Northbound @ Mill,,44.10394500000001,-79.12506,,,0,,,1,2
+2438,2438,Toronto Southbound @ Brock Street (South side stop),,44.107718,-79.123036,,,0,,,1,2
+2441,2441,Franklin Southbound @ Brock Street,,44.10972000000001,-79.11723499999998,,,0,,,1,2
+2442,2442,Southbound @ 72 Franklin,,44.107774,-79.116345,,,0,,,1,2
+2443,2443,Brock Street Westbound @ Main Street,,44.109472,-79.12032499999998,,,0,,,1,2
+2444,2444,Reach Westbound @ Marsh Hill (Epsom),,44.093705,-79.035732,,,0,,,2,2
+2445,2445,Reach Eastbound @ Marsh Hill (Epsom),,44.093585,-79.035966,,,0,,,2,2
+2446,2446,Reach Eastbound @ Reach Industrial Park,,44.104969,-78.985241,,,0,,,2,2
+2447,2447,Reach Westbound @ Reach Industrial Park,,44.105095,-78.98500799999998,,,0,,,2,2
+2448,2448,Reach Eastbound @ North Port,,44.106497,-78.978346,,,0,,,2,2
+2449,2449,Reach Westbound @ North Port,,44.106635,-78.977997,,,0,,,2,2
+245,245,Anderson Southbound @ Kilbride,,43.917513,-78.937106,,,0,,,1,2
+2450,2450,Reach Eastbound @ Sherrington,,44.110073,-78.961905,,,0,,,1,2
+2451,2451,Reach Westbound @ Sherrington,,44.110199,-78.961945,,,0,,,2,2
+2452,2452,Reach Eastbound @ Old Simcoe,,44.11102600000001,-78.957515,,,0,,,2,2
+2453,2453,Reach Eastbound @ Simcoe,,44.1122,-78.951756,,,0,,,1,2
+2454,2454,Reach Westbound @ Simcoe,,44.112316,-78.951684,,,0,,,2,2
+2455,2455,Reach Westbound @ Old Simcoe,,44.111107,-78.957656,,,0,,,2,2
+2456,2456,Simcoe Northbound @ Steepleview (Columbus),,43.979501,-78.91001199999998,,,0,,,2,2
+2457,2457,Simcoe Northbound @ Columbus Road (Columbus),,43.982318,-78.911266,,,0,,,2,2
+2458,2458,Simcoe Southbound @ Columbus Road (Columbus),,43.982203,-78.911351,,,0,,,2,2
+2459,2459,Simcoe Southbound @ Westview (Columbus),,43.979472,-78.910124,,,0,,,2,2
+246,246,Anderson Southbound @ Darren,,43.915405,-78.936222,,,0,,,2,2
+2462,2462,Simcoe Northbound @ Raglan Road (Raglan),,44.017775,-78.925672,,,0,,,2,2
+2463,2463,Simcoe Northbound @ Snow Ridge,,44.024868,-78.924563,,,0,,,2,2
+2464,2464,Simcoe Southbound @ Snow Ridge,,44.024706,-78.92478199999998,,,0,,,2,2
+2465,2465,Simcoe Southbound @ Raglan Road (Raglan),,44.018378,-78.925944,,,0,,,2,2
+2473,2473,King Westbound @ Old Simcoe,,44.08405984,-78.95354168,,,0,,,2,2
+2475,2475,Old Simcoe Northbound @ Jeffrey,,44.089871,-78.955184,,,0,,,1,2
+2476,2476,Old Simcoe Southbound @ Jeffrey,,44.090628,-78.955344,,,0,,,2,2
+2478,2478,King Eastbound @ Old Simcoe,,44.083946,-78.953711,,,0,,,1,2
+2491,2491,Curts Eastbound @ Port Perry Terminal,,44.10227900000001,-78.938356,,,0,,,1,1
+2500,2500,Simcoe Southbound @ Kellett,,44.110346,-78.950117,,,0,,,1,2
+2501,2501,Simcoe Southbound @ Balsam,,44.107337,-78.94889,,,0,,,1,2
+2503,2503,Scugog  Westbound @ Simcoe,,44.099916,-78.945102,,,0,,,2,2
+2505,2505,Scugog Westbound @ Ottawa,,44.09877,-78.950789,,,0,,,1,2
+2506,2506,Scugog Westbound @ Old Simcoe,,44.097862,-78.955178,,,0,,,2,2
+2509,2509,Scugog Eastbound @ Old Simcoe,,44.09774800000001,-78.955305,,,0,,,2,2
+2510,2510,Scugog Eastbound @ Ottawa,,44.098585,-78.951258,,,0,,,2,2
+2512,2512,Scugog Eastbound @ Simcoe,,44.099892,-78.944804,,,0,,,2,2
+2514,2514,Simcoe Northbound @ Balsam,,44.107457,-78.948792,,,0,,,2,2
+2515,2515,Simcoe Northbound @ Beech,,44.110223,-78.95,,,0,,,2,2
+2516,2516,Old Simcoe Southbound @ Scugog Street,,44.096969,-78.95578399999998,,,0,,,2,2
+2517,2517,Old Simcoe Southbound @ Victoria,,44.093814,-78.955567,,,0,,,2,2
+2549,2549,Pickering Station,,43.831147,-79.084237,,,0,,,1,1
+255,255,Anderson Southbound @ Manning,,43.89454,-78.927052,,,0,,,1,2
+256,256,Anderson Southbound @ Maplewood,,43.892471,-78.926119,,,0,,,1,2
+2569,2569,Ajax Station,,43.847679,-79.041346,,,0,,,1,1
+257,257,Anderson Southbound @ Bradley,,43.890386,-78.925223,,,0,,,1,2
+2574,2574,Fairall Eastbound @ Westney (West side stop),,43.846447,-79.039484,,,0,,,1,2
+2576,2576,Whitby Station,,43.865496,-78.93794,,,0,,,1,1
+258,258,Anderson Southbound @ Crawforth,,43.886829,-78.923657,,,0,,,1,2
+2585,2585,Oshawa Station,,43.87066200000001,-78.886365,,,0,,,1,2
+259,259,Anderson Southbound @ Dundas,,43.8851472,-78.9229176,,,0,,,2,2
+2595,2595,Oshawa Centre Terminal,,43.88916900000001,-78.877279,,,0,,,1,2
+260,260,Consumers Eastbound @ Paisley,,43.867601,-78.93573499999998,,,0,,,2,2
+2603,2603,King Eastbound @ Centre,,43.89714,-78.86528199999998,,,0,,,2,1
+2604,2604,Gibb Westbound @ Centre,,43.89014370000001,-78.8622203,,,0,,,1,2
+261,261,Eastbound @ 187 Consumers,,43.867911,-78.93228,,,0,,,1,2
+262,262,Westbound @ 1716 Victoria,,43.86729177,-78.900295,,,0,,,1,1
+265,265,Wentworth Westbound @ Boundary (West side stop),,43.86166688,-78.88778,,,0,,,2,2
+266,266,Wentworth Westbound @ Forbes,,43.860563,-78.89276099999998,,,0,,,2,2
+267,267,Wentworth Westbound @ Scotia,,43.859508,-78.897536,,,0,,,2,2
+268,268,Thickson Northbound @ Wentworth,,43.859,-78.9007,,,0,,,1,2
+269,269,Thickson Northbound @ Tricont,,43.86266,-78.902289,,,0,,,2,2
+270,270,Thickson Northbound @ Victoria,,43.865547,-78.903392,,,0,,,2,2
+2704,2704,Taunton Westbound @ Coronation,,43.908291,-78.987629,,,0,,,2,1
+2705,2705,Taunton Eastbound @ Coronation,,43.908217,-78.986958,,,0,,,2,1
+2707,2707,Taunton Westbound @ Baycliff,,43.910014,-78.980509,,,0,,,2,1
+2708,2708,Taunton Westbound @ Gillett,,43.89974380000001,-79.0239972,,,0,,,2,2
+2709,2709,Bloor Eastbound @ Ritson,,43.882318,-78.846976,,,0,,,2,2
+2712,2712,Simcoe Northbound @ Conlin,,43.947746,-78.895601,,,0,,,1,2
+2713,2713,Taunton Westbound @ Fallingbrook,,43.91836021000001,-78.944325,,,0,,,1,2
+2718,2718,Bayly Eastbound @ Boone,,43.847742,-79.001192,,,0,,,1,2
+272,272,Thickson Northbound @ Burns,,43.877058,-78.908542,,,0,,,2,2
+2720,2720,Church Southbound @ Sherwood,,43.85655100000001,-79.056518,,,0,,,2,2
+2729,2729,Taunton Eastbound @ Harwood,,43.895089,-79.042882,,,0,,,1,2
+2730,2730,Taunton Westbound @ Harwood,,43.8952726,-79.0431068,,,0,,,2,2
+2733,2733,Simcoe Northbound @ Greenway,,44.09167138,-78.94143037,,,0,,,1,2
+2734,2734,Simcoe Northbound @ Vanedward,,44.09453,-78.942667,,,0,,,1,2
+2735,2735,Union Southbound @ Major,,44.094332,-78.947175,,,0,,,2,2
+2737,2737,Union Southbound @ Robin Trail,,44.0911351,-78.94854315,,,0,,,2,2
+2739,2739,King Westbound @ Union,,44.08454,-78.95111799999998,,,0,,,2,2
+274,274,Thickson Northbound @ Nichol,,43.88211600000001,-78.910842,,,0,,,2,2
+2740,2740,Union Northbound @ Hurd,,44.085418,-78.9509,,,0,,,1,2
+2741,2741,Union Northbound @ Josephine,,44.09017,-78.948845,,,0,,,1,2
+2743,2743,Union Northbound @ Major,,44.094297,-78.947064,,,0,,,1,2
+2744,2744,Simcoe Southbound @ Vanedward,,44.094828,-78.94307499999998,,,0,,,1,2
+2745,2745,Simcoe Southbound @ Greenway,,44.09201925,-78.94179818,,,0,,,1,2
+2749,2749,Northbound @ 15929 Simcoe St,,44.111357,-78.950491,,,0,,,1,2
+275,275,Northbound @ 35 Thickson,,43.884288,-78.911801,,,0,,,1,2
+276,276,Thickson Northbound @ Dundas,,43.88712300000001,-78.912944,,,0,,,1,2
+277,277,Thickson Northbound @ Crawforth,,43.88843361,-78.91350799999998,,,0,,,1,2
+278,278,Thickson Northbound @ Pine Hills,,43.89153000000001,-78.914804,,,0,,,1,2
+279,279,Thickson Northbound @ Dalton,,43.893721,-78.915756,,,0,,,1,2
+28,28,Garden Southbound @ Kenneth Hobbs,,43.902996,-78.941649,,,0,,,1,2
+281,281,Thickson Northbound @ Canadian Oaks,,43.899509,-78.918233,,,0,,,1,2
+283,283,Thickson Northbound @ Rossland (South Side Stop),,43.903729,-78.92006499999998,,,0,,,1,2
+29,29,Southbound @ 3088 Garden,,43.901353,-78.940938,,,0,,,1,2
+290,290,Thickson Northbound @ Bach,,43.916314,-78.925599,,,0,,,1,2
+292,292,Thickson Northbound @ Cathedral,,43.919129,-78.9267847,,,0,,,2,2
+293,293,Garrard Southbound @ Griffen,,43.92320500000001,-78.917972,,,0,,,1,2
+294,294,Garrard Southbound @ Shore,,43.921498,-78.917227,,,0,,,1,2
+295,295,Garrard Southbound @ Dryden,,43.917352,-78.91538799999998,,,0,,,1,2
+296,296,Garrard Southbound @ Rolling Acres,,43.914403,-78.914092,,,0,,,1,2
+297,297,Garrard Southbound @ Donald Wilson,,43.9121379,-78.9130924,,,0,,,1,2
+298,298,Garrard Southbound @ Fencerow,,43.910044,-78.912156,,,0,,,1,2
+30,30,Garden Southbound @ Rossland (Durham Region Headquarters),,43.898752,-78.93967,,,0,,,1,2
+300,300,Garrard Southbound @ Rossland,,43.905952,-78.910619,,,0,,,1,2
+3001,3001,Waterford Westbound @ Woodview,,43.820346,-79.144548,,,0,,,2,2
+3004,3004,Waterford Eastbound @ Forestview,,43.820443,-79.140253,,,0,,,1,2
+3014,3014,Ravenscroft Northbound @ Daniels,,43.86326600000001,-79.046606,,,0,,,2,2
+302,302,Garrard Southbound @ Parkview,,43.90280914,-78.90922,,,0,,,1,2
+303,303,Garrard Southbound @ Gadsby,,43.899855,-78.907942,,,0,,,1,2
+3038,3038,Salem Southbound @ Thackery,,43.88831017,-79.026786,,,0,,,2,2
+3039,3039,Salem Northbound @ Gillett,,43.888491,-79.026599,,,0,,,2,2
+304,304,Garrard Southbound @ Manning,,43.89760603,-78.906976,,,0,,,1,2
+3041,3041,Salem Northbound @ Harper Hill,,43.88440700000001,-79.021938,,,0,,,2,2
+3042,3042,Salem Southbound @ Rossland,,43.88210500000001,-79.019056,,,0,,,2,1
+3043,3043,Salem Northbound @ Rossland,,43.881461,-79.018414,,,0,,,2,2
+3044,3044,Williamson Eastbound @ Kirk,,43.893784,-79.026951,,,0,,,1,2
+3045,3045,Williamson Westbound @ Sergeant,,43.894659,-79.026201,,,0,,,1,2
+3048,3048,Pickering Beach Northbound @ Bayly,,43.846466,-79.005762,,,0,,,1,1
+3049,3049,Salem Northbound @ Lord,,43.849311,-79.006791,,,0,,,2,2
+3052,3052,Salem Southbound @ Lord,,43.849663,-79.007221,,,0,,,2,2
+3053,3053,Salem Southbound @ Bayly,,43.84686809732681,-79.00620876374902,,,0,,,2,1
+3054,3054,Pickering Beach Southbound @ Michaelman,,43.84421074545585,-79.00602185445216,,,0,,,2,2
+3055,3055,Pickering Beach Southbound @ Hickman,,43.842824,-79.00649,,,0,,,2,2
+3056,3056,Pickering Beach Southbound @ Emperor,,43.840676,-79.006118,,,0,,,1,1
+3057,3057,Pickering Beach Southbound @ Foord,,43.837128,-79.004638,,,0,,,2,2
+3058,3058,Southbound @ 722 Pickering Beach,,43.834673,-79.003576,,,0,,,2,2
+3059,3059,Pickering Beach Southbound @ Rollo,,43.831646,-79.00228199999998,,,0,,,1,1
+3060,3060,Eastbound @ 509 Bayly,,43.8495633,-78.9927232,,,0,,,2,2
+3061,3061,Bayly Eastbound @ Audley,,43.850332,-78.989176,,,0,,,1,1
+3062,3062,Audley Southbound @ Keywood,,43.848222,-78.987917,,,0,,,2,2
+3063,3063,Audley Southbound @ Sharplin,,43.84292,-78.986321,,,0,,,2,2
+3064,3064,Audley Southbound @ Holloway,,43.836116,-78.986706,,,0,,,2,2
+3066,3066,Audley Southbound @ Ashbury,,43.832312,-78.985326,,,0,,,1,2
+3067,3067,Ashbury Westbound @ Shoal Point,,43.83294,-78.991383,,,0,,,2,2
+3068,3068,Range Line Eastbound @ Poplar,,43.828856,-78.99938,,,0,,,2,2
+3074,3074,Lake Driveway Westbound @ Westney,,43.828777,-79.032817,,,0,,,2,1
+3075,3075,Lake Driveway Southbound @ Vale,,43.826381,-79.033125,,,0,,,2,2
+3076,3076,Lake Driveway Southbound @ Hawkins,,43.823696,-79.034343,,,0,,,2,2
+3080,3080,Finley Northbound @ Burden,,43.821367,-79.022861,,,0,,,2,2
+3083,3083,Harwood Southbound @ Windebanks,,43.828548,-79.014208,,,0,,,2,2
+3085,3085,Clover Ridge Eastbound @ Crawford,,43.8271,-79.00769,,,0,,,2,2
+3086,3086,Clover Ridge Eastbound @ Clarke,,43.829813,-79.00429099999998,,,0,,,2,2
+3089,3089,Dreyer Westbound @ Harwood,,43.83109300000001,-79.014244,,,0,,,2,2
+309,309,Thickson Northbound @ Manning,,43.8948175,-78.91623869999998,,,0,,,1,2
+3096,3096,Northbound @ 574 Monarch,,43.836801,-79.022498,,,0,,,2,2
+3097,3097,Monarch Northbound @ Tragunna,,43.84052,-79.02412,,,0,,,2,2
+31,31,Garden Southbound @ Bassett,,43.896968,-78.938877,,,0,,,1,2
+310,310,Thickson Southbound @ Dalton,,43.893474,-78.915889,,,0,,,1,2
+3105,3105,Victoria Eastbound @ Bayside Gate,,43.858814,-78.950286,,,0,,,2,2
+3106,3106,Thickson Northbound @ Fieldnest,,43.911379,-78.92341399999998,,,0,,,1,2
+3107,3107,Thickson Northbound @ Dryden,,43.913835,-78.924456,,,0,,,1,2
+3109,3109,Ritson Southbound @ Bloor,,43.883063,-78.84632,,,0,,,2,2
+311,311,Thickson Southbound @ Pine Hills,,43.89187877,-78.915149,,,0,,,1,2
+3110,3110,Ritson Southbound @ Conant,,43.87956,-78.844802,,,0,,,1,2
+3113,3113,Colonel Sam Westbound @ Farewell,,43.87933000000001,-78.82801,,,0,,,2,2
+3114,3114,Farewell Northbound @ Raleigh,,43.88279606653353,-78.82968003226307,,,0,,,2,1
+3115,3115,Southbound @ 206 Ritson,,43.9039406,-78.8557913,,,0,,,2,2
+3116,3116,Northbound @ 205 Ritson,,43.904205,-78.855635,,,0,,,2,2
+3117,3117,Ritson Southbound @ Bond,,43.901042,-78.854433,,,0,,,2,2
+3118,3118,Ritson Northbound @ Richmond,,43.901499,-78.854417,,,0,,,2,2
+312,312,Thickson Southbound @ Crawforth,,43.88874243,-78.91385,,,0,,,1,2
+3123,3123,Wilson Southbound @ Adelaide,,43.909548,-78.847296,,,0,,,2,2
+3125,3125,Wilson Southbound @ Hillcroft,,43.91355036312938,-78.84907667343516,,,0,,,2,2
+3126,3126,Wilson Northbound @ Hillcroft,,43.913236,-78.848778,,,0,,,1,2
+3127,3127,Britannia Eastbound @ Steeplechase,,43.956275,-78.896619,,,0,,,1,2
+3128,3128,Britannia Eastbound @ Bridle,,43.955878,-78.893451,,,0,,,2,2
+313,313,Thickson Southbound @ Dundas,,43.88721867000001,-78.913195,,,0,,,1,2
+3132,3132,Conlin Eastbound @ Harmony,,43.95665300000001,-78.857426,,,0,,,2,2
+3133,3133,Grandview Southbound @ Woodstream,,43.95607300000001,-78.846023,,,0,,,2,2
+3134,3134,Grandview Southbound @ Salmers,,43.95001100000001,-78.843457,,,0,,,2,2
+3135,3135,Grandview Northbound @ Salmers,,43.949878,-78.843025,,,0,,,2,2
+3136,3136,Grandview Northbound @ Woodstream,,43.955852,-78.845803,,,0,,,2,2
+3137,3137,Conlin Westbound @ Harmony,,43.956986,-78.856803,,,0,,,2,2
+314,314,Southbound @ 44 Thickson,,43.884433,-78.912122,,,0,,,1,2
+3141,3141,Baseline Westbound @ West Side Drive,,43.89572350000001,-78.6998376,,,0,,,2,2
+3143,3143,Aspen Springs Eastbound @ West Side Drive,,43.9026426,-78.7064451,,,0,,,2,2
+3144,3144,Aspen Springs Eastbound @ Fry,,43.9051647,-78.7032401,,,0,,,2,2
+3145,3145,Green Northbound @ Remmington,,43.897686,-78.706956,,,0,,,2,2
+3149,3149,Liberty Northbound @ Wellington,,43.91361100000001,-78.681484,,,0,,,2,2
+315,315,Thickson Southbound @ Nichol,,43.882767,-78.911373,,,0,,,1,2
+3150,3150,Liberty Northbound @ Concession,,43.917844,-78.683319,,,0,,,1,2
+3151,3151,Concession Eastbound @ Trudeau,,43.91926500000001,-78.678888,,,0,,,1,2
+3154,3154,Longworth Westbound @ Swindells,,43.93118,-78.685434,,,0,,,1,2
+3155,3155,Liberty Northbound @ Freeland,,43.93182190000001,-78.6893809,,,0,,,1,2
+316,316,Thickson Southbound @ Long,,43.879377,-78.909859,,,0,,,1,2
+3161,3161,Mearns Northbound @ Concession,,43.921138,-78.673813,,,0,,,1,2
+3163,3163,Green Northbound @ Highway 2 (North side stop),,43.909994,-78.712264,,,0,,,1,2
+3165,3165,Green Southbound @ South Of Highway 2,,43.90821300000001,-78.711662,,,0,,,2,2
+3167,3167,Bowmanville Ave Southbound @ Hartwell,,43.904744,-78.699429,,,0,,,2,2
+317,317,Thickson Southbound @ Burns,,43.87764539,-78.908946,,,0,,,1,2
+3170,3170,Baseline Westbound @ Millburn,,43.895232,-78.702278,,,0,,,2,2
+3172,3172,Green Southbound @ Boswell,,43.905223,-78.710404,,,0,,,1,2
+3173,3173,Longworth Westbound @ Liberty,,43.930322,-78.688411,,,0,,,1,2
+3178,3178,Wilson Northbound @ Attersley,,43.925753,-78.854111,,,0,,,1,2
+3179,3179,Wilson Southbound @ Attersley,,43.926015,-78.854372,,,0,,,1,2
+318,318,Thickson Southbound @ Tricont,,43.86262,-78.902447,,,0,,,2,2
+319,319,Wentworth Eastbound @ Thickson,,43.858818,-78.899945,,,0,,,2,2
+320,320,Wentworth Eastbound @ McEwen,,43.859341,-78.897457,,,0,,,2,2
+321,321,Consumers Westbound @ Thickson,,43.8723866,-78.9078341,,,0,,,1,2
+322,322,Consumers Westbound @ Sunray,,43.870879,-78.91304599999998,,,0,,,1,2
+3224,3224,Franklin Northbound @ Reach,,44.10559400000001,-79.115221,,,0,,,1,2
+3227,3227,Gibb Westbound @ Nassau,,43.889102,-78.866981,,,0,,,2,2
+3228,3228,Gibb Eastbound @ Nassau,,43.888869,-78.86772,,,0,,,2,2
+3229,3229,Church Northbound @ Sherwood,,43.855437,-79.055896,,,0,,,2,2
+323,323,Consumers Westbound @ Hopkins,,43.870194,-78.915887,,,0,,,2,2
+3231,3231,Harwood Northbound @ Dreyer,,43.830787,-79.014381,,,0,,,2,1
+3249,3249,Mearns Northbound @ Apple Blossom,,43.924495,-78.675239,,,0,,,1,2
+3250,3250,Mearns Northbound @ Sprucewood,,43.928385,-78.676991,,,0,,,1,2
+3251,3251,Longworth Westbound @ Rickaby,,43.93205600000001,-78.682305,,,0,,,1,2
+3253,3253,Clover Ridge Eastbound @ Andrea,,43.82622,-79.012367,,,0,,,1,1
+326,326,Consumers Westbound @ Cannon,,43.8689872,-78.9237719,,,0,,,1,2
+3262,3262,Dean Westbound @ Wilson,,43.887869,-78.83800599999998,,,0,,,2,2
+3263,3263,Dean Northbound @ Sedan,,43.888306,-78.841289,,,0,,,2,2
+3265,3265,Salem Northbound @ Achilles,,43.85314000000001,-79.009521,,,0,,,2,2
+3266,3266,Salem Southbound @ Achilles,,43.85275219675408,-79.00961840932924,,,0,,,2,2
+3269,3269,Ritson Northbound @ Beatrice (North stop),,43.930147,-78.866844,,,0,,,2,2
+327,327,Consumers Westbound @ Garden,,43.8682969,-78.9286565,,,0,,,1,2
+3270,3270,Ritson Northbound @ Pentland,,43.93206,-78.867734,,,0,,,1,2
+3271,3271,Ritson Northbound @ Taunton,,43.934727,-78.868826,,,0,,,1,1
+3277,3277,Liberty Northbound @ Baseline,,43.901872,-78.676347,,,0,,,2,2
+3278,3278,Liberty Northbound @ Jane,,43.90737,-78.67878,,,0,,,2,2
+3279,3279,Prince Eastbound @ Simpson,,43.909304,-78.674384,,,0,,,1,2
+328,328,Westbound @ 180 Consumers,,43.868088,-78.931766,,,0,,,1,2
+329,329,Consumers Westbound @ Paisley,,43.868016,-78.934571,,,0,,,1,2
+3294,3294,Rossland Westbound @ Seggar,,43.87746400000001,-79.03796199999998,,,0,,,1,2
+3295,3295,Rossland Eastbound @ Seggar,,43.877187,-79.038698,,,0,,,1,2
+3296,3296,Rossland Westbound @ Harkins,,43.87213100000001,-79.058372,,,0,,,2,2
+330,330,Consumers Eastbound @ Garden,,43.86800980000001,-78.929162,,,0,,,1,2
+3300,3300,Highway 7A Westbound @ SmartCentres Port Perry,,44.094684,-78.965222,,,0,,,2,2
+3302,3302,Rossland Eastbound @ Woodcock,,43.878356,-79.0334,,,0,,,2,2
+3314,3314,Rossland Eastbound @ Harwood,,43.8796476,-79.0275635,,,0,,,1,2
+3315,3315,Rossland Westbound @ Harwood,,43.880023,-79.026765,,,0,,,1,2
+332,332,Consumers Eastbound @ Cannon,,43.868802,-78.924038,,,0,,,1,2
+3322,3322,Westney Southbound @ Kingston (South side stop),,43.8568676,-79.0418045,,,0,,,1,2
+3339,3339,Simcoe Southbound @ Queen,,44.10364003,-78.94730861,,,0,,,2,2
+334,334,Eastbound @ 107 Consumers,,43.86960100000001,-78.91860699999998,,,0,,,1,2
+3340,3340,Simcoe Northbound @ Queen,,44.10351827820833,-78.94709667801564,,,0,,,1,2
+3341,3341,Wilson Northbound @ Terrace,,43.9226613,-78.852739,,,0,,,2,2
+3342,3342,Wilson Southbound @ Terrace,,43.922588,-78.85286499999998,,,0,,,2,2
+3343,3343,Wilson Northbound @ Tiffany,,43.929131,-78.8556,,,0,,,2,2
+3344,3344,Wilson Southbound @ Tiffany,,43.92931,-78.855818,,,0,,,2,2
+3345,3345,Baseline Westbound @ Martin,,43.8967609,-78.6952935,,,0,,,2,2
+3346,3346,Green Northbound @ Highway 2 (South side stop),,43.9087386,-78.711744,,,0,,,2,2
+3347,3347,Clarington Boulevard Southbound @ Stevens,,43.9129222,-78.7090942,,,0,,,1,2
+335,335,Consumers Eastbound @ Sunray,,43.87071339196998,-78.9128184418275,,,0,,,1,2
+3366,3366,Britannia Westbound @ Kentucky Derby,,43.95470000000001,-78.905928,,,0,,,2,2
+3367,3367,Brock Road Southbound @ Major Oaks,,43.85522000000001,-79.077861,,,0,,,2,1
+3368,3368,Brock Road Southbound @ Dersan,,43.874489,-79.085714,,,0,,,1,1
+337,337,Stellar Eastbound @ Thickson,,43.872706,-78.905592,,,0,,,1,2
+339,339,Durham College Whitby Campus,,43.871161,-78.900059,,,0,,,2,2
+340,340,Westbound @ 946 Champlain,,43.873198,-78.889539,,,0,,,2,2
+3409,3409,Dryden Westbound @ Thickson,,43.9143679,-78.92400139999998,,,0,,,1,2
+3410,3410,Thickson Southbound @ Winterberry,,43.908294,-78.922324,,,0,,,2,2
+3411,3411,Thickson Southbound @ Rossland,,43.904494,-78.920688,,,0,,,1,2
+3413,3413,Thickson Southbound @ Marta,,43.8994523,-78.9184387,,,0,,,2,2
+3415,3415,Thickson Southbound @ Manning,,43.894635,-78.91639499999998,,,0,,,2,2
+3416,3416,Garrard Northbound @ Dundas,,43.88915200000001,-78.903084,,,0,,,1,2
+3417,3417,Garrard Southbound @ Dundas,,43.88901400000001,-78.903248,,,0,,,2,2
+3419,3419,Garrard Southbound @ Burnage,,43.89232,-78.90464,,,0,,,2,2
+342,342,Stellar Westbound @ Thickson,,43.87293600000001,-78.905268,,,0,,,1,2
+3420,3420,Dryden Westbound @ Bakerville,,43.91571,-78.91904,,,0,,,2,2
+3421,3421,Dryden Westbound @ Waller,,43.91489,-78.92186,,,0,,,2,2
+3422,3422,Britannia Westbound @ Thoroughbred,,43.9557,-78.90185,,,0,,,2,2
+3423,3423,Britannia Eastbound @ Thoroughbred,,43.9555,-78.90163,,,0,,,2,2
+343,343,Kendalwood Northbound @ Sawdon,,43.88010220000001,-78.8990682,,,0,,,1,2
+3430,3430,Rossland Eastbound @ Church,,43.8709498,-79.06307049999998,,,0,,,2,2
+3431,3431,Rossland Eastbound @ Shell,,43.870787,-79.068303,,,0,,,2,2
+3432,3432,Rossland Westbound @ Shell,,43.870936,-79.068386,,,0,,,2,2
+3433,3433,Rossland Westbound @ Seagrave,,43.870129,-79.072756,,,0,,,2,2
+3434,3434,Rossland Eastbound @ Riverside,,43.869703,-79.073729,,,0,,,2,2
+3435,3435,Rossland Eastbound @ Southcott,,43.868324,-79.079724,,,0,,,1,2
+344,344,Kendalwood Northbound @ Broadview,,43.8818189,-78.8998565,,,0,,,1,2
+345,345,Kendalwood Northbound @ Northview,,43.88518710000001,-78.9014091,,,0,,,1,2
+346,346,Garrard Northbound @ Burnage,,43.892441,-78.904566,,,0,,,1,2
+348,348,Garrard Northbound @ Manning,,43.896954,-78.906543,,,0,,,1,2
+349,349,Garrard Northbound @ Forest,,43.899542,-78.907678,,,0,,,1,2
+350,350,Garrard Northbound @ Westwood,,43.901785,-78.908666,,,0,,,1,2
+3510,3510,Rossland Westbound @ Southcott,,43.868662,-79.079043,,,0,,,2,2
+3515,3515,Altona Northbound @ Finch,,43.834759,-79.144213,,,0,,,2,2
+3516,3516,Altona Southbound @ Shadow,,43.83375,-79.143877,,,0,,,2,2
+3517,3517,Harmony Northbound @ Greenhill,,43.951841,-78.854544,,,0,,,2,2
+3518,3518,Harmony Southbound @ Greenhill,,43.951249,-78.854888,,,0,,,2,2
+352,352,Garrard Northbound @ Rossland,,43.906128,-78.910552,,,0,,,1,1
+353,353,Garrard Northbound @ Pogson,,43.909057,-78.911592,,,0,,,1,2
+3531,3531,Taunton Westbound @ Mary,,43.93451980299271,-78.87242871207518,,,0,,,2,2
+3532,3532,Taunton Eastbound @ Mary,,43.93408,-78.87324,,,0,,,2,2
+3533,3533,Taunton Westbound @ Simcoe,,43.93288,-78.87956,,,0,,,2,1
+3534,3534,Taunton Eastbound @ Simcoe,,43.93301000000001,-78.87799,,,0,,,2,1
+3535,3535,Britannia Westbound @ Simcoe,,43.95638712467473,-78.89864596744778,,,0,,,2,2
+3537,3537,Britannia Westbound @ Steeplechase,,43.95653,-78.89646999999998,,,0,,,2,2
+354,354,Garrard Northbound @ Donald Wilson,,43.91124,-78.912559,,,0,,,1,2
+3541,3541,Conlin Eastbound @ Bridle,,43.949,-78.891015,,,0,,,2,2
+3542,3542,Simcoe Southbound @ Conlin,,43.94919,-78.896877,,,0,,,2,2
+3543,3543,Carnwith Westbound @ Bayern,,43.96223,-78.9725,,,0,,,2,2
+3544,3544,Carnwith Westbound @ Darius Harns,,43.96165,-78.97506,,,0,,,2,2
+3545,3545,Carnwith Westbound @ Montgomery,,43.9624,-78.96784,,,0,,,2,2
+3548,3548,Carnwith Westbound @ Baldwin,,43.9668,-78.95911,,,0,,,2,2
+3549,3549,Baldwin Southbound @ Winchester,,43.95347000000001,-78.9624,,,0,,,2,2
+355,355,Garrard Northbound @ Weldon,,43.913729,-78.913659,,,0,,,1,2
+3550,3550,Rossland Westbound @ Church,,43.87116000000001,-79.06323,,,0,,,2,2
+3551,3551,Ritson Southbound @ Luple,,43.94279,-78.87257,,,0,,,2,2
+3553,3553,Courtice Northbound @ Highway 2,,43.91268,-78.77812,,,0,,,1,2
+3554,3554,Audley Southbound @ Denny,,43.84519,-78.98729,,,0,,,2,2
+3555,3555,Audley Northbound @ Denny,,43.84498,-78.98701,,,0,,,2,2
+3556,3556,Simcoe Southbound @ Britannia,,43.95564229526925,-78.8997537673666,,,0,,,2,1
+3557,3557,Simcoe Northbound @ Britannia,,43.95583,-78.89949,,,0,,,2,1
+356,356,Garrard Northbound @ Dryden,,43.916354,-78.914815,,,0,,,2,2
+3560,3560,Brock Road Northbound @ Finch,,43.85045080317794,-79.07553726765236,,,0,,,2,2
+3562,3562,Wentworth Westbound @ Wilson,,43.87795,-78.832953,,,0,,,2,2
+3563,3563,Wentworth Westbound @ Nelson,,43.876669,-78.837602,,,0,,,2,2
+3564,3564,Wentworth Eastbound @ Nelson,,43.876379,-78.838196,,,0,,,2,2
+3565,3565,Wentworth Westbound @ Ritson,,43.875698,-78.84196799999998,,,0,,,2,2
+3566,3566,Wentworth Eastbound @ Ritson,,43.87551,-78.841977,,,0,,,2,2
+3567,3567,Simcoe Southbound @ Erie,,43.878204,-78.853061,,,0,,,2,2
+3569,3569,Simcoe Southbound @ Whiting,,43.876637,-78.849958,,,0,,,2,2
+3570,3570,Simcoe Southbound @ Wentworth,,43.873879,-78.84462499999998,,,0,,,2,1
+3572,3572,Zents Westbound @ Tillings,,43.878735,-79.092628,,,0,,,2,2
+3573,3573,Tillings Southbound @ Scenic Lane,,43.874998,-79.09144999999998,,,0,,,2,2
+3579,3579,Britannia Eastbound @ Kentucky Derby,,43.9545412,-78.9057703,,,0,,,2,2
+3580,3580,Britannia Westbound @ Windfields Farms,,43.9537361,-78.9106833,,,0,,,2,2
+3584,3584,Gordon Southbound @ Whitby Shores Greenway,,43.8587,-78.94381,,,0,,,1,1
+3585,3585,Southbound @ 300 Gordon (Lakeridge Health Whitby),,43.85673,-78.94298,,,0,,,1,2
+3586,3586,Park Southbound @ Hillside,,43.882051,-78.868142,,,0,,,2,2
+3587,3587,Park Northbound @ Hillside,,43.881571,-78.868386,,,0,,,2,2
+3588,3588,Ontario Shores (East Entrance),,43.849206,-78.944599,,,0,,,1,2
+3589,3589,Centennial Circle,,43.787494,-79.190831,,,0,,,1,2
+3590,3590,Kingston Westbound @ Delta,,43.820127,-79.114142,,,0,,,1,2
+3591,3591,Windfields Farm Eastbound @ Thoroughbred,,43.962738,-78.90513,,,0,,,2,1
+3592,3592,Windfields Farm Westbound @ Kentucky Derby,,43.962037,-78.909043,,,0,,,2,2
+3600,3600,Windfields Farm Eastbound @ Kentucky Derby,,43.961779,-78.909473,,,0,,,2,2
+3601,3601,Windfields Farm Northbound @ Bandsman,,43.959762,-78.914635,,,0,,,2,2
+3602,3602,Windfields Farm Northbound @ Equestrian,,43.956693,-78.913442,,,0,,,2,2
+3603,3603,Windfields Farm Westbound @ Thoroughbred,,43.963141,-78.904278,,,0,,,2,1
+3604,3604,Windfields Farm Southbound @ Stallion,,43.96031,-78.914539,,,0,,,2,2
+3605,3605,Windfields Farm Southbound @ Dress Circle,,43.956586,-78.913582,,,0,,,2,2
+3608,3608,Simcoe Northbound @ Founders,,43.94666800000001,-78.894075,,,0,,,2,1
+3617,3617,Thickson Northbound @ Winchester,,43.958227,-78.94370499999998,,,0,,,2,1
+3618,3618,Thickson Northbound @ Blackfriar,,43.961855,-78.945277,,,0,,,2,2
+3619,3619,Anderson Northbound @ Settlers,,43.953911,-78.94585499999998,,,0,,,2,2
+362,362,Taunton Westbound @ Garrard,,43.9239959,-78.9190382,,,0,,,1,2
+3627,3627,Baldwin Southbound @ Cassels,,43.955959,-78.96136799999998,,,0,,,2,2
+3628,3628,Anderson Southbound @ Winchester,,43.956227,-78.94713299999998,,,0,,,2,2
+3629,3629,Anderson Southbound @ Duggan,,43.95373,-78.94601,,,0,,,2,2
+363,363,Taunton Westbound @ Tom Edwards,,43.92340655801685,-78.92178700704784,,,0,,,1,2
+3633,3633,Simcoe Northbound @ Windfields Farm,,43.963248,-78.902719,,,0,,,2,1
+3635,3635,Brock Eastbound @ Main,,44.109315,-79.12059499999998,,,0,,,2,2
+3636,3636,Harmony Southbound @ Olive,,43.895486,-78.830067,,,0,,,2,1
+3637,3637,Grandview Northbound @ Esterbrook,,43.952059,-78.844133,,,0,,,2,2
+364,364,Taunton Westbound @ Thickson,,43.922224,-78.92679099999998,,,0,,,1,2
+365,365,Taunton Westbound @ Rivers Edge,,43.9212983,-78.9308059,,,0,,,1,1
+366,366,Taunton Westbound @ Anderson,,43.919855,-78.937201,,,0,,,1,2
+367,367,Westbound @ 440 Taunton,,43.91891420000001,-78.9417529,,,0,,,1,1
+368,368,Taunton Westbound @ Garden (West side stop),,43.91729680000001,-78.9492709,,,0,,,1,2
+369,369,Taunton Westbound @ McKinney,,43.916453,-78.95299799999998,,,0,,,1,1
+370,370,Taunton Westbound @ Valleywood,,43.91508420000001,-78.9592671,,,0,,,1,2
+371,371,Taunton Westbound @ Cochrane,,43.913312,-78.966544,,,0,,,1,1
+372,372,Taunton Westbound @ Country Lane,,43.910955,-78.976445,,,0,,,2,2
+373,373,Taunton Eastbound @ Baycliffe,,43.9096849,-78.9808378,,,0,,,1,1
+374,374,Taunton Eastbound @ Country Lane,,43.910527,-78.97723999999998,,,0,,,1,2
+375,375,Taunton Eastbound @ Valleywood,,43.914525,-78.960565,,,0,,,1,2
+376,376,Taunton Eastbound @ Brock Street,,43.91501800000001,-78.958357,,,0,,,1,2
+377,377,Taunton Eastbound @ Riverwood,,43.916349,-78.95252,,,0,,,1,1
+378,378,Taunton Eastbound @ Garden,,43.9175701,-78.9468906,,,0,,,1,2
+379,379,Eastbound @ 379 Taunton,,43.918238,-78.943813,,,0,,,1,2
+380,380,Eastbound @ 435 Taunton,,43.9188963,-78.9406966,,,0,,,1,1
+381,381,Taunton Eastbound @ Anderson,,43.9195199,-78.9379152,,,0,,,1,2
+382,382,Taunton Eastbound @ Chatterson,,43.92088900000001,-78.931424,,,0,,,1,1
+383,383,Taunton Eastbound @ Thickson,,43.921996,-78.926841,,,0,,,1,2
+384,384,Taunton Eastbound @ Tom Edwards,,43.923214,-78.921678,,,0,,,1,2
+385,385,Taunton Eastbound @ Garrard,,43.92414,-78.91737,,,0,,,1,2
+386,386,Dundas Westbound @ Garrard,,43.888886,-78.902539,,,0,,,1,1
+387,387,Dundas Westbound @ Kathleen,,43.887427,-78.90900999999998,,,0,,,1,2
+388,388,Dundas Westbound @ Thickson,,43.886286,-78.914145,,,0,,,1,1
+389,389,Dundas Westbound @ Bowman,,43.8856414,-78.917045,,,0,,,1,2
+391,391,Dundas Westbound @ Anderson,,43.884522,-78.92200099999998,,,0,,,2,1
+393,393,Dundas Westbound @ Craydon,,43.882884,-78.929034,,,0,,,2,2
+394,394,Dundas Westbound @ Garden,,43.882244,-78.931932,,,0,,,1,1
+396,396,Dundas Westbound @ Pine,,43.881084,-78.936954,,,0,,,2,2
+398,398,Dundas Westbound @ Brock Street,,43.879998,-78.941772,,,0,,,1,1
+400,400,Dundas Westbound @ Euclid,,43.878878,-78.946685,,,0,,,2,2
+401,401,Dundas Westbound @ Cochrane,,43.877863,-78.95152,,,0,,,2,1
+404,404,Dundas Westbound @ Wellington,,43.8767817,-78.9562584,,,0,,,1,2
+405,405,Dundas Westbound @ McQuay,,43.875597,-78.961433,,,0,,,1,1
+406,406,Dundas Westbound @ White Oaks,,43.875049,-78.963955,,,0,,,1,2
+410,410,Dundas Westbound @ Halls,,43.87132,-78.98098,,,0,,,2,2
+411,411,Kingston Westbound @ Lake Ridge,,43.869986,-78.987092,,,0,,,2,2
+412,412,Kingston Eastbound @ Lake Ridge,,43.869794,-78.98701,,,0,,,2,2
+413,413,Dundas Eastbound @ Halls,,43.87107000000001,-78.98135,,,0,,,2,2
+417,417,Dundas Eastbound @ White Oaks,,43.87498,-78.96353499999998,,,0,,,1,2
+418,418,Dundas Eastbound @ Jeffery,,43.8753204,-78.9619208,,,0,,,1,1
+419,419,Dundas Eastbound @ Wellington,,43.876609,-78.956299,,,0,,,1,2
+42,42,Victoria Westbound @ Brock Street,,43.862229,-78.935434,,,0,,,1,2
+422,422,Dundas Eastbound @ Annes,,43.877818,-78.950632,,,0,,,1,1
+424,424,Dundas Eastbound @ King,,43.87885,-78.946098,,,0,,,1,2
+425,425,Dundas Eastbound @ Brock Street,,43.8797255,-78.94241049999998,,,0,,,2,1
+427,427,Dundas Eastbound @ Hickory,,43.88066400000001,-78.938157,,,0,,,2,2
+43,43,Victoria Westbound @ Henry,,43.86147716,-78.938856,,,0,,,1,2
+431,431,Dundas Eastbound @ Lupin,,43.88225,-78.93106899999998,,,0,,,1,1
+432,432,Dundas Eastbound @ Craydon,,43.882846,-78.928486,,,0,,,1,2
+434,434,Dundas Eastbound @ Hopkins,,43.884171,-78.922742,,,0,,,2,1
+438,438,Nichol Eastbound @ Kirby,,43.885654,-78.903502,,,0,,,1,2
+439,439,Kendalwood Southbound @ Northview,,43.88534700000001,-78.901627,,,0,,,1,2
+441,441,Kendalwood Southbound @ Sawdon,,43.880648,-78.899482,,,0,,,1,2
+442,442,Kendalwood Southbound @ Burns,,43.87938,-78.898906,,,0,,,1,2
+445,445,Nichol Westbound @ Kirby,,43.885687,-78.90375299999998,,,0,,,1,2
+446,446,Nichol Westbound @ Springwood,,43.884234,-78.90648,,,0,,,1,2
+447,447,Nichol Westbound @ Jubilee,,43.882875,-78.909845,,,0,,,1,2
+448,448,Nichol Westbound @ Thickson,,43.882509,-78.91251099999998,,,0,,,1,2
+449,449,Northbound @ 155 Glen Hill,,43.88398140000001,-78.91447599999998,,,0,,,1,2
+45,45,Victoria Westbound @ Montecorte,,43.859114,-78.949545,,,0,,,2,2
+450,450,Dundas Eastbound @ Glen Hill,,43.885523,-78.916718,,,0,,,2,2
+451,451,Dundas Eastbound @ Thickson,,43.886613,-78.911815,,,0,,,1,1
+452,452,Dundas Eastbound @ Kathleen,,43.887178,-78.909422,,,0,,,1,2
+453,453,Dundas Eastbound @ Kendalwood,,43.888373,-78.903884,,,0,,,1,1
+454,454,Rossland Westbound @ William Davidson,,43.907336,-78.90711,,,0,,,1,2
+455,455,Rossland Westbound @ Garrard,,43.906573,-78.910464,,,0,,,2,1
+456,456,Rossland Westbound @ Tamarisk,,43.905972,-78.912914,,,0,,,1,2
+457,457,Rossland Westbound @ Fencerow,,43.905041,-78.916926,,,0,,,1,2
+458,458,Rossland Westbound @ Thickson,,43.904395,-78.91971599999998,,,0,,,1,2
+459,459,Rossland Westbound @ Doulton,,43.90280400000001,-78.927091,,,0,,,1,2
+460,460,Rossland Westbound @ Anderson,,43.90214933,-78.930008,,,0,,,1,2
+461,461,Rossland Westbound @ Bassett,,43.9009439,-78.9353815,,,0,,,1,2
+462,462,Rossland Westbound @ Garden (Durham Region Headquarters),,43.899906,-78.939886,,,0,,,1,1
+464,464,Rossland Westbound @ Civic Centre Drive,,43.898832,-78.944604,,,0,,,1,2
+465,465,Rossland Westbound @ Brock Street,,43.89741,-78.95003,,,0,,,1,2
+467,467,Rossland Westbound @ Whitburn,,43.89627,-78.956033,,,0,,,1,2
+468,468,Rossland Westbound @ Cochrane,,43.895555,-78.95936399999998,,,0,,,1,2
+469,469,Rossland Westbound @ Country Lane,,43.89427381,-78.964817,,,0,,,1,1
+470,470,Rossland Westbound @ McQuay,,43.891112,-78.978819,,,0,,,2,1
+471,471,Rossland Eastbound @ McQuay,,43.891145,-78.978273,,,0,,,1,1
+472,472,Rossland Eastbound @ Country Lane,,43.89412,-78.96458,,,0,,,1,1
+473,473,Rossland Eastbound @ Cochrane,,43.895243,-78.959856,,,0,,,1,2
+474,474,Rossland Eastbound @ Redoak,,43.89609699482188,-78.95613126641868,,,0,,,2,2
+476,476,Rossland Eastbound @ Brock Street,,43.89743,-78.94953,,,0,,,1,2
+477,477,Rossland Eastbound @ Civic Centre Drive,,43.898728,-78.944498,,,0,,,1,2
+480,480,Rossland Eastbound @ Garden (Durham Region Headquarters),,43.899581,-78.940539,,,0,,,1,1
+481,481,Rossland Eastbound @ Bassett,,43.9006827,-78.9356953,,,0,,,1,2
+482,482,Rossland Eastbound @ Anderson,,43.902041,-78.929591,,,0,,,1,2
+483,483,Rossland Eastbound @ Overlord,,43.90268300000001,-78.926736,,,0,,,1,2
+484,484,Rossland Eastbound @ Thickson,,43.9039,-78.92099,,,0,,,1,2
+485,485,Rossland Eastbound @ Canadian Oaks,,43.904922,-78.916718,,,0,,,1,2
+486,486,Rossland Eastbound @ Orvis,,43.9056983,-78.9135536,,,0,,,1,2
+487,487,Rossland Eastbound @ Garrard,,43.906151,-78.911489,,,0,,,2,1
+488,488,Rossland Eastbound @ William Davidson,,43.9072446,-78.9069581,,,0,,,1,2
+490,490,Baldwin Northbound @ Roybrook,,43.951339,-78.961822,,,0,,,1,2
+491,491,Baldwin Northbound @ Winchester,,43.953127,-78.962199,,,0,,,2,2
+492,492,Baldwin Northbound @ Cassels,,43.95580300000001,-78.961218,,,0,,,2,1
+497,497,Winchester Eastbound @ Anderson,,43.956651,-78.946403,,,0,,,2,2
+505,505,Carnwith Westbound @ Thickson,,43.968094,-78.94893399999998,,,0,,,1,2
+506,506,Carnwith Westbound @ Croxall,,43.9673515,-78.9528905,,,0,,,1,2
+507,507,Carnwith Westbound @ Downey,,43.967171,-78.956391,,,0,,,1,2
+511,511,Campbell Eastbound @ Baldwin,,43.95703060000001,-78.9612058,,,0,,,2,1
+512,512,Vipond Eastbound @ Montgomery,,43.9569741,-78.9653316,,,0,,,1,2
+513,513,Vipond Eastbound @ Ferguson,,43.9560241,-78.9694672,,,0,,,1,2
+514,514,Vipond Eastbound @ Sabrina,,43.9550968,-78.97358749999998,,,0,,,1,2
+533,533,Thickson Southbound @ Blackfriar,,43.96218,-78.945648,,,0,,,2,2
+535,535,Baldwin Southbound @ Roybrook,,43.950765,-78.961834,,,0,,,2,2
+536,536,Gibb Eastbound @ Tipperary,,43.883049,-78.892157,,,0,,,1,2
+537,537,Gibb Westbound @ Tipperary,,43.8833,-78.891938,,,0,,,1,2
+539,539,Thornton Northbound @ Donegal,,43.885866,-78.890887,,,0,,,1,2
+541,541,Thornton Northbound @ Monaghan (Trent University Oshawa),,43.889148,-78.892334,,,0,,,2,2
+542,542,Thornton Northbound @ King,,43.8913759,-78.8933631,,,0,,,1,2
+543,543,Thornton Northbound @ Castlegrove,,43.89427409000001,-78.894577,,,0,,,1,2
+544,544,Northbound @ 185 Thornton,,43.895745,-78.895259,,,0,,,1,2
+559,559,Thornton Southbound @ Adelaide (South side stop),,43.89628,-78.895698,,,0,,,1,2
+560,560,Thornton Southbound @ Castlegrove,,43.89355735,-78.894515,,,0,,,1,2
+561,561,Thornton Southbound @ King,,43.8915529,-78.8936936,,,0,,,1,2
+563,563,Thornton Southbound @ Donegal,,43.886025,-78.891096,,,0,,,1,2
+565,565,Rossland Eastbound @ Thornton,,43.908465,-78.901066,,,0,,,1,2
+566,566,Rossland Eastbound @ Waverly,,43.909431,-78.896541,,,0,,,1,2
+567,567,Rossland Eastbound @ Stevenson,,43.910505,-78.891435,,,0,,,1,1
+569,569,Rossland Eastbound @ Gibbons,,43.911558,-78.886776,,,0,,,1,2
+57,57,Southbound @ 652 Gordon,,43.851303,-78.940748,,,0,,,2,2
+570,570,Rossland Eastbound @ Park,,43.912237,-78.883718,,,0,,,1,2
+571,571,Rossland Eastbound @ Christie,,43.9141525,-78.87504869999998,,,0,,,1,2
+573,573,Rossland Eastbound @ Simcoe,,43.9151538,-78.8705428,,,0,,,1,2
+574,574,Rossland Eastbound @ Grierson,,43.915824,-78.867671,,,0,,,2,2
+575,575,Rossland Eastbound @ Oshawa Boulevard,,43.916479,-78.864739,,,0,,,1,2
+576,576,Rossland Eastbound @ Ritson,,43.917332,-78.86071099999998,,,0,,,1,1
+577,577,Rossland Eastbound @ Central Park,,43.918411,-78.856553,,,0,,,1,2
+58,58,Ontario Shores (West Entrance),,43.848198,-78.945576,,,0,,,2,2
+581,581,Rossland Eastbound @ Wilson,,43.919467,-78.852082,,,0,,,2,1
+582,582,Rossland Eastbound @ Camelot,,43.92071,-78.84681,,,0,,,1,2
+583,583,Rossland Eastbound @ Harmony,,43.92152,-78.843256,,,0,,,1,2
+584,584,Harmony Northbound @ Rossland (South side stop),,43.921583,-78.841479,,,0,,,2,1
+585,585,Rossland Westbound @ Harmony,,43.9223567,-78.8401886,,,0,,,1,2
+586,586,Rossland Westbound @ Gladfern,,43.921478,-78.843935,,,0,,,1,2
+587,587,Rossland Westbound @ Attersley,,43.920769,-78.846996,,,0,,,1,2
+588,588,Rossland Westbound @ Wilson,,43.91992900000001,-78.850545,,,0,,,1,1
+59,59,Eastbound @ 701 Gordon,,43.851033,-78.94083999999998,,,0,,,1,2
+591,591,Rossland Westbound @ Terrace,,43.918907,-78.854902,,,0,,,1,2
+592,592,Rossland Westbound @ Central Park,,43.9184,-78.857043,,,0,,,1,2
+593,593,Westbound @ 354 Rossland,,43.917737,-78.859627,,,0,,,1,2
+594,594,Rossland Westbound @ Ritson,,43.917149,-78.862066,,,0,,,1,1
+595,595,Rossland Westbound @ Oshawa Boulevard,,43.916682,-78.864393,,,0,,,1,2
+596,596,Rossland Westbound @ Minto,,43.916114,-78.866933,,,0,,,2,2
+597,597,Rossland Westbound @ Simcoe,,43.915011,-78.87191799999998,,,0,,,1,2
+598,598,Rossland Westbound @ Osler,,43.9142915,-78.87505779999998,,,0,,,1,2
+599,599,Rossland Westbound @ Glencairn,,43.912489,-78.883143,,,0,,,1,2
+60,60,Northbound @ 300 Gordon (Lakeridge Health Whitby),,43.85644,-78.94271,,,0,,,1,2
+600,600,Rossland Westbound @ Gibbons,,43.91198,-78.885572,,,0,,,2,2
+602,602,Rossland Westbound @ Stevenson,,43.910599,-78.89182099999998,,,0,,,1,1
+603,603,Rossland Westbound @ Waverly,,43.909586,-78.89659899999998,,,0,,,1,2
+604,604,Rossland Westbound @ Thornton,,43.908595,-78.90127099999998,,,0,,,1,2
+605,605,Simcoe Northbound @ Rossland,,43.91553600000001,-78.871221,,,0,,,1,2
+61,61,Gordon Northbound @ Whitby Shores Greenway,,43.85839,-78.94353,,,0,,,1,1
+63,63,Victoria Eastbound @ Watson,,43.86111226967263,-78.93984371488986,,,0,,,1,2
+638,638,Grandview Northbound @ Ripley,,43.92317417000001,-78.83853,,,0,,,1,2
+639,639,Grandview Northbound @ Corbetts,,43.92584,-78.839057,,,0,,,1,2
+64,64,Victoria Eastbound @ Charles,,43.861691,-78.937137,,,0,,,1,2
+640,640,Grandview Northbound @ Lindsay,,43.92727829,-78.838302,,,0,,,1,2
+641,641,Grandview Northbound @ Grandlea,,43.92773900000001,-78.836174,,,0,,,1,2
+642,642,Grandview Northbound @ Rathburn,,43.928737,-78.834149,,,0,,,1,2
+643,643,Grandview Northbound @ Summitview (South stop),,43.933817,-78.836078,,,0,,,1,2
+644,644,Grandview Northbound @ Summitview (North stop),,43.934956,-78.83658,,,0,,,1,2
+645,645,Grandview Northbound @ Ridgemount,,43.93717,-78.837565,,,0,,,1,2
+646,646,Grandview Northbound @ Glenbourne,,43.939427,-78.838566,,,0,,,1,2
+647,647,Grandview Northbound @ Taunton,,43.94095,-78.839225,,,0,,,1,2
+648,648,Grandview Northbound @ Park Ridge,,43.94367900000001,-78.840306,,,0,,,1,2
+649,649,Grandview Northbound @ Appleby,,43.9463599,-78.8414887,,,0,,,1,2
+650,650,Simcoe Southbound @ Rossland,,43.914802,-78.87128199999998,,,0,,,1,2
+652,652,Simcoe Southbound @ Buckingham,,43.91044473,-78.869478,,,0,,,1,2
+654,654,Simcoe Southbound @ Parkwood (Lakeridge Health Oshawa),,43.90554102,-78.86736,,,0,,,1,2
+655,655,Simcoe Southbound @ Adelaide,,43.903,-78.866169,,,0,,,2,2
+657,657,Centre Southbound @ William,,43.90002900000001,-78.867222,,,0,,,2,2
+659,659,Centre Southbound @ King,,43.897281,-78.865958,,,0,,,2,1
+661,661,Centre Southbound @ John,,43.893237,-78.863867,,,0,,,1,2
+663,663,Centre Southbound @ Gibb,,43.890561,-78.862638,,,0,,,1,2
+664,664,Simcoe Southbound @ Royal,,43.887996,-78.859288,,,0,,,2,2
+665,665,Simcoe Southbound @ Mill,,43.885542,-78.858189,,,0,,,1,2
+666,666,Simcoe Southbound @ First,,43.883745,-78.857382,,,0,,,1,2
+667,667,Simcoe Southbound @ Bloor,,43.8810192,-78.85623649999998,,,0,,,2,2
+668,668,Simcoe Northbound @ Bloor,,43.88109588,-78.85599499999998,,,0,,,2,2
+669,669,Simcoe Northbound @ First,,43.88393400000001,-78.857287,,,0,,,1,2
+670,670,Simcoe Northbound @ Albany,,43.885802,-78.858134,,,0,,,1,2
+671,671,Simcoe Northbound @ Royal,,43.888214,-78.859208,,,0,,,2,2
+672,672,Simcoe Northbound @ Elm St,,43.890377,-78.860193,,,0,,,2,2
+674,674,Simcoe Northbound @ John,,43.894039,-78.86185999999998,,,0,,,1,2
+677,677,Simcoe Northbound @ Bond,,43.898769,-78.86413,,,0,,,2,1
+678,678,Simcoe Northbound @ Colborne,,43.90088592,-78.865075,,,0,,,1,2
+679,679,Simcoe Northbound @ Adelaide,,43.903302,-78.866139,,,0,,,1,2
+680,680,Simcoe Northbound @ Parkwood (Lakeridge Health Oshawa),,43.905794,-78.867149,,,0,,,1,2
+682,682,Simcoe Northbound @ Hillcroft,,43.9108,-78.869386,,,0,,,2,2
+685,685,Simcoe Northbound @ Switzer,,43.921189,-78.873688,,,0,,,2,2
+687,687,Simcoe Northbound @ Beatrice,,43.92581100000001,-78.875722,,,0,,,1,2
+689,689,Simcoe Northbound @ Orchard View,,43.92918800000001,-78.877303,,,0,,,2,2
+691,691,Simcoe Northbound @ Taunton (North side stop),,43.93456900000001,-78.87949,,,0,,,1,1
+693,693,Simcoe Northbound @ Glovers,,43.936894,-78.880577,,,0,,,1,2
+695,695,Simcoe Northbound @ Selleck,,43.94030200000001,-78.884992,,,0,,,2,2
+697,697,Simcoe Northbound @ Commencement,,43.945336,-78.892132,,,0,,,2,2
+698,698,Ontario Tech / Durham College North Campus,,43.943641,-78.895505,,,0,,,1,1
+705,705,Simcoe Northbound @ Northern Dancer,,43.952855,-78.89823,,,0,,,2,2
+706,706,Simcoe Southbound @ Niagara (North stop),,43.94308388677758,-78.88919142270213,,,0,,,2,2
+707,707,Simcoe Southbound @ Niagara (South stop),,43.94097195519895,-78.88622547469654,,,0,,,2,2
+710,710,Simcoe Southbound @ Cayuga,,43.93549500000001,-78.880108,,,0,,,2,2
+711,711,Simcoe Southbound @ Taunton (south side stop),,43.93236901,-78.87899819,,,0,,,1,1
+713,713,Simcoe Southbound @ Orchard View,,43.929238,-78.877548,,,0,,,2,2
+714,714,Simcoe Southbound @ Beatrice,,43.926397,-78.876283,,,0,,,2,2
+716,716,Simcoe Southbound @ Switzer,,43.92068689126733,-78.87371742178061,,,0,,,2,2
+719,719,Adelaide Eastbound @ Kaiser,,43.902369,-78.870727,,,0,,,1,2
+720,720,Adelaide Eastbound @ Simcoe,,43.903236,-78.866944,,,0,,,1,2
+721,721,Adelaide Eastbound @ Kendal,,43.904587,-78.864226,,,0,,,1,2
+722,722,Adelaide Eastbound @ Division,,43.905681,-78.859663,,,0,,,1,2
+724,724,Adelaide Eastbound @ Central Park,,43.90771,-78.852306,,,0,,,1,2
+725,725,Adelaide Eastbound @ Juliana,,43.908797,-78.848831,,,0,,,1,2
+729,729,Adelaide Eastbound @ Blackthorn,,43.913364,-78.833889,,,0,,,1,2
+730,730,Adelaide Eastbound @ Killdeer,,43.91376600000001,-78.831601,,,0,,,1,2
+732,732,Adelaide Eastbound @ Fleetwood,,43.91408,-78.82607,,,0,,,1,2
+743,743,Adelaide Westbound @ Cranberry,,43.91399306000001,-78.82981599999998,,,0,,,1,2
+744,744,Adelaide Westbound @ Killdeer,,43.91383600000001,-78.832061,,,0,,,1,2
+745,745,Adelaide Westbound @ Blackthorn,,43.91318900000001,-78.83508999999998,,,0,,,1,2
+746,746,Adelaide Westbound @ Harmony,,43.912793,-78.837002,,,0,,,1,1
+749,749,Adelaide Westbound @ Juliana,,43.908884,-78.848885,,,0,,,1,2
+750,750,Adelaide Westbound @ Central Park,,43.907641,-78.852635,,,0,,,1,2
+751,751,Adelaide Westbound @ Ritson,,43.906731,-78.85562299999998,,,0,,,1,2
+752,752,Adelaide Westbound @ Division,,43.905788,-78.859632,,,0,,,1,2
+753,753,Adelaide Westbound @ Kendal,,43.90463900000001,-78.864441,,,0,,,1,2
+754,754,Adelaide Westbound @ Simcoe,,43.90394,-78.866193,,,0,,,1,2
+755,755,Adelaide Westbound @ Frances,,43.902554,-78.870472,,,0,,,1,2
+7698,7698,Ellesmere Eastbound @ Military Trail,,43.786768,-79.187251,,,0,,,1,2
+773,773,Townline Southbound @ Lawson,,43.91553300000001,-78.817411,,,0,,,2,2
+774,774,Townline Southbound @ Shankel,,43.91279500000001,-78.816214,,,0,,,2,2
+775,775,Townline Southbound @ Nash,,43.90883,-78.814468,,,0,,,2,2
+786,786,Townline Northbound @ Nash,,43.90814300000001,-78.813964,,,0,,,2,2
+787,787,Townline Northbound @ Shankel,,43.912786,-78.816023,,,0,,,2,2
+799,799,Grandview Southbound @ Appleby,,43.946346,-78.84174,,,0,,,1,2
+800,800,Grandview Southbound @ Park Ridge,,43.94284300000001,-78.84021,,,0,,,1,2
+801,801,Grandview Southbound @ Taunton,,43.94091,-78.83936199999998,,,0,,,1,2
+802,802,Grandview Southbound @ Glenbourne,,43.93880915,-78.83840499999998,,,0,,,1,2
+803,803,Grandview Southbound @ Ridgemount,,43.937222,-78.837723,,,0,,,1,2
+804,804,Grandview Southbound @ Summitview,,43.934055,-78.83631699999998,,,0,,,1,2
+805,805,Grandview Southbound @ Rathburn,,43.929324,-78.834244,,,0,,,1,2
+806,806,Grandview Southbound @ Grandlea,,43.92785527,-78.836264,,,0,,,1,2
+807,807,Grandview Southbound @ Lindsay,,43.92730266,-78.83848999999998,,,0,,,1,2
+808,808,Grandview Southbound @ Corbetts,,43.92517,-78.83938999999998,,,0,,,1,2
+809,809,Grandview Southbound @ Rossland,,43.9229815,-78.8386276,,,0,,,1,2
+810,810,Harmony Northbound @ Taunton (North Side Stop),,43.940279,-78.849628,,,0,,,1,2
+812,812,Harmony Terminal,,43.942102,-78.848752,,,0,,,1,1
+815,815,Harmony Terminal Southbound @ Taunton,,43.94033300000001,-78.847847,,,0,,,1,2
+817,817,Delpark Homes Centre,,43.94750100000001,-78.85074299999998,,,0,,,1,2
+823,823,Taunton Westbound @ Harmony,,43.939344,-78.850735,,,0,,,1,2
+824,824,Taunton Westbound @ Clearbrook,,43.9384,-78.854926,,,0,,,1,2
+825,825,Taunton Westbound @ Wilson (East side stop),,43.93758900000001,-78.858528,,,0,,,1,1
+827,827,Taunton Westbound @ Naples,,43.935955,-78.865774,,,0,,,1,2
+828,828,Taunton Westbound @ Ritson,,43.9354034,-78.8685493,,,0,,,1,1
+829,829,Taunton Westbound @ Somerville,,43.93202615,-78.883392,,,0,,,1,2
+830,830,Taunton Westbound @ Patton,,43.931005,-78.887894,,,0,,,1,2
+831,831,Westbound @ 418 Taunton,,43.9296729,-78.893897,,,0,,,1,2
+832,832,Taunton Westbound @ Stevenson,,43.92879302,-78.89779906,,,0,,,1,1
+833,833,Taunton Westbound @ Keith Ross,,43.927623,-78.902849,,,0,,,1,2
+834,834,Taunton Westbound @ Thornton,,43.9265,-78.907938,,,0,,,1,1
+835,835,Eastbound @ 899 Taunton,,43.92524800000001,-78.912558,,,0,,,1,2
+836,836,Taunton Eastbound @ Thornton,,43.92635520000001,-78.907676,,,0,,,1,1
+837,837,Taunton Eastbound @ Keith Ross,,43.9274802,-78.902595,,,0,,,1,2
+838,838,Taunton Eastbound @ Airport,,43.92843734,-78.89858982,,,0,,,1,1
+839,839,Eastbound @ 389 Taunton,,43.92933224951988,-78.89460375665142,,,0,,,1,2
+840,840,Taunton Eastbound @ Northbrook,,43.930783,-78.888058,,,0,,,1,2
+841,841,Taunton Eastbound @ Somerville,,43.93161,-78.884417,,,0,,,1,2
+843,843,Taunton Eastbound @ Ritson,,43.935424,-78.86738099999998,,,0,,,1,1
+844,844,Taunton Eastbound @ Naples,,43.935787,-78.865706,,,0,,,1,2
+846,846,Taunton Eastbound @ Wilson (East side stop),,43.937445,-78.85835299999998,,,0,,,1,1
+847,847,Taunton Eastbound @ Clearbrook,,43.938297,-78.854571,,,0,,,1,2
+848,848,Taunton Eastbound @ Harmony,,43.938789,-78.85238699999998,,,0,,,1,2
+853,853,Conlin Eastbound @ Avalon,,43.950158,-78.885597,,,0,,,1,2
+854,854,Conlin Eastbound @ Manor,,43.95115100000001,-78.881227,,,0,,,1,2
+855,855,Conlin Eastbound @ Ritson,,43.951962,-78.877706,,,0,,,1,2
+859,859,Ritson Southbound @ Ormond,,43.937122,-78.869981,,,0,,,1,2
+861,861,Ritson Southbound @ Taunton,,43.934373,-78.868973,,,0,,,1,1
+862,862,Ritson Southbound @ Pentland,,43.932714,-78.868262,,,0,,,1,2
+863,863,Ritson Southbound @ Beatrice,,43.929724,-78.866915,,,0,,,1,2
+864,864,Ritson Southbound @ Oshawa Boulevard (North stop),,43.927268,-78.865798,,,0,,,1,2
+865,865,Ritson Southbound @ Highgate,,43.92503569,-78.864766,,,0,,,1,2
+866,866,Ritson Southbound @ Wildflower,,43.923364,-78.864075,,,0,,,1,2
+867,867,Ritson Southbound @ Darcy,,43.92128128,-78.863175,,,0,,,1,2
+868,868,Ritson Southbound @ Rossland,,43.917545,-78.861715,,,0,,,1,1
+869,869,Ritson Southbound @ Oshawa Boulevard (South stop),,43.91508300000001,-78.860639,,,0,,,1,2
+870,870,Ritson Southbound @ Hillcroft,,43.913394,-78.859886,,,0,,,1,2
+872,872,Ritson Southbound @ Adelaide,,43.906697,-78.856969,,,0,,,2,2
+879,879,Ritson Northbound @ Adelaide,,43.906068,-78.856466,,,0,,,1,2
+881,881,Ritson Northbound @ Hillcroft,,43.913421,-78.85972599999998,,,0,,,1,2
+882,882,Ritson Northbound @ Oshawa Boulevard (South stop),,43.915191,-78.860494,,,0,,,1,2
+883,883,Ritson Northbound @ Rossland,,43.917753,-78.86149899999998,,,0,,,1,1
+884,884,Ritson Northbound @ Tulip,,43.919499,-78.86217499999998,,,0,,,1,2
+885,885,Ritson Northbound @ Darcy,,43.92126249,-78.862948,,,0,,,1,2
+886,886,Northbound @ 881 Ritson,,43.92314600000001,-78.863791,,,0,,,1,2
+887,887,Ritson Northbound @ Highgate,,43.925002,-78.864607,,,0,,,1,2
+888,888,Ritson Northbound @ Oshawa Boulevard (North stop),,43.927335,-78.865643,,,0,,,1,2
+889,889,Ritson Northbound @ Beatrice (South stop),,43.928913,-78.866347,,,0,,,1,2
+89,89,Burns Westbound @ Centre,,43.87103,-78.941511,,,0,,,2,2
+892,892,Ritson Northbound @ Ormond,,43.93767900000001,-78.870106,,,0,,,1,2
+896,896,Conlin Westbound @ Ritson,,43.95187700000001,-78.878549,,,0,,,1,2
+897,897,Conlin Westbound @ Manor,,43.951264,-78.881159,,,0,,,1,2
+898,898,Conlin Westbound @ Avalon,,43.95035,-78.88532,,,0,,,1,2
+90,90,Burns Westbound @ Henry,,43.8703679,-78.944504401,,,0,,,2,2
+90007,90007,Victoria Westbound @ Gordon (Abilities Centre),,43.860468,-78.94369,,,0,,,1,1
+90014,90014,Eastbound @ 1908 Colonel Sam,,43.876615,-78.804159,,,0,,,1,2
+90015,90015,Simcoe Northbound @ Conant,,43.877563,-78.851395,,,0,,,2,2
+90016,90016,Westbound @ 1766 Pickering Parkway,,43.84327300000001,-79.067939,,,0,,,2,2
+90034,90034,Scugog Southbound @ Bons,,43.930751,-78.69972199999998,,,0,,,1,2
+90035,90035,Scugog Southbound @ Somerscales,,43.927613,-78.698374,,,0,,,1,2
+90038,90038,Coldstream Eastbound @ Harmony,,43.944594,-78.8507694,,,0,,,1,2
+90040,90040,Coldstream Westbound @ Harmony (East side stop),,43.9447913,-78.8508273,,,0,,,1,2
+90041,90041,Coldstream Westbound @ Harmony (West side stop),,43.94435514,-78.852735,,,0,,,1,2
+90042,90042,Coldstream Westbound @ Pennel,,43.944835,-78.856035,,,0,,,1,2
+90043,90043,Coldstream Westbound @ Clearbrook,,43.94557611,-78.857899,,,0,,,1,2
+90044,90044,Coldstream Westbound @ Wilson,,43.946166,-78.862296,,,0,,,1,2
+90045,90045,Wilson Northbound @ Greenhill,,43.94900213,-78.86431399999998,,,0,,,1,2
+90050,90050,Coldstream Westbound @ Ritson,,43.944435,-78.872409,,,0,,,1,2
+90051,90051,Coldstream Eastbound @ Whitestone,,43.9451727,-78.8686743,,,0,,,1,2
+90052,90052,Coldstream Westbound @ Ormond,,43.94571,-78.866106,,,0,,,1,2
+90053,90053,Coldstream Eastbound @ Ormond,,43.945539,-78.865092,,,0,,,1,2
+90054,90054,Wilson Southbound @ Coldstream,,43.945316,-78.862892,,,0,,,1,2
+90055,90055,Wilson Southbound @ Larry,,43.94023700000001,-78.860584,,,0,,,1,2
+90056,90056,Wilson Southbound @ Taunton,,43.937886,-78.859533,,,0,,,1,1
+90057,90057,Southbound @ 1310 Wilson,,43.935634,-78.85862899999998,,,0,,,1,2
+90063,90063,Wilson Northbound @ Cavendish,,43.915302,-78.849728,,,0,,,1,2
+90064,90064,Wilson Southbound @ Oakwood,,43.915645,-78.849962,,,0,,,1,2
+90065,90065,Wilson Northbound @ Rossland,,43.9190034,-78.8512777,,,0,,,1,1
+90066,90066,Wilson Southbound @ Rossland,,43.920439,-78.851912,,,0,,,1,1
+90070,90070,Wilson Southbound @ Clearsky,,43.943005,-78.861823,,,0,,,1,2
+90076,90076,Simcoe Southbound @ Founders,,43.94634257,-78.894148,,,0,,,1,1
+90078,90078,Eastbound @ 169 Taunton,,43.9168969,-78.95004,,,0,,,1,2
+90079,90079,Westbound @ 1340 Coldstream,,43.94630488,-78.844289,,,0,,,1,2
+90080,90080,Eastbound @ 1321 Coldstream,,43.9461252,-78.844471,,,0,,,1,2
+90083,90083,Wilson Southbound @ Beatrice,,43.932287,-78.857147,,,0,,,1,2
+90088,90088,Taunton Westbound @ Garden (East side stop),,43.9177648,-78.9471226,,,0,,,1,2
+91,91,Burns Westbound @ Annes (East side stop),,43.8696061,-78.9479702,,,0,,,1,2
+910,910,Coldstream Westbound @ Northfield,,43.945257,-78.868727,,,0,,,1,2
+91000,91000,Harwood Southbound @ Hunt,,43.847692,-79.020117,,,0,,,1,2
+911,911,Harmony Southbound @ Taunton,,43.93885,-78.849298,,,0,,,1,2
+912,912,Harmony Southbound @ Grand Ridge,,43.935314,-78.84771499999998,,,0,,,2,2
+913,913,Harmony Southbound @ Swiss,,43.933437,-78.84691599999998,,,0,,,1,2
+92003,92003,Northbound @ 753 Ritson,,43.88025819,-78.844845,,,0,,,2,2
+92009,92009,Northbound @ 89 Church,,43.857407,-79.056726,,,0,,,2,2
+92010,92010,Church Northbound @ Meekings,,43.859534,-79.0576403,,,0,,,2,2
+92011,92011,Northbound @ 399 Church,,43.8627026,-79.0590204,,,0,,,2,2
+92012,92012,Church Northbound @ Delaney,,43.8645756,-79.05982,,,0,,,2,2
+92013,92013,Church Northbound @ Windle,,43.867394,-79.061057,,,0,,,2,2
+92014,92014,Church Northbound @ Strickland,,43.86935305,-79.061926,,,0,,,2,2
+92016,92016,Rossland Eastbound @ Harkins,,43.87189,-79.05884,,,0,,,1,2
+92017,92017,Rossland Eastbound @ Ravenscroft,,43.87402,-79.05276,,,0,,,1,2
+92018,92018,Ravenscroft Southbound @ Rossland,,43.87353682,-79.052967,,,0,,,2,2
+92019,92019,Ravenscroft Southbound @ Hyde,,43.871963,-79.052408,,,0,,,2,2
+92020,92020,Ravenscroft Southbound @ Delaney,,43.8700233,-79.0515815,,,0,,,2,2
+92036,92036,Ravenscroft Southbound @ Pantoll,,43.8683026,-79.050836,,,0,,,2,2
+92037,92037,Ravenscroft Southbound @ Mossa,,43.86707220000001,-79.0503198,,,0,,,2,2
+92038,92038,Ravenscroft Southbound @ Daniels,,43.86361,-79.048446,,,0,,,2,2
+92041,92041,Rossland Westbound @ Woodcock,,43.878759,-79.03210199999998,,,0,,,1,2
+92042,92042,Rossland Westbound @ 128 Rossland,,43.878137,-79.03495599999998,,,0,,,1,2
+92043,92043,Westney Northbound @ Williamson,,43.884761,-79.046574,,,0,,,2,2
+92047,92047,Clements Westbound @ Finley,,43.8333729,-79.0269981,,,0,,,1,2
+92054,92054,Northbound @ 133 Salem,,43.86054494,-79.01441303999998,,,0,,,1,2
+92059,92059,Williamson Eastbound @ Gillett,,43.89575475,-79.0227251,,,0,,,1,2
+92061,92061,Williamson Westbound @ Warner,,43.89760600000001,-79.016244,,,0,,,1,2
+92064,92064,Salem Southbound @ Williamson,,43.892717,-79.028741,,,0,,,1,2
+92071,92071,Salem Southbound @ Twilley,,43.86138006,-79.01519546999998,,,0,,,1,2
+92072,92072,Eastbound @ 257 Kingston Road East,,43.8639584,-79.0131049,,,0,,,1,2
+92075,92075,Salem Southbound @ Mandrake,,43.85988205000001,-79.01450543,,,0,,,1,2
+93000,93000,Colonel Sam Eastbound @ Farewell,,43.879227,-78.827646,,,0,,,1,2
+93016,93016,Rossland Westbound @ Ravenscroft,,43.87414,-79.05284,,,0,,,1,2
+93019,93019,Toronto Northbound @ Banff,,44.093966,-79.13067599999998,,,0,,,1,2
+93020,93020,Toronto Southbound @ Banff,,44.094054,-79.130985,,,0,,,1,2
+93024,93024,Thornton Southbound @ Monaghan (Trent University Oshawa),,43.88908,-78.892506,,,0,,,1,2
+93026,93026,Simcoe Southbound @ Windfields Farm,,43.96308,-78.90291,,,0,,,2,1
+93027,93027,Olive Eastbound @ Verdun,,43.8916763,-78.8461123,,,0,,,1,2
+93028,93028,Lakeview Westbound @ Birchcliffe,,43.861986,-78.834452,,,0,,,1,2
+93031,93031,Harwood Southbound @ Haskell,,43.89090112,-79.03862608999998,,,0,,,2,2
+93035,93035,Rossland Eastbound @ Brentwood,,43.91884000000001,-78.85475,,,0,,,1,2
+93036,93036,Harmony Northbound @ Coldstream,,43.94528721,-78.85177539999998,,,0,,,1,2
+93040,93040,Baldwin Southbound @ Canary,,43.92999275,-78.962969,,,0,,,1,2
+93041,93041,Baldwin Northbound @ Canary,,43.93034,-78.96275199999998,,,0,,,1,2
+93048,93048,Kingston Eastbound @ Notion,,43.85221471,-79.06469787,,,0,,,2,2
+93054,93054,Gibb Westbound @ Stevenson (East side stop),,43.8863306,-78.8793725,,,0,,,1,2
+93055,93055,Westney Southbound @ Taunton,,43.89199751000001,-79.05006016999998,,,0,,,1,2
+93056,93056,Westney Northbound @ Taunton,,43.89317982,-79.05035663,,,0,,,1,2
+93057,93057,Rossland Westbound @ Carter-Bennett,,43.8755334,-79.04638522,,,0,,,2,2
+93058,93058,Gordon Westbound @ James Govan,,43.8506919,-78.94358167,,,0,,,1,2
+93059,93059,Gordon Eastbound @ James Govan,,43.85061079,-78.94366388,,,0,,,1,2
+93060,93060,Kingston Westbound @ Altona,,43.808712,-79.131154,,,0,,,1,1
+93061,93061,Kingston Eastbound @ Altona,,43.807572,-79.132422,,,0,,,1,1
+93063,93063,Toronto Southbound @ Douglas,,44.09186165,-79.13244958999998,,,0,,,1,2
+93064,93064,Conlin Westbound @ Bridle,,43.9491175,-78.8910235,,,0,,,1,2
+93083,93083,Eastbound @ 437 Taunton,,43.91197,-78.97113899999998,,,0,,,1,2
+93091,93091,Country Lane Northbound @ Shenandoah,,43.90503,-78.97245,,,0,,,1,2
+93092,93092,Country Lane Northbound @ Vineyard,,43.9091991,-78.9747169,,,0,,,1,2
+93101,93101,Strouds Lane Eastbound @ Calvington,,43.82290900000001,-79.136049,,,0,,,1,2
+93102,93102,Old Simcoe Northbound @ Victoria,,44.093677,-78.95541799999998,,,0,,,1,2
+93106,93106,Scugog Eastbound @ High,,44.10026,-78.94311,,,0,,,2,2
+93111,93111,Highway 2 Eastbound @ Sandringham,,43.9094692,-78.79465159999998,,,0,,,2,2
+93112,93112,Pickering Parkway Terminal Platform B12,,43.832968,-79.0851,,,0,,,1,1
+93115,93115,Victoria Eastbound @ Gordon (Abilities Centre),,43.8600147,-78.9446226,,,0,,,1,1
+93121,93121,Station Westbound @ Harwood,,43.85131100000001,-79.022762,,,0,,,2,2
+93122,93122,Station Westbound @ Mills,,43.85056,-79.02585999999998,,,0,,,2,2
+93123,93123,Station Westbound @ Dowty,,43.8491309,-79.028733,,,0,,,1,2
+93125,93125,Williamson Eastbound @ Seward,,43.89836540000001,-79.01162189999998,,,0,,,1,2
+93126,93126,Williamson Westbound @ Stokes,,43.8984647,-79.0118366,,,0,,,1,2
+93127,93127,Williamson Eastbound @ Warner,,43.897461,-79.0163395,,,0,,,1,2
+93128,93128,Williamson Westbound @ Gillett,,43.895826,-79.02289399999998,,,0,,,1,2
+93137,93137,Salem Northbound @ Elliottglen Dr,,43.895662,-79.0297218,,,0,,,1,2
+93138,93138,Salem Southbound @ Dunwell Cr,,43.8955183,-79.029968,,,0,,,1,2
+93139,93139,Harwood Southbound @ Taunton,,43.89463400000001,-79.042023,,,0,,,2,2
+93140,93140,Harwood Northbound @ Taunton,,43.895046,-79.042096,,,0,,,1,2
+93141,93141,Harwood Northbound @ Haskell,,43.8911583,-79.03853429999998,,,0,,,1,2
+93142,93142,Harwood Southbound @ Williamson,,43.8885767,-79.0376546,,,0,,,2,2
+93143,93143,Rossland Westbound @ Westney,,43.87613300000001,-79.044178,,,0,,,1,1
+93145,93145,Southbound @ 800 Salem,,43.879163,-79.017714,,,0,,,1,2
+93146,93146,Northbound @ 789 Salem,,43.87883,-79.01727099999998,,,0,,,2,2
+93147,93147,Salem Southbound @ Kerrison,,43.8711003,-79.0177387,,,0,,,2,2
+93148,93148,Salem Northbound @ Kerrison,,43.8704308,-79.0177597,,,0,,,1,2
+93149,93149,Salem Southbound @ Ringer,,43.8671137,-79.0176202,,,0,,,2,2
+93150,93150,Salem Northbound @ Ringer,,43.8666738,-79.0171273,,,0,,,1,2
+93151,93151,Salem Southbound @ Kingston,,43.86358,-79.016129,,,0,,,1,2
+93152,93152,Salem Northbound @ Kingston,,43.86368800000001,-79.015986,,,0,,,1,2
+93158,93158,Bayly Westbound @ Audley,,43.850484,-78.98969099999998,,,0,,,1,1
+93159,93159,Westbound @ 508 Bayly,,43.8495632,-78.9937104,,,0,,,1,2
+93160,93160,Southbound @ 1508 Salem,,43.890577,-79.027818,,,0,,,1,2
+93161,93161,Salem Northbound @ Williamson,,43.89315689,-79.028651,,,0,,,1,2
+93177,93177,Harmony Northbound @ Taunton (South side stop),,43.939112,-78.849112,,,0,,,1,2
+93178,93178,Simcoe Northbound @ Athol,,43.89651,-78.86306,,,0,,,1,2
+93183,93183,Dean Westbound @ Normandy,,43.88834,-78.844227,,,0,,,1,2
+93185,93185,Northbound @ 3193 Thickson,,43.906341,-78.921216,,,0,,,1,2
+93186,93186,Thickson Northbound @ Winterberry,,43.9084673,-78.92209579999998,,,0,,,1,2
+93188,93188,Thornton Southbound @ Arklow,,43.88768000000001,-78.891874,,,0,,,2,2
+93189,93189,Westbound @ 944 Colonel Sam,,43.880828,-78.821307,,,0,,,1,2
+93191,93191,Brock Road Southbound @ Finch,,43.85004333,-79.07550836999998,,,0,,,1,2
+93192,93192,Glenanna Eastbound @ Fieldlight,,43.839231,-79.08969999999998,,,0,,,1,2
+93193,93193,Pickering Parkway Westbound @ Denmar,,43.843305,-79.073586,,,0,,,2,2
+93194,93194,Pickering Parkway Southbound @ Geta,,43.8422129,-79.0739061,,,0,,,2,2
+93195,93195,Pickering Parkway Southbound @ Portland,,43.83966433,-79.073091,,,0,,,2,2
+93196,93196,Westbound @ 1538 Pickering Parkway,,43.8374808,-79.0771218,,,0,,,2,2
+93197,93197,Pickering Parkway Westbound @ Valley Farm,,43.836377,-79.079469,,,0,,,2,2
+93208,93208,Altona Northbound @ Sparrow (North stop),,43.830949,-79.14252,,,0,,,2,2
+93216,93216,Whites Southbound @ Kingston,,43.819415,-79.115736,,,0,,,1,2
+93217,93217,Whites Northbound @ Kingston,,43.81854417000001,-79.115326,,,0,,,1,2
+93218,93218,Oklahoma Eastbound @ Whites,,43.8118895,-79.1114637,,,0,,,1,1
+93219,93219,Oklahoma Westbound @ Whites,,43.81194,-79.1119982,,,0,,,1,1
+93222,93222,Oklahoma Eastbound @ Hillcrest,,43.812872,-79.10702,,,0,,,1,2
+93224,93224,Oklahoma Eastbound @ West Shore,,43.813811,-79.102832,,,0,,,1,2
+93227,93227,Kingston Eastbound @ Port Union,,43.79915600000001,-79.14547,,,0,,,1,2
+93228,93228,Pine Grove Eastbound @ Oakburn,,43.825384,-79.145054,,,0,,,1,2
+93231,93231,Pine Grove Eastbound @ Altona,,43.827685,-79.142003,,,0,,,1,1
+93232,93232,Pine Grove Westbound @ Altona,,43.82773000000001,-79.142123,,,0,,,1,1
+93234,93234,Krosno Eastbound @ Annland,,43.821475,-79.08085199999998,,,0,,,1,2
+93235,93235,Krosno Eastbound @ Modlin,,43.821887,-79.078981,,,0,,,1,2
+93236,93236,Adelaide Eastbound @ Ritson,,43.906513,-78.85589,,,0,,,1,2
+93240,93240,Kingston Westbound @ Sheppard,,43.79950800000001,-79.145701,,,0,,,1,2
+93242,93242,Thickson Southbound @ Consumers,,43.873205,-78.90715299999998,,,0,,,1,2
+93243,93243,Wentworth Eastbound @ Forbes,,43.85995852,-78.89472,,,0,,,2,2
+93246,93246,Phillip Murray Eastbound @ Skae,,43.85485,-78.87405,,,0,,,1,2
+93247,93247,Nichol Eastbound @ Springwood,,43.88431645,-78.90604,,,0,,,1,2
+93248,93248,Nichol Eastbound @ Thickson,,43.882694,-78.910251,,,0,,,1,2
+93249,93249,Southbound @ 164 Glen Hill,,43.88349500000001,-78.91435,,,0,,,1,2
+93254,93254,Kingston Eastbound @ Salem,,43.8634583,-79.0151977,,,0,,,1,1
+93255,93255,Ellesmere Eastbound @ Meadowvale,,43.7923,-79.1639,,,0,,,1,2
+93257,93257,Champlain Westbound @ Thornton,,43.874044,-78.885968,,,0,,,2,2
+93258,93258,Cochrane Nothbound @ Bonacord,,43.8872229,-78.9559276,,,0,,,2,2
+93259,93259,Ellesmere Westbound @ Meadowvale,,43.792626,-79.16329399999998,,,0,,,1,2
+93261,93261,Cochrane Northbound @ Walnut,,43.88174,-78.95351,,,0,,,2,2
+93262,93262,Cochrane Northbound @ Rossland,,43.894916,-78.959282,,,0,,,2,2
+93276,93276,Champlain Westbound @ Fox,,43.876345,-78.878626,,,0,,,2,2
+93277,93277,Nichol Eastbound @ Thickson (West Side Stop),,43.88238126,-78.91207989,,,0,,,2,2
+93293,93293,Rosswell Southbound @ Gord Vinson,,43.891066,-78.798693,,,0,,,1,2
+93301,93301,Prestonvale Northbound @ Glenabbey,,43.89756,-78.79482,,,0,,,1,2
+93305,93305,Sandringham Eastbound @ Yorkville,,43.9029456,-78.790222,,,0,,,1,2
+93306,93306,Sandringham Northbound @ Hillhurst,,43.90479976000001,-78.788302,,,0,,,1,2
+93307,93307,Sandringham Eastbound @ Trulls,,43.9060993,-78.7866448,,,0,,,1,2
+93321,93321,Altona Northbound @ Sparrow (South stop),,43.829695,-79.141957,,,0,,,2,2
+93322,93322,Altona Southbound @ Sparrow (South stop),,43.829703,-79.14212,,,0,,,2,2
+93323,93323,Courtice Northbound @ Moyse,,43.914284,-78.778853,,,0,,,1,2
+93324,93324,Courtice Southbound @ Nash,,43.91644200000001,-78.77997,,,0,,,1,2
+93325,93325,Courtice Northbound @ Nash,,43.916109,-78.779658,,,0,,,2,2
+93326,93326,Courtice Northbound @ George Reynolds,,43.920355,-78.781595,,,0,,,1,2
+93327,93327,Courtice Southbound @ George Reynolds,,43.920052,-78.781676,,,0,,,1,2
+93328,93328,George Reynolds Westbound @ Sleeman,,43.92032600000001,-78.78806899999998,,,0,,,1,2
+93329,93329,George Reynolds Eastbound @ Sleeman,,43.92021600000001,-78.787834,,,0,,,1,2
+93330,93330,George Reynolds Westbound @ Trulls,,43.919621,-78.790942,,,0,,,1,2
+93338,93338,Trulls Northbound @ Highway 2,,43.911656,-78.788656,,,0,,,1,2
+93347,93347,Townline Southbound @ Grandview,,43.887704,-78.80528099999998,,,0,,,1,2
+93348,93348,Grandview Westbound @ Wesley,,43.886887,-78.806272,,,0,,,1,2
+93349,93349,Grandview Northbound @ Wesley,,43.887969,-78.81067299999998,,,0,,,1,2
+93350,93350,Bloor Westbound @ Grandview,,43.88987800000001,-78.814294,,,0,,,2,2
+93353,93353,Conlin Westbound @ Riverton,,43.955816,-78.86148,,,0,,,2,2
+93354,93354,Conlin Eastbound @ Riverton,,43.955617,-78.861844,,,0,,,2,2
+93355,93355,Wilson Southbound @ Conlin,,43.953884,-78.866753,,,0,,,2,2
+93356,93356,Wilson Northbound @ Conlin,,43.954223,-78.866713,,,0,,,2,2
+93357,93357,Wilson Northbound @ Coldstream,,43.9454436,-78.862774,,,0,,,1,2
+93358,93358,Wilson Southbound @ Greenhill,,43.94918809,-78.86470199999998,,,0,,,1,2
+93359,93359,Wilson Northbound @ Clearsky,,43.943242,-78.86174,,,0,,,1,2
+93360,93360,Wilson Northbound @ Blackwood,,43.939709,-78.860169,,,0,,,1,2
+93361,93361,Wilson Northbound @ Taunton,,43.936911,-78.85898,,,0,,,1,1
+93362,93362,Wilson Northbound @ Beatrice,,43.932443,-78.857028,,,0,,,1,2
+93365,93365,Harmony Southbound @ Beatrice,,43.929665,-78.845218,,,0,,,1,2
+93366,93366,Harmony Northbound @ Beatrice,,43.92924,-78.844825,,,0,,,1,2
+93367,93367,Harmony Southbound @ Storie,,43.928091,-78.844483,,,0,,,1,2
+93368,93368,Harmony Northbound @ Storie,,43.92776,-78.84414599999998,,,0,,,1,2
+93369,93369,Harmony Northbound @ Rossland (North side stop),,43.922688,-78.841933,,,0,,,1,1
+93370,93370,Harmony Southbound @ Rossland,,43.922125,-78.84209,,,0,,,1,1
+93376,93376,Stevenson Southbound @ Woodcrest,,43.90107504,-78.887003,,,0,,,1,2
+93377,93377,Adelaide Westbound @ Park,,43.90133500000001,-78.875818,,,0,,,1,2
+93379,93379,Adelaide Westbound @ Gibbons,,43.900141,-78.880768,,,0,,,1,2
+93387,93387,Major Oaks Northbound @ Pepperwood,,43.858568,-79.08868099999998,,,0,,,1,2
+93388,93388,Major Oaks Northbound @ Dellbrook,,43.859848,-79.089555,,,0,,,1,2
+93389,93389,Dellbrook Eastbound @ Chapman,,43.86040400000001,-79.084541,,,0,,,1,2
+93394,93394,Dixie Northbound @ Ridgewood,,43.839987,-79.103036,,,0,,,2,2
+93395,93395,Dixie Southbound @ Ridgewood,,43.84047936000001,-79.10342,,,0,,,2,2
+93402,93402,Strouds Westbound @ Autumn,,43.82569,-79.13275,,,0,,,1,2
+93403,93403,Strouds Westbound @ Calvington,,43.823157,-79.135777,,,0,,,1,2
+93404,93404,Altona Southbound @ Waterford,,43.821185,-79.138448,,,0,,,1,2
+93414,93414,Strouds Westbound @ Fernam,,43.828088,-79.125989,,,0,,,1,2
+93415,93415,Finch Eastbound @ Rosebank,,43.83702000000001,-79.134513,,,0,,,2,1
+93416,93416,Finch Westbound @ Rosebank,,43.83725,-79.134109,,,0,,,1,1
+93420,93420,Finch Westbound @ Whites,,43.839284,-79.124213,,,0,,,1,1
+93421,93421,Altona Northbound @ Strouds,,43.822599,-79.138737,,,0,,,1,2
+93424,93424,Coldstream Eastbound @ Clearbrook,,43.94497350000001,-78.8563396,,,0,,,1,2
+93425,93425,Harmony Southbound @ Coldstream,,43.9437266,-78.8514735,,,0,,,1,2
+93426,93426,Coldstream Eastbound @ Ritson,,43.944385,-78.872175,,,0,,,1,2
+93429,93429,Stevenson Southbound @ Adelaide,,43.89911137,-78.88614699999998,,,0,,,1,2
+93432,93432,Harmony Southbound @ Glebe,,43.91756800000001,-78.840044,,,0,,,1,2
+93433,93433,Anderson Northbound @ Johnson,,43.888622,-78.924243,,,0,,,1,2
+93434,93434,Anderson Southbound @ Johnson,,43.88873825000001,-78.924559,,,0,,,1,2
+93435,93435,Dellbrook Eastbound @ Melman,,43.858381,-79.08071,,,0,,,1,2
+93439,93439,Stevenson Southbound @ Madison,,43.898086,-78.885693,,,0,,,1,2
+93441,93441,Brock Road Southbound @ Clearside,,43.864641,-79.081998,,,0,,,2,2
+93442,93442,Rossland Eastbound @ Brock Road,,43.864696,-79.081702,,,0,,,2,2
+93450,93450,Pickering Parkway Westbound @ Liverpool,,43.833656,-79.089201,,,0,,,1,2
+93453,93453,Harmony Northbound @ Corbetts,,43.924544,-78.842742,,,0,,,1,2
+93454,93454,Harmony Southbound @ Corbetts,,43.92509600000001,-78.843164,,,0,,,1,2
+93455,93455,Stevenson Southbound @ Annapolis,,43.903822,-78.88820699999998,,,0,,,1,2
+93457,93457,Brock Road Northbound @ Dellbrook,,43.85994,-79.07961,,,0,,,1,2
+93458,93458,Brock Road Southbound @ Dellbrook,,43.85912,-79.07955,,,0,,,1,2
+93459,93459,Thornton Southbound @ Skae,,43.85915911,-78.879187,,,0,,,1,2
+93460,93460,Thornton Northbound @ Skae,,43.85911722,-78.879086,,,0,,,2,2
+93461,93461,Thornton Southbound @ Phillip Murray,,43.85471414,-78.878845,,,0,,,1,2
+93462,93462,Phillip Murray Westbound @ Thornton,,43.85448188,-78.878558,,,0,,,2,2
+93463,93463,Wentworth Eastbound @ Boundary,,43.8617546,-78.8863301,,,0,,,2,2
+93464,93464,Wentworth Westbound @ Thornton,,43.863046,-78.881491,,,0,,,2,2
+93465,93465,Wentworth Eastbound @ Thornton,,43.86294500000001,-78.881117,,,0,,,1,2
+93466,93466,Townline Southbound @ Down,,43.888891,-78.805747,,,0,,,1,2
+93469,93469,Brook Hill Eastbound @ Green,,43.913733,-78.713055,,,0,,,1,2
+93472,93472,Mill Southbound @ Edward,,43.91462,-78.587591,,,0,,,2,2
+93482,93482,Carnwith Eastbound @ Baldwin,,43.9668955,-78.9578328,,,0,,,1,2
+93484,93484,Carnwith Eastbound @ Watford,,43.967258,-78.951755,,,0,,,1,2
+93485,93485,Carnwith Eastbound @ Thickson,,43.9679088,-78.9488879,,,0,,,1,2
+93491,93491,Audley Northbound @ Crellin,,43.84361,-78.98639,,,0,,,2,2
+93493,93493,Coldstream Eastbound @ Wilson,,43.945803,-78.86329499999998,,,0,,,1,2
+93496,93496,Brock Road Southbound @ Quigley,,43.828737,-79.065713,,,0,,,2,2
+93497,93497,Clements Eastbound @ Brock Road,,43.825056,-79.062901,,,0,,,1,1
+93498,93498,Eastbound @ 1845 Clements,,43.82558800000001,-79.06062799999998,,,0,,,2,2
+93499,93499,Eastbound @ 1885 Clements,,43.826442,-79.056838,,,0,,,2,2
+93500,93500,Clements Eastbound @ Squires Beach,,43.82698100000001,-79.054408,,,0,,,2,2
+93501,93501,Squires Beach Southbound @ Clements,,43.824718,-79.053242,,,0,,,2,2
+93502,93502,Squires Beach Southbound @ McKay,,43.821685,-79.051934,,,0,,,2,2
+93504,93504,Southbound @ 770 McKay,,43.81876900000001,-79.057412,,,0,,,2,2
+93506,93506,Montgomery Park Westbound @ Brock Road,,43.815712,-79.059768,,,0,,,2,2
+93509,93509,Sandy Beach Northbound @ Parkham,,43.819466,-79.072332,,,0,,,1,2
+93511,93511,Alyssum Westbound @ Krosno,,43.8241576,-79.0759742,,,0,,,2,2
+93512,93512,Krosno Westbound @ Modlin,,43.8219172,-79.0792351,,,0,,,1,2
+93519,93519,Montgomery Park Westbound @ OPG Pickering,,43.8144291,-79.0652288,,,0,,,2,2
+93521,93521,Adelaide Westbound @ Fernhill,,43.899535,-78.883283,,,0,,,2,2
+93527,93527,Wentworth Westbound @ Boundary (East side stop),,43.86224717000001,-78.885536,,,0,,,2,2
+93532,93532,Main Southbound @ Duchess,,43.971806,-78.615001,,,0,,,2,2
+93533,93533,Main Southbound @ Winter,,43.964867,-78.612009,,,0,,,2,2
+93534,93534,Glenabbey Westbound @ Prestonvale,,43.89786363000001,-78.794723,,,0,,,2,2
+93536,93536,Glenabbey Southbound @ Oke,,43.901355,-78.792329,,,0,,,1,2
+93537,93537,Glenabbey Northbound @ Found,,43.900483,-78.791802,,,0,,,1,2
+93542,93542,Kingston Eastbound @ Liverpool,,43.835851,-79.09007,,,0,,,1,1
+93551,93551,Stevenson Southbound @ Creighton,,43.89565665,-78.884573,,,0,,,1,2
+93552,93552,Harmony Northbound @ Capri,,43.90136600000001,-78.832565,,,0,,,1,2
+93553,93553,Winchester Westbound @ Cachet,,43.95900300000001,-78.936407,,,0,,,2,2
+93554,93554,Victoria Westbound @ Jeffery,,43.858353,-78.953388,,,0,,,2,2
+93555,93555,Victoria Westbound @ Halls,,43.85395,-78.973499,,,0,,,2,2
+93556,93556,Bayly Westbound @ Lake Ridge,,43.852679,-78.979746,,,0,,,2,2
+93557,93557,Bayly Eastbound @ Lake Ridge,,43.852479,-78.97930599999998,,,0,,,2,2
+93558,93558,Victoria Eastbound @ Halls,,43.853654,-78.974109,,,0,,,2,2
+93559,93559,Victoria Eastbound @ Seaboard Gate,,43.8581551,-78.9532997,,,0,,,2,2
+93562,93562,Britannia Westbound @ Kedron,,43.9562646,-78.8795994,,,0,,,2,2
+93564,93564,Britannia Westbound @ Pindar,,43.955218,-78.884259,,,0,,,2,2
+93568,93568,Britannia Westbound @ Bridle,,43.956057,-78.892605,,,0,,,2,2
+93580,93580,Burkholder Southbound @ Belcourt,,43.874871,-79.117902,,,0,,,2,2
+93582,93582,Burkholder Southbound @ Hibiscus,,43.871065,-79.11385,,,0,,,2,2
+93595,93595,Dowty Northbound @ Hunt,,43.84649252894414,-79.02741730050283,,,0,,,2,2
+93596,93596,Dowty Southbound @ Hunt,,43.8466257837757,-79.02777620444002,,,0,,,2,2
+93597,93597,Wentworth Eastbound @ Wilson,,43.87798200000001,-78.832502,,,0,,,2,2
+93598,93598,Wentworth Eastbound @ Farewell,,43.878892,-78.829054,,,0,,,2,2
+93599,93599,Liverpool Southbound @ East Shore Community Centre,,43.82672,-79.086556,,,0,,,1,2
+93603,93603,Des Newman Northbound @ Bonacord,,43.88046686853903,-78.97824933459268,,,0,,,2,2
+93608,93608,Rossland Eastbound @ Des Newman,,43.88980200000001,-78.983372,,,0,,,1,1
+93609,93609,Rossland Westbound @ Des Newman,,43.889813,-78.984482,,,0,,,1,1
+93610,93610,Rossland Westbound @ Coronation,,43.89277,-78.972246,,,0,,,2,2
+93611,93611,Rossland Eastbound @ Coronation,,43.892561,-78.972611,,,0,,,2,2
+93622,93622,Harwood Southbound @ Harwood Plaza,,43.845427,-79.019197,,,0,,,1,1
+93700,93700,Ritson Northbound @ Bond,,43.900361,-78.853953,,,0,,,1,2
+93704,93704,Railway Southbound @ Albert,,44.10964400000001,-79.125063,,,0,,,2,1
+93705,93705,Highway 2 Eastbound @ Boswell,,43.90931,-78.715382,,,0,,,2,2
+93706,93706,Hunt Westbound @ Harwood,,43.84728002631663,-79.02106152102711,,,0,,,2,2
+93707,93707,Bloor Eastbound @ Park,,43.877851,-78.866602,,,0,,,2,2
+93708,93708,Bloor Westbound @ Park,,43.877762,-78.86810699999998,,,0,,,2,2
+93710,93710,Ritson Northbound @ Athol,,43.898724,-78.853139,,,0,,,2,2
+93711,93711,Ritson Northbound @ Eulalie,,43.895036,-78.851457,,,0,,,2,2
+93712,93712,Ritson Northbound @ Olive,,43.890786,-78.849532,,,0,,,2,2
+93713,93713,Ritson Southbound @ Athol,,43.898959,-78.853486,,,0,,,2,2
+93714,93714,Ritson Southbound @ Eulalie,,43.89525600000001,-78.85178,,,0,,,2,2
+93715,93715,Ritson Southbound @ Olive,,43.891023,-78.849841,,,0,,,2,2
+93718,93718,Ritson Southbound @ William,,43.902586,-78.855132,,,0,,,2,2
+93720,93720,Clarington Northbound @ Prince William,,43.908273,-78.706862,,,0,,,2,1
+93721,93721,Durham Highway 2 @ Courtice Road,,43.9121115,-78.777044,,,0,,,2,1
+93724,93724,Durham Highway 2 Westbound @ Solina,,43.9144556,-78.756297,,,0,,,2,2
+93725,93725,Durham Highway 2 Eastbound @ Solina,,43.9138579,-78.756069,,,0,,,2,2
+93726,93726,Durham Highway 2 Westbound @ Rundle,,43.9140712,-78.745721,,,0,,,2,2
+93727,93727,Durham Highway 2 Eastbound @ Rundle,,43.9136054,-78.745863,,,0,,,2,2
+93728,93728,Durham Highway 2 Westbound @ Holt,,43.9126438,-78.734177,,,0,,,2,2
+93729,93729,Durham Highway 2 Eastbound @ Holt,,43.9123477,-78.735274,,,0,,,2,2
+93730,93730,Durham Highway 2 Westbound @ Maple Grove,,43.9107906,-78.72386,,,0,,,2,2
+93731,93731,Durham Highway 2 Eastbound @ Maple Grove,,43.91044930000001,-78.723765,,,0,,,2,2
+93732,93732,Clarington Blvd Westbound @ Green Road,,43.9054377,-78.70954,,,0,,,2,2
+93733,93733,Durham Highway 2 Eastbound @ Bowmanville Ave,,43.9109185,-78.70230599999998,,,0,,,2,2
+93734,93734,Durham Highway 2 Westbound @ Bowmanville Ave,,43.9116381,-78.701406,,,0,,,2,2
+93735,93735,Garrard Northbound @ Griffen,,43.923381,-78.91789199999998,,,0,,,2,2
+93736,93736,Garrard Northbound @ Gagnon,,43.919757,-78.91632199999998,,,0,,,2,2
+93737,93737,Garrard Northbound @ Dryden,,43.917454,-78.915265,,,0,,,2,2
+93738,93738,Dryden Eastbound @ Steele Valley,,43.915641,-78.918736,,,0,,,2,2
+93739,93739,Dryden Eastbound @ Waller,,43.91477900000001,-78.921612,,,0,,,2,2
+93740,93740,Brock Street Eastbound @ Toronto Street,,44.108695,-79.122934,,,0,,,2,2
+93747,93747,Dundas Eastbound @ Des Newman,,43.873089,-78.971771,,,0,,,2,1
+93749,93749,Dundas Westbound @ Des Newman,,43.873682,-78.970969,,,0,,,2,1
+93765,93765,Dean Westbound @ Ritson,,43.88649853166958,-78.84746939310502,,,0,,,2,2
+93801,93801,Scugog Northbound @ Concession 3,,43.933913,-78.701053,,,0,,,2,2
+93810,93810,Northglen Eastbound @ Kenneth Cole,,43.936771,-78.711204,,,0,,,2,2
+939,939,Phillip Murray Eastbound @ Stevenson,,43.85629200000001,-78.867462,,,0,,,1,2
+93937,93937,Simcoe Southbound @ Northern Dancer,,43.95228111,-78.89825264,,,0,,,1,2
+93944,93944,Finch Eastbound @ Whites,,43.839422,-79.122716,,,0,,,2,1
+93969,93969,Sheppard Westbound @ Meadowvale (East side stop),,43.80852500000001,-79.170563,,,0,,,2,2
+93993,93993,Progress Southbound @ Centennial College,,43.783468,-79.23197399999998,,,0,,,2,2
+93994,93994,Progress Westbound @ Markham Road,,43.781656,-79.234801,,,0,,,2,2
+93997,93997,Grangeway Southbound @ Progress,,43.775976,-79.250532,,,0,,,2,2
+93998,93998,Scarborough Centre Station,,43.77431700000001,-79.258755,,,0,,,1,2
+93999,93999,McCowan Northbound @ Progress,,43.778029,-79.253278,,,0,,,2,2
+940,940,Phillip Murray Westbound @ Stevenson,,43.85653,-78.8671087,,,0,,,1,2
+94002,94002,Progress Eastbound @ Bellamy,,43.78017420754376,-79.24343282725708,,,0,,,2,2
+94006,94006,Progress Eastbound @ Markham Road,,43.781933,-79.233259,,,0,,,2,2
+94007,94007,Progress Northbound @ Centennial College,,43.783526,-79.231618,,,0,,,2,2
+94009,94009,Progress Northbound @ Milner Avenue,,43.789947,-79.23394999999998,,,0,,,2,2
+94029,94029,Sheppard Eastbound @ Meadowvale,,43.80845909723183,-79.16992219791265,,,0,,,2,2
+94037,94037,Trulls Northbound @ Nash,,43.913854,-78.789545,,,0,,,2,2
+94038,94038,Trulls Northbound @ Cecil Found,,43.917206,-78.790964,,,0,,,2,2
+94039,94039,Trulls Northbound @ George Reynolds,,43.919116,-78.791855,,,0,,,2,2
+94040,94040,Trulls Southbound @ Devondale,,43.917123,-78.791102,,,0,,,2,2
+94041,94041,Trulls Southbound @ Nash,,43.914181,-78.789765,,,0,,,2,2
+94042,94042,Trulls Southbound @ Durham Highway 2,,43.9112,-78.788622,,,0,,,2,2
+94048,94048,Grandview Southbound @ Greenhill,,43.952296,-78.844517,,,0,,,2,2
+94049,94049,Conlin Westbound @ Ritson (East side stop),,43.952552,-78.87615,,,0,,,2,2
+94050,94050,Ritson Southbound @ Maine,,43.95345187,-78.87719948260465,,,0,,,2,2
+94051,94051,Britannia Eastbound @ Ritson,,43.956148,-78.878843,,,0,,,2,2
+94052,94052,Britannia Eastbound @ Pindar,,43.95511,-78.88407,,,0,,,2,2
+94054,94054,Progress Westbound @ Corporate Drive,,43.78018,-79.2444,,,0,,,2,2
+94059,94059,McQuay Southbound @ Rossland,,43.89052,-78.97844,,,0,,,2,2
+94060,94060,McQuay Eastbound @ Muir,,43.889751,-78.973695,,,0,,,2,2
+94061,94061,McQuay Eastbound @ Jacob,,43.889924,-78.971264,,,0,,,2,2
+94062,94062,McQuay Southbound @ Renfield,,43.888161,-78.969356,,,0,,,2,2
+94064,94064,McQuay Southbound @ Bonacord,,43.88422400000001,-78.96784,,,0,,,2,2
+94066,94066,Morningside Northbound @ Military Trail,,43.78888,-79.19394,,,0,,,1,2
+94067,94067,Ellesmere Westbound @ Moringside,,43.785544,-79.19309199999998,,,0,,,2,2
+94070,94070,Ritson Southbound @ McNaughton,,43.88665000000001,-78.8479,,,0,,,2,2
+94079,94079,Liverpool Northbound @ Finch,,43.84532500000001,-79.094419,,,0,,,1,2
+94080,94080,Valley Farm Northbound @ Bloomfield,,43.848572,-79.085389,,,0,,,1,2
+94081,94081,Greenmount Eastbound @ Major Oaks,,43.85717000000001,-79.087286,,,0,,,2,2
+94082,94082,Brock Road Northbound @ Rossland,,43.868608,-79.08292899999998,,,0,,,1,2
+94083,94083,Brock Road Southbound @ Rossland,,43.867969,-79.083181,,,0,,,1,2
+94084,94084,Brock Road Northbound @ William Jackson,,43.874896,-79.085571,,,0,,,1,2
+94085,94085,Zents Westbound @ Brock Road,,43.879619,-79.088856,,,0,,,1,2
+94086,94086,Greenmount Westbound @ Major Oaks,,43.857079,-79.087567,,,0,,,2,2
+94088,94088,Monarch Northbound @ Clements,,43.834981,-79.021702,,,0,,,2,2
+94089,94089,Clements Eastbound @ Finley,,43.833128,-79.027482,,,0,,,2,2
+94090,94090,Clements Westbound @ Westney,,43.832102,-79.032704,,,0,,,1,2
+94091,94091,Adelaide Westbound @ Waverley,,43.89807600000001,-78.890673,,,0,,,2,2
+94092,94092,Adelaide Eastbound @ Waverley,,43.89786500000001,-78.891092,,,0,,,2,2
+94093,94093,Winchester Eastbound @ Cachet,,43.958574,-78.937482,,,0,,,1,2
+94094,94094,Winchester Eastbound @ Thickson,,43.957557,-78.942081,,,0,,,1,1
+94095,94095,Liverpool Southbound @ Finch,,43.844825,-79.094491,,,0,,,1,2
+94096,94096,Adelaide Eastbound @ Stevenson,,43.89873200000001,-78.886166,,,0,,,2,2
+94097,94097,Adelaide Eastbound @ Gibbons,,43.899898,-78.881242,,,0,,,1,2
+94098,94098,Adelaide Eastbound @ Park,,43.90105,-78.876259,,,0,,,2,2
+94099,94099,Adelaide Westbound @ Stevenson,,43.899015,-78.885722,,,0,,,2,2
+941,941,Stevenson Northbound @ Laval,,43.879998,-78.877266,,,0,,,1,1
+94100,94100,Whites Southbound @ Strouds (South side stop),,43.829,-79.12018,,,0,,,2,1
+94101,94101,Taunton Westbound @ Des Newman,,43.90754,-78.991035,,,0,,,2,2
+94102,94102,Taunton Easttbound @ Des Newman,,43.907115,-78.991807,,,0,,,2,2
+94105,94105,Baldwin-Highway 407 Park and Ride,,43.94436000000001,-78.95963,,,0,,,1,2
+94107,94107,Vipond Westbound @ Montgomery,,43.957026,-78.965508,,,0,,,2,2
+94108,94108,Vipond Westbound @ Ferguson,,43.956074,-78.969778,,,0,,,2,2
+94109,94109,Vipond Westbound @ Darrius Harns,,43.955498,-78.972343,,,0,,,2,2
+94110,94110,Ashburn Northbound @ Carnwith,,43.9609,-78.97733,,,0,,,2,2
+94111,94111,Carnwith Eastbound @ Bayern,,43.96210700000001,-78.97233799999998,,,0,,,2,2
+94112,94112,Carnwith Eastbound @ Montgomery,,43.962238,-78.96767699999998,,,0,,,2,2
+94115,94115,Britannia Eastbound @ Windfields Farm,,43.95367,-78.9102,,,0,,,2,2
+94125,94125,Pickering Parkway Terminal Platform B13,,43.83272,-79.08561,,,0,,,1,2
+94126,94126,Liberty Southbound @ King,,43.910968,-78.680541,,,0,,,2,2
+94128,94128,Middle Southbound @ Northglen,,43.937716,-78.70322899999998,,,0,,,2,2
+94129,94129,Middle Southbound @ Concession 3,,43.934469,-78.701693,,,0,,,2,2
+94130,94130,Highway 2 Westbound @ Clarington,,43.909904,-78.707358,,,0,,,2,2
+94131,94131,Scugog Northbound @ Church,,43.913996,-78.692533,,,0,,,2,2
+94132,94132,Scugog Northbound @ O'Dell,,43.916935,-78.693467,,,0,,,2,2
+94133,94133,Scugog Northbound @ Jackman,,43.921037,-78.695243,,,0,,,2,2
+94134,94134,Scugog Northbound @ Longworth,,43.925778,-78.697377,,,0,,,2,2
+94135,94135,Scugog Northbound @ Somerscales,,43.92721,-78.698014,,,0,,,2,2
+94136,94136,Scugog Northbound @ Bons,,43.930879,-78.699653,,,0,,,2,2
+94138,94138,Liberty Southbound @ Bons,,43.9336,-78.690382,,,0,,,2,2
+94139,94139,Longworth Eastbound @ Liberty,,43.930353,-78.687673,,,0,,,2,2
+94140,94140,Longworth Eastbound @ Swindells,,43.930813,-78.68607,,,0,,,2,2
+94141,94141,Longworth Eastbound @ Rickaby,,43.932234,-78.681037,,,0,,,2,2
+94142,94142,Mearns Southbound @ Elephant Hill,,43.928678,-78.677319,,,0,,,2,2
+94143,94143,Mearns Southbound @ Apple Blossom,,43.92479500000001,-78.675549,,,0,,,2,2
+94144,94144,Mearns Southbound @ Concession,,43.921414,-78.673993,,,0,,,2,2
+94145,94145,Concession Westbound @ Bradshaw,,43.919858,-78.676874,,,0,,,1,2
+94146,94146,Liberty Southbound @ Concession,,43.917681,-78.68347799999998,,,0,,,2,2
+94147,94147,Liberty Southbound @ Wellington,,43.914013,-78.68187399999998,,,0,,,2,2
+94148,94148,Adelaide Westbound @ Vega,,43.916446,-78.819526,,,0,,,2,2
+94149,94149,Adelaide Eastbound @ Vega,,43.916608,-78.818197,,,0,,,2,2
+94150,94150,Adelaide Avenue Westbound @ Fleetwood Drive,,43.91442,-78.82482,,,0,,,2,2
+94151,94151,Gibb Street Eastbound @ Centre Street,,43.88991,-78.86271,,,0,,,2,2
+94154,94154,Meadowglade Road Eastbound @ Cale Ave,,43.89319,-78.79788,,,0,,,2,2
+94155,94155,Meadowglade Road Westbound @ Partner Drive,,43.893629,-78.797909,,,0,,,2,2
+94156,94156,Notion Northbound @ Orchard,,43.84698196755844,-79.062990334321,,,0,,,2,2
+94157,94157,Notion Southbound @ 1920 Notion,,43.84735143467752,-79.0633417037042,,,0,,,2,2
+94158,94158,Notion Southbound @ Kingston,,43.8514096192947,-79.06517901687988,,,0,,,2,2
+94159,94159,Olive Avenue Eastbound @ Athabasca Street,,43.89826,-78.81341999999998,,,0,,,2,2
+94160,94160,Olive Avenue Westbound @ Athabasca Street,,43.89858000000001,-78.81287,,,0,,,2,2
+94161,94161,Range Line westbound @ Poplar Ave,,43.82911,-78.99907,,,0,,,2,2
+94162,94162,Townline Northbound @ Gord Vinson Ave,,43.8889,-78.8056,,,0,,,2,2
+94163,94163,Townline Road Northbound @ Barron Court,,43.90250000000001,-78.8115,,,0,,,2,2
+94164,94164,Townline Road Northbound @ King Street,,43.90617000000001,-78.81309,,,0,,,2,2
+94165,94165,Townline Road Northbound @ Kingsway Gate,,43.90441,-78.81234,,,0,,,2,2
+94166,94166,Townline Road Northbound @ Kingswood Drive,,43.9002,-78.8105,,,0,,,2,2
+94167,94167,Townline Road Southbound @ Barron Court,,43.90231,-78.81161,,,0,,,2,2
+94168,94168,Townline Road Southbound @ King Street,,43.90677,-78.81365,,,0,,,2,2
+94169,94169,Townline Road Southbound @ Kingsway Gate,,43.90409,-78.81238,,,0,,,2,2
+94170,94170,Townline Road Southbound @ Kingswood Drive,,43.90005,-78.81064,,,0,,,2,2
+94174,94174,Dryden westbound @ Anderson,,43.91157,-78.93509,,,0,,,2,2
+94175,94175,Dryden westbound @ Fallingbrook,,43.90983,-78.93857,,,0,,,2,2
+94176,94176,Dryden westbound @ Lipton,,43.90666,-78.94091,,,0,,,2,2
+94177,94177,Manning westbound @ Garden,,43.89478,-78.93749,,,0,,,2,2
+94178,94178,Manning eastbound @ Garden (east side stop),,43.89468,-78.93684,,,0,,,2,2
+94179,94179,Manning eastbound @ Ribblesdale,,43.89422,-78.93021,,,0,,,2,2
+94180,94180,Manning westbound @ Ribblesdale,,43.894618,-78.929653,,,0,,,2,2
+94183,94183,Hopkins northbound @ Burns,,43.87535276525429,-78.91853754153097,,,0,,,2,2
+94184,94184,Hopkins southbound @ Burns,,43.87562366344467,-78.9188969078832,,,0,,,2,2
+94187,94187,Simcoe Southbound @ Taunton (North Side Stop),,43.933393,-78.879221,,,0,,,2,1
+94188,94188,Simcoe Northbound @ Taunton (South Side Stop),,43.932763,-78.878746,,,0,,,2,1
+94189,94189,Simcoe Southbound @ Commencement,,43.945083,-78.89219799999998,,,0,,,2,2
+94191,94191,Thickson Northbound @ Rossland (North Side Stop),,43.905014,-78.920609,,,0,,,1,2
+94194,94194,Coldstream Eastbound @ 1224 Coldstream,,43.945712,-78.846137,,,0,,,2,2
+94195,94195,Coldstream Westbound @ 1224 Coldstream,,43.945809,-78.846577,,,0,,,2,2
+94198,94198,Conlin Westbound @ Founders,,43.94732,-78.8995,,,0,,,2,2
+94199,94199,Conlin Eastbound @ Founders,,43.94703,-78.900019,,,0,,,2,2
+942,942,Stevenson Northbound @ Gibb,,43.88574400000001,-78.879867,,,0,,,1,2
+94200,94200,Thickson Southbound @ Darren,,43.91964,-78.927378,,,0,,,2,2
+94201,94201,Thickson Southbound @ Dryden,,43.914213,-78.924996,,,0,,,2,2
+94210,94210,Conlin Eastbound @ Simcoe,,43.948164,-78.895029,,,0,,,2,1
+94211,94211,Conlin Westbound @ Simcoe,,43.947863,-78.897454,,,0,,,2,1
+94213,94213,Annes Northbound @ Harriet,,43.870916,-78.948986,,,0,,,2,2
+94214,94214,Annes Northbound @ Dunlop,,43.875489,-78.950973,,,0,,,2,2
+94216,94216,Town Centre @ Scarborough Centre Station,,43.774202,-79.255099,,,0,,,2,2
+94217,94217,Twin Streams Westbound @ Country Lane,,43.903411,-78.971618,,,0,,,2,2
+94218,94218,Country Lane Southbound @ Randolph,,43.900967,-78.970565,,,0,,,2,2
+94219,94219,Country Lane Southbound @ Nugget,,43.89899,-78.970089,,,0,,,2,2
+94220,94220,Country Lane Southbound @ Tidewater,,43.896271,-78.967311,,,0,,,2,2
+94221,94221,Country Lane Southbound @ Rossland,,43.894248,-78.965899,,,0,,,2,2
+94223,94223,Annes Southbound @ Dunlop,,43.875683,-78.951239,,,0,,,2,2
+94224,94224,Annes Southbound @ Annes Street Park,,43.872021,-78.949746,,,0,,,2,2
+94225,94225,Burns Eastbound @ McCulloug,,43.869621,-78.947512,,,0,,,2,2
+94226,94226,Brookhouse Northbound @ Ravey,,43.917041,-78.580493,,,0,,,2,2
+94227,94227,King Westbound @ Arthur,,43.919042,-78.582741,,,0,,,2,2
+94229,94229,Baseline Westbound @ Mearns,,43.903226,-78.666988,,,0,,,2,2
+94230,94230,Baseline Eastbound @ Mearns,,43.903224,-78.666437,,,0,,,2,2
+94231,94231,Baseline Eastbound @ Liberty,,43.901265,-78.675124,,,0,,,2,2
+94232,94232,Audley Recreation Centre,,43.897822,-79.008041,,,0,,,2,2
+94233,94233,Morningside @ Milner,,43.800447,-79.19938,,,0,,,2,2
+94234,94234,Milner Westbound @ Neilson,,43.79567,-79.21631600435,,,0,,,2,2
+94235,94235,Milner Westbound @ Dailing,,43.79112700000001,-79.23035,,,0,,,2,2
+94236,94236,Milner Eastbound @ Neilson,,43.795607,-79.215841,,,0,,,2,2
+94237,94237,Milner Eastbound @ Morningside,,43.800134,-79.199407,,,0,,,2,2
+94238,94238,Thickson Northbound @ Stellar,,43.873245,-78.906742,,,0,,,2,2
+94241,94241,Mill Southbound @ King,,43.917215,-78.588771,,,0,,,2,1
+94242,94242,Triton Eastbound @ McCowan,,43.775294,-79.25296,,,0,,,2,2
+94245,94245,Strouds Westbound @ Rosebank,,43.82657,-79.12952,,,0,,,2,2
+94247,94247,Conlin Eastbound @ Garrard,,43.941682,-78.925171,,,0,,,2,2
+94248,94248,Conlin Westbound @ Garrard,,43.941728,-78.925415,,,0,,,2,2
+94249,94249,Harmony Northbound @ Conlin,,43.9565,-78.856854,,,0,,,1,2
+94250,94250,Harmony Southbound @ Conlin,,43.956196,-78.857071,,,0,,,1,2
+94251,94251,Woodview Southbound @ Waterford,,43.82038,-79.14524,,,0,,,2,2
+94254,94254,Westney Westbound @ Finley,,43.829124,-79.025151,,,0,,,2,1
+94255,94255,Westney Westbound @ Monarch,,43.830815,-79.017295,,,0,,,2,2
+94258,94258,Dreyer Westbound @ Graham,,43.83092,-79.00319,,,0,,,1,2
+94260,94260,Range Line Eastbound @ Maple,,43.83038,-78.992901,,,0,,,2,2
+94261,94261,Taunton Eastbound @ 942 Taunton,,43.94068872022612,-78.8451387554087,,,0,,,2,2
+94262,94262,Taunton Westbound @ 981 Taunton,,43.94069561,-78.84512280689917,,,0,,,2,2
+94263,94263,Bayly Eastbound @ Harwood,,43.843818,-79.018779,,,0,,,2,2
+94264,94264,Taunton Eastbound @ Grandview,,43.941505,-78.839898,,,0,,,1,2
+94265,94265,Taunton Westbound @ Grandview,,43.941894,-78.839279,,,0,,,1,2
+94266,94266,Taunton Westbound @ Townline,,43.943927,-78.830505,,,0,,,1,2
+94267,94267,Townline Northbound @ Taunton,,43.944773,-78.830057,,,0,,,2,2
+94268,94268,Townline Northbound @ Woodstream,,43.957312,-78.835685,,,0,,,2,2
+94269,94269,Townline Southbound @ Woodstream,,43.957856,-78.836065,,,0,,,2,2
+94270,94270,Nelkydd Northbound @ Planks,,44.11026,-79.11048,,,0,,,2,2
+94271,94271,Conlin Westbound @ Coppermine,,43.9584248056271,-78.8505766073314,,,0,,,2,2
+94272,94272,Conlin Eastbound @ Grandview,,43.95897397115791,-78.8474985254163,,,0,,,2,2
+94273,94273,Bushby Westbound @ McCowan,,43.77474773123638,-79.2519258973932,,,0,,,2,2
+94274,94274,Des Newman Northbound @ Bertram,,43.88402578,-78.98122256,,,0,,,2,2
+94275,94275,Des Newman Southbound @ Bonacord,,43.88125,-78.9794,,,0,,,2,2
+94276,94276,Windfields Farm Eastbound @ Steeplechase,,43.96380036921115,-78.90042774106978,,,0,,,2,2
+94277,94277,Windfields Farm Eastbound @ Bridle,,43.96528150752407,-78.89408279340002,,,0,,,2,2
+94278,94278,Windfields Farm Westbound @ Steeplechase,,43.96413464002297,-78.8999691001511,,,0,,,2,2
+94279,94279,Cochrane Southbound @ Walnut,,43.88144311,-78.95355749,,,0,,,2,2
+94280,94280,Cochrane Southbound @ Bonacord,,43.88776596000001,-78.95636797,,,0,,,2,2
+94281,94281,Des Newman Southbound @ Bertram,,43.88529,-78.982,,,0,,,2,2
+94282,94282,Lake Driveway Southbound @ Parkes,,43.82013112,-79.03083625,,,0,,,2,2
+94283,94283,Finley Northbound @ Lake Driveway,,43.82006930615894,-79.02036100759061,,,0,,,2,2
+94284,94284,Finley Northbound @ Panter,,43.8229,-79.02533,,,0,,,2,2
+94285,94285,Finley Northbound @ Bashford,,43.82591917,-79.0260696,,,0,,,2,2
+94288,94288,Finch Westbound @ Dixie,,43.84321295,-79.1054951,,,0,,,2,2
+94289,94289,Monarch Northbound @ Bayly,,43.84223144,-79.02475559,,,0,,,2,2
+94290,94290,Pickering Beach Southbound @ Dreyer,,43.83043,-79.00176,,,0,,,1,2
+94291,94291,Finley Southbound @ Bashford,,43.82615108,-79.02614314,,,0,,,2,2
+94292,94292,Finley Southbound @ Parkes,,43.82344489,-79.02610127,,,0,,,2,2
+94293,94293,Westney Eastbound @ Finley,,43.82901300000001,-79.02480025,,,0,,,2,2
+94294,94294,Whites Northbound @ Third Concession,,43.8567068,-79.13157602,,,0,,,2,2
+94295,94295,Whites Soutbound @ Third Concession,,43.85653,-79.1317,,,0,,,2,2
+94296,94296,Lake Driveway Northbound @ Parkes,,43.82025856425799,-79.03077268725127,,,0,,,2,2
+94297,94297,Lake Driveway Eastbound @ Walker,,43.8289,-79.032247,,,0,,,2,2
+94299,94299,Bowmanville Southbound @ Baseline,,43.8979389485016,-78.6911738941678,,,0,,,1,2
+94300,94300,Green Northbound @ Aspen Springs,,43.9014706787916,-78.7086273836003,,,0,,,1,2
+94301,94301,Northbound @ 1461 Harwood (Grandview Kids Health Centre),,43.8857924166106,-79.0357858164005,,,0,,,1,2
+94302,94302,Southbound  @ 1461 Harwood (Grandview Kids Health Cenntre),,43.8854916869003,-79.0354632856262,,,0,,,1,2
+94303,94303,Green Northbound @ Clarington,,43.9048372717572,-78.7100851889842,,,0,,,1,2
+94304,94304,Thickson Northbound @ Gateway,,43.9242315,-78.9285625,,,0,,,1,2
+94305,94305,Thickson Southbound @ Summerside,,43.9246256,-78.9290882,,,0,,,1,2
+94306,94306,Thickson Northbound @ Glengowan,,43.9285861,-78.9305623,,,0,,,1,2
+944,944,Stevenson Northbound @ Cartier (North side stop),,43.88983507,-78.881804,,,0,,,1,2
+9473,9473,Ellesmere Westbound @ Military Trail,,43.7866837,-79.188152,,,0,,,1,2
+952,952,Stevenson Southbound @ Marion,,43.90700600000001,-78.889543,,,0,,,1,2
+953,953,Stevenson Southbound @ King,,43.893374,-78.883644,,,0,,,1,2
+955,955,Southbound @ 104 Stevenson,,43.89017014,-78.882155,,,0,,,1,2
+958,958,Stevenson Southbound @ Gibb,,43.8854908,-78.880117,,,0,,,1,2
+959,959,Stevenson Southbound @ Laval,,43.88086100000001,-78.877979,,,0,,,1,1
+963,963,Phillip Murray Eastbound @ Park,,43.859104,-78.85776,,,0,,,1,2
+970,970,Phillip Murray Westbound @ Park,,43.85932600000001,-78.857453,,,0,,,1,2
+973,973,Phillip Murray Westbound @ Skae,,43.85493300000001,-78.874097,,,0,,,2,2
+984,984,Lakeview Westbound @ Lakemount,,43.857059,-78.85286,,,0,,,1,2
+985,985,Lakeview Westbound @ Park,,43.856405,-78.855793,,,0,,,1,2
+987,987,Cedar Northbound @ Banff,,43.864875,-78.8492,,,0,,,1,2
+988,988,Cedar Northbound @ Killarney,,43.867212,-78.850005,,,0,,,1,2
+989,989,Cedar Northbound @ Wentworth,,43.86968,-78.851091,,,0,,,1,2
+990,990,Oxford Southbound @ Calvert,,43.868657,-78.853995,,,0,,,1,2
+991,991,Oxford Southbound @ Chandos,,43.867666,-78.853571,,,0,,,1,2
+992,992,Oxford Southbound @ Kinmount,,43.86448,-78.8526593,,,0,,,1,2
+993,993,Oxford Southbound @ Dwight,,43.862572,-78.85359099999998,,,0,,,1,2
+994,994,Oxford Southbound @ Phillip Murray,,43.86046419,-78.85287099999998,,,0,,,1,2
+995,995,Oxford Northbound @ Emerald,,43.86114517,-78.852973,,,0,,,1,2
+996,996,Oxford Northbound @ Dwight,,43.862763,-78.853452,,,0,,,1,2
+997,997,Oxford Northbound @ Venus,,43.864934,-78.852459,,,0,,,1,2
+998,998,Oxford Northbound @ Wentworth,,43.868849,-78.853952,,,0,,,1,2
+999,999,Glen Northbound @ Porter,,43.87028394,-78.854489,,,0,,,1,2
