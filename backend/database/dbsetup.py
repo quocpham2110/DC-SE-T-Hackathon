@@ -144,6 +144,9 @@ class DbSetup:
                             ALTER TABLE stops
                             ADD COLUMN IF NOT EXISTS geom GEOMETRY(Point, 4326);
                             
+                            ALTER TABLE passengers
+                            ADD CONSTRAINT unique_vehicle_id UNIQUE (vehicle_id);
+
                             
                             UPDATE stops
                             SET geom = ST_SetSRID(ST_MakePoint(stop_lon, stop_lat), 4326)
