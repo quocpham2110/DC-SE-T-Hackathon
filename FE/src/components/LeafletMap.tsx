@@ -1,5 +1,6 @@
 import { LatLngTuple } from 'leaflet';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import CurrentLocation from './CurrentLocation';
 
 // This component show the OpenStreetMap
 const LeafletMap = () => {
@@ -18,6 +19,7 @@ const LeafletMap = () => {
                         Durham college
                     </Popup>
                 </Marker>
+                <CurrentLocation />
             </MapContainer>
         </div>
     );

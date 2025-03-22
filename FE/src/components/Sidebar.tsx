@@ -1,4 +1,3 @@
-
 // This component show the side bar for user interaction
 const Sidebar = () => {
 
