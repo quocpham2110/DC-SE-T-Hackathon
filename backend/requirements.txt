@@ -21,7 +21,7 @@ matplotlib
 mpmath
 networkx
 numpy
-opencv-python.86
+opencv-python
 packaging
 pandas
 pillow
@@ -32,7 +32,7 @@ py-cpuinfo
 pydantic
 pydantic_core
 pyparsing
-python-dateutil.post0
+python-dateutil
 python-dotenv
 pytz
 PyYAML
