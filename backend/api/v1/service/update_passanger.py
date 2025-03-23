@@ -7,26 +7,26 @@ from pydantic import BaseModel
 from database.queries import Queries
 from fastapi.responses import JSONResponse
 from datetime import datetime
-import redis.asyncio as redis
-from contextlib import asynccontextmanager
-
-from fastapi_limiter import FastAPILimiter
-from fastapi_limiter.depends import RateLimiter
+# import redis.asyncio as redis
+# from contextlib import asynccontextmanager
+# from fastapi_limiter import FastAPILimiter
+# from fastapi_limiter.depends import RateLimiter
 
 # load limiter
 
 
-@asynccontextmanager
-async def lifespan(_: FastAPI):
-    redis_connection = redis.from_url(
-        "redis://localhost:6379", encoding="utf8")
-    await FastAPILimiter.init(redis_connection)
-    yield
-    await FastAPILimiter.close()
+# @asynccontextmanager
+# async def lifespan(_: FastAPI):
+#     redis_connection = redis.from_url(
+#         "redis://localhost:6379", encoding="utf8")
+#     await FastAPILimiter.init(redis_connection)
+#     yield
+#     await FastAPILimiter.close()
 
 load_dotenv()
 
-update_passanger = APIRouter(lifespan=lifespan)
+update_passanger = APIRouter()
+# update_passanger = APIRouter(lifespan=lifespan)
 
 
 # define the classes for requess :
@@ -122,7 +122,8 @@ async def Update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
     raise HTTPException(status_code=404, detail="Vehicle not found")
 
 
-@update_passanger.post("/update_Status", dependencies=[Depends(RateLimiter(times=2, seconds=5))])
+# @update_passanger.post("/update_Status", dependencies=[Depends(RateLimiter(times=2, seconds=5))])
+@update_passanger.post("/update_Status")
 async def Update_status(data: Driver_status, _=Depends(verify_api_key)):
     """Update bus status—this will be handled by the driver."""
 

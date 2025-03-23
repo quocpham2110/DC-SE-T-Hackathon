@@ -1,5 +1,5 @@
 import os
-from fastapi import APIRouter, HTTPException, FastAPI, Depends
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from datetime import datetime
 import traceback
@@ -19,18 +19,15 @@ load_dotenv()
 router = APIRouter()
 
 
-
-
 # define the classes for requess :
-
 class BusTrackingRequest(BaseModel):
     trip_id: Union[str, None] = None
     vehicle_id: Union[str, None] = None
 
 # end of the class ------------------
 
-
 # helper functions :
+
 
 def parse_realtime_data(filelink):
     """Parses a GTFS Realtime data file."""
@@ -119,7 +116,6 @@ async def get_vehicle_position():
 
 @router.post("/transit/track-bus")
 async def track_bus(request: BusTrackingRequest):
-    crowd_arr = []
     try:
         feed = parse_realtime_data(
             "https://drtonline.durhamregiontransit.com/gtfsrealtime/VehiclePositions"
@@ -129,7 +125,6 @@ async def track_bus(request: BusTrackingRequest):
                 status_code=500, detail="Failed to fetch real-time data"
             )
         detail = []
-
         for entity in feed.entity:
             if entity.HasField('vehicle'):
                 vehicle = entity.vehicle
@@ -168,61 +163,59 @@ async def track_bus(request: BusTrackingRequest):
                                     order by shape_pt_sequence; """)
                         if shape_detail:
                             shape_detail_data = json.loads(shape_detail)
-                            # get the stop detail
-                            # print(shape_detail_data)
-
                             detail.append(shape_detail_data)
-                    # get the crowd of the bus from passanger 😀
+
+                    # Create a dictionary for crowd information
+                    crowd_dict = {}
+
+                    # get the crowd of the bus from passenger
                     crowd = db_query.execute_query(f"""
                         select passenger_in , passenger_out from passengers where vehicle_id = '{vehicle.vehicle.id}';
                                                     """)
                     if crowd != "[]":
+                        print(crowd)
                         crowd_data = json.loads(crowd)
                         passanger_in = crowd_data[0]['passenger_in']
                         passanger_out = crowd_data[0]['passenger_out']
                         if passanger_in and not passanger_out:
                             # if the bus is empty
-                            crowd_arr.append({"total_passenger": passanger_in})
-                            # if the passanger is more
+                            crowd_dict["total_passenger"] = passanger_in
+                            # if the passenger is more
                             if passanger_in < 25:
-                                crowd_arr.append({"crowd_color": "Green"})
-                                crowd_arr.append({"status": True})
+                                crowd_dict["crowd_color"] = "Green"
+                                crowd_dict["status"] = True
 
                             elif passanger_in < 50:
-                                crowd_arr.append({"crowd_color": "Yellow"})
-                                crowd_arr.append({"status": True})
+                                crowd_dict["crowd_color"] = "Yellow"
+                                crowd_dict["status"] = True
 
                             else:
-                                crowd_arr.append({"crowd_color": "Red"})
-                                crowd_arr.append({"status": False})
+                                crowd_dict["crowd_color"] = "Red"
+                                crowd_dict["status"] = False
 
                         elif passanger_in and passanger_out:
                             total_passenger = passanger_in - passanger_out
-                            crowd_arr.append(
-                                {"total_passenger": total_passenger})
+                            crowd_dict["total_passenger"] = total_passenger
                             if total_passenger < 25:
-                                crowd_arr.append({"crowd_color": "Green"})
+                                crowd_dict["crowd_color"] = "Green"
 
                             elif total_passenger < 50:
-                                crowd_arr.append({"crowd_color": "Yellow"})
+                                crowd_dict["crowd_color"] = "Yellow"
 
                             elif total_passenger < 60:
-                                crowd_arr.append({"crowd_color": "orange"})
+                                crowd_dict["crowd_color"] = "orange"
 
                             else:
-                                crowd_arr.append({"crowd_color": "Red"})
-                                # detail.append({"status": False})
+                                crowd_dict["crowd_color"] = "Red"
 
                         else:
-                            crowd_arr.append({"status": "not available"})
-                            crowd_arr.append({"crowd_color": "Blue"})
+                            crowd_dict["status"] = "not available"
+                            crowd_dict["crowd_color"] = "Blue"
                     else:
-                        crowd_arr.append({"status": "not available"})
-                        crowd_arr.append({"crowd_color": "Blue"})
+                        crowd_dict["status"] = "not available"
+                        crowd_dict["crowd_color"] = "Blue"
 
-                    print(crowd_arr)
-                    detail.append({"crowd": crowd_arr})
-
+                    detail.append(crowd_dict)
         return detail
 
     except Exception as e:
