@@ -1,1 +1,1 @@
-generating documantion : make html
+Documents link: https://hackthon-doc.vercel.app
