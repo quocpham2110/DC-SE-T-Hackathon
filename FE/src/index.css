@@ -9,16 +9,31 @@
 
 @keyframes slideIn {
     0% {
-        transform: translateX(50%);
+        transform: translateX(50%) skewX(-20deg);
         opacity: 0;
     }
 
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-50%) skew(20deg);
+        opacity: 1;
+    }
+}
+
+@keyframes popUp {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
         opacity: 1;
     }
 }
 
 .animate-slide-in {
-    animation: slideIn 1.5s ease-in-out 1s infinite;
+    animation: slideIn 2s ease-in-out infinite;
 }
+
+.animate-popup {
+    animation: popUp 2s infinite;
+}
+
