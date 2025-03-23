@@ -13,9 +13,13 @@ export const initialBusTracingkData: BusTrackingData = {
 		trip_headsign: '',
 		direction_name: '',
 		route_id: '',
-		crowd_color: 'Blue',
 	},
 	shapes: [],
+	crowd: {
+		status: false,
+		crowd_color: 'Blue',
+		total_passenger: 0,
+	},
 };
 
 export type BusStore = {

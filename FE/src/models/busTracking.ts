@@ -10,10 +10,14 @@ export type BusTrackingData = {
 		trip_headsign: string;
 		direction_name: string;
 		route_id: string;
-		crowd_color: string;
 	};
 	shapes: {
 		shape_pt_lat: number;
 		shape_pt_lon: number;
 	}[];
+	crowd: {
+		status: boolean;
+		crowd_color: string;
+		total_passenger: number;
+	};
 };

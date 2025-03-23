@@ -130,9 +130,11 @@ const SearchBox = () => {
 
     // Keep tracking bus 
     const handlekBusTracking = (busData: FilteredBusData) => {
-        if (busData.trip_id === selectedTrip?.trip_id)
+        if (busData.trip_id === selectedTrip?.trip_id) {
+            return;
+        }
 
-            console.log(`bus data: `, busData)
+        console.log(`bus data: `, busData)
         const body = {
             trip_id: busData.trip_id,
             vehicle_id: busData.vehicle_id
@@ -160,9 +162,13 @@ const SearchBox = () => {
                             trip_headsign: data[0].trip_headsign,
                             direction_name: data[0].direction_name,
                             route_id: data[0].route_id,
-                            crowd_color: data[3].crowd_color
                         },
                         shapes: data[1],
+                        crowd: {
+                            crowd_color: data[2]?.crowd_color,
+                            status: data[2]?.status,
+                            total_passenger: data[2]?.total_passenger
+                        }
                     })
                 } else {
                     alert('Cannot track this bus right now')
@@ -185,7 +191,7 @@ const SearchBox = () => {
                         <ul className='absolute top-full mt-2 p-1 bg-white rounded-md w-full gap-y-1 max-h-[40vh] overflow-y-auto'>
                             {filterRoutes.map((route: string) =>
                                 <li className='text-center py-2 rounded-md cursor-pointer
-                            hover:bg-map-primary'
+                                  hover:bg-map-primary'
                                     key={route}
                                     onClick={() => handleSelectRoute(route)}
                                 >
