@@ -116,6 +116,7 @@ async def get_vehicle_position():
 
 @router.post("/transit/track-bus")
 async def track_bus(request: BusTrackingRequest):
+    crowd_arr = []
     try:
         feed = parse_realtime_data(
             "https://drtonline.durhamregiontransit.com/gtfsrealtime/VehiclePositions"
@@ -178,42 +179,47 @@ async def track_bus(request: BusTrackingRequest):
                         passanger_out = crowd_data[0]['passenger_out']
                         if passanger_in and not passanger_out:
                             # if the bus is empty
-                            detail.append({"total_passenger": passanger_in})
+                            crowd_arr.append({"total_passenger": passanger_in})
                             # if the passanger is more
                             if passanger_in < 25:
-                                detail.append({"crowd_color": "Green"})
-                                detail.append({"status": True})
+                                crowd_arr.append({"crowd_color": "Green"})
+                                crowd_arr.append({"status": True})
 
                             elif passanger_in < 50:
-                                detail.append({"crowd_color": "Yellow"})
-                                detail.append({"status": True})
+                                crowd_arr.append({"crowd_color": "Yellow"})
+                                crowd_arr.append({"status": True})
 
                             else:
-                                detail.append({"crowd_color": "Red"})
-                                detail.append({"status": False})
+                                crowd_arr.append({"crowd_color": "Red"})
+                                crowd_arr.append({"status": False})
 
                         elif passanger_in and passanger_out:
                             total_passenger = passanger_in - passanger_out
-                            detail.append({"total_passenger": total_passenger})
+                            crowd_arr.append(
+                                {"total_passenger": total_passenger})
                             if total_passenger < 25:
-                                detail.append({"crowd_color": "Green"})
+                                crowd_arr.append({"crowd_color": "Green"})
 
                             elif total_passenger < 50:
-                                detail.append({"crowd_color": "Yellow"})
+                                crowd_arr.append({"crowd_color": "Yellow"})
 
                             elif total_passenger < 60:
-                                detail.append({"crowd_color": "orange"})
+                                crowd_arr.append({"crowd_color": "orange"})
 
                             else:
-                                detail.append({"crowd_color": "Red"})
+                                crowd_arr.append({"crowd_color": "Red"})
                                 # detail.append({"status": False})
 
                         else:
-                            detail.append({"status": "not available"})
-                            detail.append({"crowd_color": "Blue"})
+                            crowd_arr.append({"status": "not available"})
+                            crowd_arr.append({"crowd_color": "Blue"})
                     else:
-                        detail.append({"status": "not available"})
-                        detail.append({"crowd_color": "Blue"})
+                        crowd_arr.append({"status": "not available"})
+                        crowd_arr.append({"crowd_color": "Blue"})
+
+                    print(crowd_arr)
+                    detail.append({"crowd": crowd_arr})
+
         return detail
 
     except Exception as e:
