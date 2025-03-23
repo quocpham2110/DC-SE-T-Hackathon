@@ -117,7 +117,7 @@ const BusTracking = () => {
                             shapes: data[1],
                             crowd: {
                                 crowd_color: data[2]?.crowd_color,
-                                status: data[2]?.status,
+                                status: !(data[2]?.status === false),
                                 total_passenger: data[2]?.total_passenger
                             }
                         })
@@ -162,10 +162,10 @@ const BusTracking = () => {
                 busPosition[0] + busPosition[1] !== 0 &&
                 < Marker position={busPosition} icon={busIcon} ref={busRef}>
                     <Popup autoPan={true} closeButton={false}>
-                        <div className='text-xl font-bold flex flex-row items-center justify-between mb-4'>
+                        <div className={`text-xl font-bold flex flex-row items-center justify-between mb-4`}>
                             <span className='text-map-primary'>🚌 Bus {info.route_id}</span>
-                            <button className='cursor-pointer text-map-secondary rounded-full p-1
-                                hover:text-map-primary hover:shadow-lg'
+                            <button className={`cursor-pointer text-map-secondary rounded-full p-1
+                                hover:text-map-primary ${isRefresh ? 'animate-spin' : ''}`}
                                 disabled={isRefresh}
                                 onClick={refreshBusTracking}
                             >
