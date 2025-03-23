@@ -41,7 +41,7 @@ const SearchBox = () => {
 
     const handleOnBlur = () => {
         // set a delay let browser accept clicking event from user if they choose a route
-        setTimeout(() => setFilteredRoutes([]), 100)
+        setTimeout(() => setFilteredRoutes([]), 200)
     }
 
     //
@@ -52,8 +52,7 @@ const SearchBox = () => {
         fetchingTrips(route)
     }
 
-    const [fetching, setFetching] = useState<boolean>(false)
-
+    const [tripFetching, setTripFetching] = useState<boolean>(false)
 
     // Everytime route is selected => fetch API get the trips (realtime) and filter it.
     const fetchingVehiclePosition = useCallback(() => {
@@ -67,7 +66,7 @@ const SearchBox = () => {
 
     const fetchingTrips = useCallback((route: string) => {
         if (routeIds.includes(route)) {
-            setFetching(true)
+            setTripFetching(true)
             fetch(`${apiURL}/${endPoints.trips}`)
                 .then(res => res.json())
                 .then((data: TripsData) => {
@@ -98,6 +97,7 @@ const SearchBox = () => {
                 })
                 .then(async (buses: FilteredBusData[]) => {
                     if (!buses.length) {
+                        setFilteredTrips([])
                         return;
                     }
                     try {
@@ -120,16 +120,17 @@ const SearchBox = () => {
                     }
                 })
                 .finally(() => {
-                    setFetching(false)
+                    setTripFetching(false)
                 })
         }
     }, [routeIds, fetchingVehiclePosition])
 
 
     const { setData } = useBusTrackingStore(state => state)
+    const [busFetching, setBusFetching] = useState<boolean>(false)
 
     // Keep tracking bus 
-    const handlekBusTracking = (busData: FilteredBusData) => {
+    const handleBusTracking = (busData: FilteredBusData) => {
         if (busData.trip_id === selectedTrip?.trip_id) {
             return;
         }
@@ -140,6 +141,9 @@ const SearchBox = () => {
             vehicle_id: busData.vehicle_id
         }
 
+        setBusFetching(true)
+        setSelectedTrip(busData)
+
         fetch(`${apiURL}/${endPoints.trackBus}`, {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
@@ -149,7 +153,6 @@ const SearchBox = () => {
             .then((data) => {
                 console.log(`[API-POST-track-bus] `, data)
                 if (data.length) {
-                    setSelectedTrip(busData)
                     setData({
                         info: {
                             position: {
@@ -166,7 +169,7 @@ const SearchBox = () => {
                         shapes: data[1],
                         crowd: {
                             crowd_color: data[2]?.crowd_color,
-                            status: data[2]?.status,
+                            status: !(data[2]?.status === false),
                             total_passenger: data[2]?.total_passenger
                         }
                     })
@@ -174,12 +177,13 @@ const SearchBox = () => {
                     alert('Cannot track this bus right now')
                 }
             })
+            .finally(() => setBusFetching(false))
     }
 
     return (
         <>
             <div className='relative'>
-                <input className='w-full px-4 py-3 outline-map-primary bg-white rounded-lg'
+                <input className='w-full px-4 py-3 outline-map-primary bg-white rounded-lg text-map-secondary'
                     onChange={handleOnChange}
                     onFocus={handleOnFocus}
                     onBlur={handleOnBlur}
@@ -190,7 +194,7 @@ const SearchBox = () => {
                     filterRoutes.length > 0 && (
                         <ul className='absolute top-full mt-2 p-1 bg-white rounded-md w-full gap-y-1 max-h-[40vh] overflow-y-auto'>
                             {filterRoutes.map((route: string) =>
-                                <li className='text-center py-2 rounded-md cursor-pointer
+                                <li className='text-center py-2 rounded-md cursor-pointer text-map-secondary
                                   hover:bg-map-primary'
                                     key={route}
                                     onClick={() => handleSelectRoute(route)}
@@ -225,7 +229,7 @@ const SearchBox = () => {
 
             {/* Show the list of filterd and transformed buses data */}
             {
-                selectedRoute && !fetching && (
+                selectedRoute && !tripFetching && (
                     <div className='text-map-primary mt-3'>
                         <p className='italic text-sm'>
                             {filteredTrips.length} live bus{filteredTrips.length > 1 ? 'es' : ''} found
@@ -235,10 +239,10 @@ const SearchBox = () => {
                                 filteredTrips.length > 0 && filteredTrips.map((busData: FilteredBusData) => (
                                     <li key={busData.trip_id}
                                         className={selectedTrip?.trip_id === busData.trip_id ?
-                                            `px-3 py-2 text-smrounded-md border  bg-gray-600 rounded-md` :
+                                            `px-3 py-2 text-smrounded-md border  bg-gray-600 rounded-md relative` :
                                             `text-gray-100 px-3 py-2 rounded-md border border-map-primary
-                                            hover:bg-map-primary hover:text-map-secondary cursor-pointer`}
-                                        onClick={() => handlekBusTracking(busData)}
+                                            hover:bg-map-primary hover:text-map-secondary cursor-pointer relative`}
+                                        onClick={() => handleBusTracking(busData)}
                                     >
                                         <p>
                                             {busData.direction_name}
@@ -246,6 +250,13 @@ const SearchBox = () => {
                                         <p>
                                             {busData.trip_headsign}
                                         </p>
+                                        {
+                                            busFetching && selectedTrip?.trip_id === busData.trip_id && (
+                                                <div className='absolute top-1/2 right-2 -translate-y-1/2 '>
+                                                    <span className='inline-block w-6 h-6 border-3 border-t-transparent border-map-primary animate-spin rounded-full'></span>
+                                                </div>
+                                            )
+                                        }
                                     </li>
                                 ))}
                         </ul>
@@ -255,7 +266,7 @@ const SearchBox = () => {
 
             {/* Show the loading icon */}
             {
-                fetching && (
+                tripFetching && (
                     <div className='text-center mt-4'>
                         <span className='inline-block w-10 h-10 border-4 border-t-transparent border-map-primary animate-spin rounded-full'></span>
                     </div>

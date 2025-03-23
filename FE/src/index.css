@@ -6,3 +6,19 @@
     --color-map-primary: #75c3aa;
     --color-map-secondary: #2a473e;
 }
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+}
+
+.animate-slide-in {
+    animation: slideIn 1.5s ease-in-out 1s infinite;
+}
