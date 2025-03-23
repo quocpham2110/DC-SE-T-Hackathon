@@ -76,7 +76,7 @@ def parse_realtime_data(filelink):
 
 
 @update_passanger.post("/update_passengers")
-async def Update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
+async def update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
     """Fetch real-time transit trip updates."""
 
     # Fetch real-time vehicle data
@@ -90,14 +90,17 @@ async def Update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
         )
 
     for entity in feed.entity:
-        vehicle = entity.vehicle
-        # Correctly accessing vehicle ID
-        if hasattr(vehicle, "vehicle") and data.vehicle_id == vehicle.vehicle.id:
-            db_query = Queries()
+        if entity.HasField('vehicle'):
+            vehicle = entity.vehicle
+            print(vehicle)
+            if (
+                vehicle.vehicle.id == data.vehicle_id
+            ):
+                db_query = Queries()
 
-            # Insert or Update passenger_in count
-            if data.passenger_in:
-                db_query.run_query(f"""
+                # Insert or Update passenger_in count
+                if data.passenger_in:
+                    db_query.run_query(f"""
                         INSERT INTO passengers ( vehicle_id, passenger_in, timestamp)
                         VALUES ('{data.vehicle_id}',  {data.passenger_in}, '{data.timestamp}')
                         ON CONFLICT (vehicle_id)
@@ -105,11 +108,11 @@ async def Update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
                             passenger_in = COALESCE(passengers.passenger_in, 0) + {data.passenger_in},
                             timestamp = '{data.timestamp}';
                     """)
-                return {"message": "Passenger count updated successfully for passenger_in"}
+                    return {"message": "Passenger count updated successfully for passenger_in"}
 
-            # Insert or Update passenger_out count
-            elif data.passenger_out:
-                db_query.run_query(f"""
+                # Insert or Update passenger_out count
+                elif data.passenger_out:
+                    db_query.run_query(f"""
                         INSERT INTO passengers ( vehicle_id,  passenger_out, timestamp)
                         VALUES ( '{data.vehicle_id}',  {data.passenger_out}, '{data.timestamp}')
                         ON CONFLICT (vehicle_id)
@@ -117,7 +120,7 @@ async def Update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
                             passenger_out = COALESCE(passengers.passenger_out, 0) + {data.passenger_out},
                             timestamp = '{data.timestamp}';
                     """)
-                return {"message": "Passenger count updated successfully for passenger_out"}
+                    return {"message": "Passenger count updated successfully for passenger_out"}
 
     raise HTTPException(status_code=404, detail="Vehicle not found")
 
