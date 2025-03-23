@@ -192,14 +192,14 @@ const SearchBox = () => {
                 />
                 {
                     filterRoutes.length > 0 && (
-                        <ul className='absolute top-full mt-2 p-1 bg-white rounded-md w-full gap-y-1 max-h-[40vh] overflow-y-auto'>
+                        <ul className='absolute top-full mt-2 p-1 bg-white rounded-md w-full gap-y-1 max-h-[40vh] overflow-y-auto z-1000'>
                             {filterRoutes.map((route: string) =>
                                 <li className='text-center py-2 rounded-md cursor-pointer text-map-secondary
                                   hover:bg-map-primary'
                                     key={route}
                                     onClick={() => handleSelectRoute(route)}
                                 >
-                                    {route}
+                                    Bus {route}
                                 </li>
                             )}
                         </ul>
