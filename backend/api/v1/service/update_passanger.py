@@ -86,23 +86,32 @@ async def update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
 
     if not feed:
         raise HTTPException(
-            status_code=500, detail="Failed to fetch real-time data"
-        )
+            status_code=500, detail="Failed to fetch real-time data")
 
     for entity in feed.entity:
-        if entity.HasField('vehicle'):
+        if entity.HasField("vehicle"):
             vehicle = entity.vehicle
-            print(vehicle)
-            if (
-                vehicle.vehicle.id == data.vehicle_id
-            ):
+            if vehicle.vehicle.id == data.vehicle_id:
                 db_query = Queries()
 
-                # Insert or Update passenger_in count
-                if data.passenger_in:
+                # When both passenger_in and passenger_out exist
+                if data.passenger_in is not None and data.passenger_out is not None:
                     db_query.run_query(f"""
-                        INSERT INTO passengers ( vehicle_id, passenger_in, timestamp)
-                        VALUES ('{data.vehicle_id}',  {data.passenger_in}, '{data.timestamp}')
+                        INSERT INTO passengers (vehicle_id, passenger_in, passenger_out, timestamp)
+                        VALUES ('{data.vehicle_id}', {data.passenger_in}, {data.passenger_out}, '{data.timestamp}')
+                        ON CONFLICT (vehicle_id)
+                        DO UPDATE SET 
+                            passenger_in = COALESCE(passengers.passenger_in, 0) + {data.passenger_in},
+                            passenger_out = COALESCE(passengers.passenger_out, 0) + {data.passenger_out},
+                            timestamp = '{data.timestamp}';
+                    """)
+                    return {"message": "Passenger count updated successfully for both in and out"}
+
+                # When only passenger_in exists
+                elif data.passenger_in is not None:
+                    db_query.run_query(f"""
+                        INSERT INTO passengers (vehicle_id, passenger_in, timestamp)
+                        VALUES ('{data.vehicle_id}', {data.passenger_in}, '{data.timestamp}')
                         ON CONFLICT (vehicle_id)
                         DO UPDATE SET 
                             passenger_in = COALESCE(passengers.passenger_in, 0) + {data.passenger_in},
@@ -110,11 +119,11 @@ async def update_passangers(data: PassengerUpdate, _=Depends(verify_api_key)):
                     """)
                     return {"message": "Passenger count updated successfully for passenger_in"}
 
-                # Insert or Update passenger_out count
-                elif data.passenger_out:
+                # When only passenger_out exists
+                elif data.passenger_out is not None:
                     db_query.run_query(f"""
-                        INSERT INTO passengers ( vehicle_id,  passenger_out, timestamp)
-                        VALUES ( '{data.vehicle_id}',  {data.passenger_out}, '{data.timestamp}')
+                        INSERT INTO passengers (vehicle_id, passenger_out, timestamp)
+                        VALUES ('{data.vehicle_id}', {data.passenger_out}, '{data.timestamp}')
                         ON CONFLICT (vehicle_id)
                         DO UPDATE SET 
                             passenger_out = COALESCE(passengers.passenger_out, 0) + {data.passenger_out},
