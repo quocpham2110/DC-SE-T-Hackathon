@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Stack Used &#8212; bus buddy 1.0.0.0 documentation</title>
+    <title>Database Structure &#8212; bus buddy 1.0.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="_static/basic_mod.css?v=9b2032db" />
     <script src="_static/documentation_options.js?v=2ab8bd80"></script>
@@ -15,8 +15,8 @@
     <script src="_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="API Docs" href="api.html" />
-    <link rel="prev" title="Setup Buss Buddy" href="installation.html" /> 
+    <link rel="next" title="AI Implementation" href="Ai.html" />
+    <link rel="prev" title="API Docs" href="api.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -121,11 +121,11 @@
         <div class="sphinxsidebarwrapper"><p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Setup Buss Buddy</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Stack Used</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="stack_used.html">Stack Used</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API Docs</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Database Structure</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API Docs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="database.html">Database Structure</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Ai.html">AI Implementation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="alerts.html">Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="driver.html">Driver Documentation</a></li>
@@ -140,46 +140,60 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="stack-used">
-<h1>Stack Used<a class="headerlink" href="#stack-used" title="Link to this heading">¶</a></h1>
-<p>This section outlines the technologies and tools used in the Bus Buddy project.</p>
+  <section id="database-structure">
+<h1>Database Structure<a class="headerlink" href="#database-structure" title="Link to this heading">¶</a></h1>
+<p>This section outlines the structure of the database and the associated files used for interacting with the database.</p>
 <div class="toctree-wrapper compound">
 </div>
-<section id="technologies-used">
-<h2>Technologies Used<a class="headerlink" href="#technologies-used" title="Link to this heading">¶</a></h2>
-<p>### FastAPI
-- <strong>Description</strong>: FastAPI is used as the backend framework for creating APIs quickly and efficiently. It offers support for modern Python features like type hints and asynchronous processing.
-- <strong>Use</strong>: All backend services and API endpoints are built using FastAPI.</p>
-<p>### Redis
-- <strong>Description</strong>: Redis is used for caching and storing temporary data.
-- <strong>Use</strong>: Helps improve performance by caching frequently accessed data, reducing the load on the database.</p>
-<p>### React
-- <strong>Description</strong>: React is used for building the user interface of the web application.
-- <strong>Use</strong>: The frontend is built using React for a responsive and dynamic user experience.</p>
-<p>### Open Data
-- <strong>Description</strong>: Open Data refers to publicly available datasets that provide useful information such as real-time transit data, bus routes, and more.
-- <strong>Use</strong>: Utilized for fetching transit data in real-time and enriching the application’s functionality.</p>
-<p>### Protocol Buffers (Protobuf)
-- <strong>Description</strong>: Protocol Buffers are used for serializing structured data, especially in cases of inter-service communication.
-- <strong>Use</strong>: Protobuf helps in efficient and compact data transfer between services.</p>
-<p>### Rate Limiter
-- <strong>Description</strong>: A rate limiter is used to restrict the number of requests that can be made to the API within a certain time frame.
-- <strong>Use</strong>: Prevents abuse and ensures fair use of API resources.</p>
-<p>### YOLO (You Only Look Once)
-- <strong>Description</strong>: YOLO is a real-time object detection system.
-- <strong>Use</strong>: Used for detecting buses and other objects from live video feeds or images, providing real-time tracking and analysis.</p>
-<p>### Tailwind CSS
-- <strong>Description</strong>: Tailwind CSS is a utility-first CSS framework.
-- <strong>Use</strong>: Used for styling the frontend with customizable classes to build a visually appealing UI without writing custom CSS from scratch.</p>
-<p>### OpenStreetMap (OSM)
-- <strong>Description</strong>: OpenStreetMap is a free map data provider.
-- <strong>Use</strong>: Integrated to provide interactive maps for displaying bus locations and routes.</p>
-<p>### GTFS Static Data
-- <strong>Description</strong>: GTFS (General Transit Feed Specification) static data provides information about bus schedules, routes, and other transit information.
-- <strong>Use</strong>: Used to generate the schedules and route details in the application.</p>
-<p>### PostgreSQL
-- <strong>Description</strong>: PostgreSQL is a relational database management system.
-- <strong>Use</strong>: Used for storing and querying data such as user information, bus details, and transit updates in a structured way.</p>
+<section id="files-overview">
+<h2>Files Overview<a class="headerlink" href="#files-overview" title="Link to this heading">¶</a></h2>
+<p>### <cite>connection.py</cite>
+- <strong>Purpose</strong>: Establishes a secure connection to the database.
+- <strong>Details</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><cite>connection.py</cite> handles the connection setup by reading the necessary credentials from <cite>.env</cite> files for security.</p></li>
+<li><p>The required data for setting up the connection:
+1. <strong>Database Name</strong>: Name of the database to connect to.
+2. <strong>User Name</strong>: Username for authenticating the connection.
+3. <strong>Password</strong>: Password for the user.
+4. <strong>Host</strong>: The host (IP or domain) where the database is located.
+5. <strong>Port</strong>: Port number for connecting to the database.</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Security</strong>: The connection details, including credentials, are stored in a <cite>.env</cite> file for improved security and confidentiality. This file is never committed to version control.</p></li>
+</ul>
+<p>### <cite>dbsetup.py</cite>
+- <strong>Purpose</strong>: Sets up the database and creates necessary tables.
+- <strong>Details</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>This script is used to initialize the database by creating the required tables and structures based on the application’s needs.</p></li>
+<li><p>Tables are created for storing user information, transit data, bus schedules, and other required data related to the application.</p></li>
+<li><p>It ensures that all tables and their relationships are set up correctly in accordance with the application’s functionality.</p></li>
+</ul>
+</div></blockquote>
+<p>### <cite>load_gtfs.py</cite>
+- <strong>Purpose</strong>: Loads GTFS (General Transit Feed Specification) data into the database.
+- <strong>Details</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>This script fetches GTFS data from the <cite>gtfs</cite> folder and imports it into the database.</p></li>
+<li><p>It reads various GTFS files such as routes, trips, stops, and schedules, and inserts the data into the relevant database tables.</p></li>
+<li><p>Useful for keeping the database up-to-date with the latest transit data.</p></li>
+</ul>
+</div></blockquote>
+<p>### <cite>queries.py</cite>
+- <strong>Purpose</strong>: Executes database queries and retrieves data.
+- <strong>Details</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>This script is responsible for executing queries against the database to retrieve specific data.</p></li>
+<li><p>It supports various types of queries, such as fetching transit trip updates, passenger data, vehicle positions, and other relevant information.</p></li>
+<li><p>It abstracts database operations, providing easy-to-use functions for interacting with the database.</p></li>
+</ul>
+</div></blockquote>
 </section>
 </section>
 
@@ -197,8 +211,8 @@
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Stack Used</a><ul>
-<li><a class="reference internal" href="#technologies-used">Technologies Used</a></li>
+<li><a class="reference internal" href="#">Database Structure</a><ul>
+<li><a class="reference internal" href="#files-overview">Files Overview</a></li>
 </ul>
 </li>
 </ul>
@@ -213,14 +227,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="installation.html">
-                    <span class="icon">&lt;</span><span>Setup Buss Buddy</span></a>
+                <a href="api.html">
+                    <span class="icon">&lt;</span><span>API Docs</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="api.html"><span>API Docs</span><span class="icon">&gt;</span></a>
+                    <a href="Ai.html"><span>AI Implementation</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>

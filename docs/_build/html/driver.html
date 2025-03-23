@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Stack Used &#8212; bus buddy 1.0.0.0 documentation</title>
+    <title>Driver Documentation &#8212; bus buddy 1.0.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="_static/basic_mod.css?v=9b2032db" />
     <script src="_static/documentation_options.js?v=2ab8bd80"></script>
@@ -15,8 +15,7 @@
     <script src="_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="API Docs" href="api.html" />
-    <link rel="prev" title="Setup Buss Buddy" href="installation.html" /> 
+    <link rel="prev" title="Alerts" href="alerts.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -121,14 +120,14 @@
         <div class="sphinxsidebarwrapper"><p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Setup Buss Buddy</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Stack Used</a><ul class="simple">
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="stack_used.html">Stack Used</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="database.html">Database Structure</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Ai.html">AI Implementation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="alerts.html">Alerts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="driver.html">Driver Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Driver Documentation</a><ul class="simple">
+</ul>
+</li>
 </ul>
 
         </div>
@@ -140,46 +139,22 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="stack-used">
-<h1>Stack Used<a class="headerlink" href="#stack-used" title="Link to this heading">¶</a></h1>
-<p>This section outlines the technologies and tools used in the Bus Buddy project.</p>
+  <section id="driver-documentation">
+<h1>Driver Documentation<a class="headerlink" href="#driver-documentation" title="Link to this heading">¶</a></h1>
+<p>This section explains the functionality that allows bus drivers to update the status of their buses and communicate directly with users, ensuring they are informed about the current status of the bus they are waiting for.</p>
 <div class="toctree-wrapper compound">
 </div>
-<section id="technologies-used">
-<h2>Technologies Used<a class="headerlink" href="#technologies-used" title="Link to this heading">¶</a></h2>
-<p>### FastAPI
-- <strong>Description</strong>: FastAPI is used as the backend framework for creating APIs quickly and efficiently. It offers support for modern Python features like type hints and asynchronous processing.
-- <strong>Use</strong>: All backend services and API endpoints are built using FastAPI.</p>
-<p>### Redis
-- <strong>Description</strong>: Redis is used for caching and storing temporary data.
-- <strong>Use</strong>: Helps improve performance by caching frequently accessed data, reducing the load on the database.</p>
-<p>### React
-- <strong>Description</strong>: React is used for building the user interface of the web application.
-- <strong>Use</strong>: The frontend is built using React for a responsive and dynamic user experience.</p>
-<p>### Open Data
-- <strong>Description</strong>: Open Data refers to publicly available datasets that provide useful information such as real-time transit data, bus routes, and more.
-- <strong>Use</strong>: Utilized for fetching transit data in real-time and enriching the application’s functionality.</p>
-<p>### Protocol Buffers (Protobuf)
-- <strong>Description</strong>: Protocol Buffers are used for serializing structured data, especially in cases of inter-service communication.
-- <strong>Use</strong>: Protobuf helps in efficient and compact data transfer between services.</p>
-<p>### Rate Limiter
-- <strong>Description</strong>: A rate limiter is used to restrict the number of requests that can be made to the API within a certain time frame.
-- <strong>Use</strong>: Prevents abuse and ensures fair use of API resources.</p>
-<p>### YOLO (You Only Look Once)
-- <strong>Description</strong>: YOLO is a real-time object detection system.
-- <strong>Use</strong>: Used for detecting buses and other objects from live video feeds or images, providing real-time tracking and analysis.</p>
-<p>### Tailwind CSS
-- <strong>Description</strong>: Tailwind CSS is a utility-first CSS framework.
-- <strong>Use</strong>: Used for styling the frontend with customizable classes to build a visually appealing UI without writing custom CSS from scratch.</p>
-<p>### OpenStreetMap (OSM)
-- <strong>Description</strong>: OpenStreetMap is a free map data provider.
-- <strong>Use</strong>: Integrated to provide interactive maps for displaying bus locations and routes.</p>
-<p>### GTFS Static Data
-- <strong>Description</strong>: GTFS (General Transit Feed Specification) static data provides information about bus schedules, routes, and other transit information.
-- <strong>Use</strong>: Used to generate the schedules and route details in the application.</p>
-<p>### PostgreSQL
-- <strong>Description</strong>: PostgreSQL is a relational database management system.
-- <strong>Use</strong>: Used for storing and querying data such as user information, bus details, and transit updates in a structured way.</p>
+<section id="driver-overview">
+<h2>Driver Overview<a class="headerlink" href="#driver-overview" title="Link to this heading">¶</a></h2>
+<p>The system enables bus drivers to take control of the bus status, allowing them to update and communicate important information to users, such as whether the bus is in service or unavailable.</p>
+<p>### Problem Addressed
+One of the challenges Durham Region faces is the slow process of notifying passengers when a bus is no longer in service or when something unexpected happens. This system aims to solve that issue by giving drivers the ability to update the bus status in real-time.</p>
+<p>### Driver Functionality
+- <strong>Status Updates</strong>: Drivers can update the status of the bus they are operating. For example, they can mark the bus as “Not in Service” if there are issues, or update the status if there are delays or other incidents.
+- <strong>User Communication</strong>: Once the driver updates the bus status, users waiting for that bus are immediately notified of the changes, ensuring they are informed in real-time.</p>
+<p>### Technology Stack
+- <strong>Frontend</strong>: Built using React, Vite, and TypeScript, providing a fast and responsive interface for bus drivers.
+- <strong>Driver-Friendly Panel</strong>: The system includes a user-friendly panel that allows drivers to log in securely and easily change the status of their bus. The interface is designed to be intuitive, ensuring that drivers can make updates quickly and efficiently.</p>
 </section>
 </section>
 
@@ -197,8 +172,8 @@
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Stack Used</a><ul>
-<li><a class="reference internal" href="#technologies-used">Technologies Used</a></li>
+<li><a class="reference internal" href="#">Driver Documentation</a><ul>
+<li><a class="reference internal" href="#driver-overview">Driver Overview</a></li>
 </ul>
 </li>
 </ul>
@@ -213,14 +188,12 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="installation.html">
-                    <span class="icon">&lt;</span><span>Setup Buss Buddy</span></a>
+                <a href="alerts.html">
+                    <span class="icon">&lt;</span><span>Alerts</span></a>
                 
             </div>
 
             <div class="right">
-                
-                    <a href="api.html"><span>API Docs</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>

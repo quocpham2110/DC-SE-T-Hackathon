@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Stack Used &#8212; bus buddy 1.0.0.0 documentation</title>
+    <title>Setup Buss Buddy &#8212; bus buddy 1.0.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="_static/basic_mod.css?v=9b2032db" />
     <script src="_static/documentation_options.js?v=2ab8bd80"></script>
@@ -15,8 +15,8 @@
     <script src="_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="API Docs" href="api.html" />
-    <link rel="prev" title="Setup Buss Buddy" href="installation.html" /> 
+    <link rel="next" title="Stack Used" href="stack_used.html" />
+    <link rel="prev" title="Bus Buddy Documentation" href="index.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -120,10 +120,10 @@
       <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper"><p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Setup Buss Buddy</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Stack Used</a><ul class="simple">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Setup Buss Buddy</a><ul class="simple">
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="stack_used.html">Stack Used</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="database.html">Database Structure</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Ai.html">AI Implementation</a></li>
@@ -140,46 +140,57 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="stack-used">
-<h1>Stack Used<a class="headerlink" href="#stack-used" title="Link to this heading">¶</a></h1>
-<p>This section outlines the technologies and tools used in the Bus Buddy project.</p>
+  <section id="setup-buss-buddy">
+<h1>Setup Buss Buddy<a class="headerlink" href="#setup-buss-buddy" title="Link to this heading">¶</a></h1>
+<p>To set up Buss Buddy, follow the instructions below to ensure all necessary dependencies are installed and configured.</p>
 <div class="toctree-wrapper compound">
 </div>
-<section id="technologies-used">
-<h2>Technologies Used<a class="headerlink" href="#technologies-used" title="Link to this heading">¶</a></h2>
-<p>### FastAPI
-- <strong>Description</strong>: FastAPI is used as the backend framework for creating APIs quickly and efficiently. It offers support for modern Python features like type hints and asynchronous processing.
-- <strong>Use</strong>: All backend services and API endpoints are built using FastAPI.</p>
-<p>### Redis
-- <strong>Description</strong>: Redis is used for caching and storing temporary data.
-- <strong>Use</strong>: Helps improve performance by caching frequently accessed data, reducing the load on the database.</p>
-<p>### React
-- <strong>Description</strong>: React is used for building the user interface of the web application.
-- <strong>Use</strong>: The frontend is built using React for a responsive and dynamic user experience.</p>
-<p>### Open Data
-- <strong>Description</strong>: Open Data refers to publicly available datasets that provide useful information such as real-time transit data, bus routes, and more.
-- <strong>Use</strong>: Utilized for fetching transit data in real-time and enriching the application’s functionality.</p>
-<p>### Protocol Buffers (Protobuf)
-- <strong>Description</strong>: Protocol Buffers are used for serializing structured data, especially in cases of inter-service communication.
-- <strong>Use</strong>: Protobuf helps in efficient and compact data transfer between services.</p>
-<p>### Rate Limiter
-- <strong>Description</strong>: A rate limiter is used to restrict the number of requests that can be made to the API within a certain time frame.
-- <strong>Use</strong>: Prevents abuse and ensures fair use of API resources.</p>
-<p>### YOLO (You Only Look Once)
-- <strong>Description</strong>: YOLO is a real-time object detection system.
-- <strong>Use</strong>: Used for detecting buses and other objects from live video feeds or images, providing real-time tracking and analysis.</p>
-<p>### Tailwind CSS
-- <strong>Description</strong>: Tailwind CSS is a utility-first CSS framework.
-- <strong>Use</strong>: Used for styling the frontend with customizable classes to build a visually appealing UI without writing custom CSS from scratch.</p>
-<p>### OpenStreetMap (OSM)
-- <strong>Description</strong>: OpenStreetMap is a free map data provider.
-- <strong>Use</strong>: Integrated to provide interactive maps for displaying bus locations and routes.</p>
-<p>### GTFS Static Data
-- <strong>Description</strong>: GTFS (General Transit Feed Specification) static data provides information about bus schedules, routes, and other transit information.
-- <strong>Use</strong>: Used to generate the schedules and route details in the application.</p>
-<p>### PostgreSQL
-- <strong>Description</strong>: PostgreSQL is a relational database management system.
-- <strong>Use</strong>: Used for storing and querying data such as user information, bus details, and transit updates in a structured way.</p>
+<section id="setting-up-the-backend">
+<h2>Setting Up the Backend<a class="headerlink" href="#setting-up-the-backend" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Install Python</strong>: Make sure you have Python 3.8 or higher installed.</p></li>
+<li><p><strong>Install pip</strong>: Ensure that pip is installed to manage Python packages.</p></li>
+<li><p><strong>Install PostgreSQL</strong>: PostgreSQL must be installed for the database setup.</p></li>
+<li><p><strong>Install Required Python Packages</strong>: Use the following command to install the required Python dependencies:</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span>
+<span class="pre">`</span></code></p>
+<p>5. <strong>Set Up the Database</strong>: You must have PostgreSQL running on your system. Fill in the required database connection information in the <cite>.env</cite> file.
+- A sample <cite>.env</cite> file is available in the root directory as <cite>.env.copy</cite>. Copy it to <cite>.env</cite> and fill in the necessary database information.</p>
+<ol class="arabic simple" start="6">
+<li><p><strong>Run the Backend Server</strong>: Once the requirements and database are set up, start the backend server using:</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">uvicorn</span> <span class="pre">main:app</span> <span class="pre">--reload</span>
+<span class="pre">`</span></code></p>
+<ul class="simple">
+<li><p>This will start the FastAPI backend server and make it available for use.</p></li>
+</ul>
+</section>
+<section id="setting-up-the-frontend">
+<h2>Setting Up the Frontend<a class="headerlink" href="#setting-up-the-frontend" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Install Node.js</strong>: Ensure that Node.js and npm (Node package manager) are installed.</p></li>
+<li><p><strong>Install Frontend Packages</strong>: In the frontend directory, run the following command to install the required npm packages:</p></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">npm</span> <span class="pre">install</span>
+<span class="pre">`</span></code></p>
+<p>3. <strong>Run the Frontend</strong>: Once the packages are installed, you can run the frontend application with one of the following commands:
+- For development:</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">npm</span> <span class="pre">run</span> <span class="pre">dev</span>
+<span class="pre">`</span></code></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>To build the production version:
+<code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">npm</span> <span class="pre">run</span> <span class="pre">build</span>
+<span class="pre">`</span></code></p></li>
+</ul>
+<p>After completing these steps, your Buss Buddy setup is ready!</p>
 </section>
 </section>
 
@@ -197,8 +208,9 @@
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Stack Used</a><ul>
-<li><a class="reference internal" href="#technologies-used">Technologies Used</a></li>
+<li><a class="reference internal" href="#">Setup Buss Buddy</a><ul>
+<li><a class="reference internal" href="#setting-up-the-backend">Setting Up the Backend</a></li>
+<li><a class="reference internal" href="#setting-up-the-frontend">Setting Up the Frontend</a></li>
 </ul>
 </li>
 </ul>
@@ -213,14 +225,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="installation.html">
-                    <span class="icon">&lt;</span><span>Setup Buss Buddy</span></a>
+                <a href="index.html">
+                    <span class="icon">&lt;</span><span>Bus Buddy Documentation</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="api.html"><span>API Docs</span><span class="icon">&gt;</span></a>
+                    <a href="stack_used.html"><span>Stack Used</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>

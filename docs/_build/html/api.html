@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Stack Used &#8212; bus buddy 1.0.0.0 documentation</title>
+    <title>API Docs &#8212; bus buddy 1.0.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="_static/basic_mod.css?v=9b2032db" />
     <script src="_static/documentation_options.js?v=2ab8bd80"></script>
@@ -15,8 +15,8 @@
     <script src="_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="API Docs" href="api.html" />
-    <link rel="prev" title="Setup Buss Buddy" href="installation.html" /> 
+    <link rel="next" title="Database Structure" href="database.html" />
+    <link rel="prev" title="Stack Used" href="stack_used.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -121,10 +121,10 @@
         <div class="sphinxsidebarwrapper"><p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Setup Buss Buddy</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Stack Used</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="stack_used.html">Stack Used</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Docs</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="database.html">Database Structure</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Ai.html">AI Implementation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="alerts.html">Alerts</a></li>
@@ -140,46 +140,126 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="stack-used">
-<h1>Stack Used<a class="headerlink" href="#stack-used" title="Link to this heading">¶</a></h1>
-<p>This section outlines the technologies and tools used in the Bus Buddy project.</p>
+  <section id="api-docs">
+<h1>API Docs<a class="headerlink" href="#api-docs" title="Link to this heading">¶</a></h1>
+<p>This documentation provides details on the various endpoints available in the Bus Buddy API, which offers real-time transit tracking and updates.</p>
 <div class="toctree-wrapper compound">
 </div>
-<section id="technologies-used">
-<h2>Technologies Used<a class="headerlink" href="#technologies-used" title="Link to this heading">¶</a></h2>
-<p>### FastAPI
-- <strong>Description</strong>: FastAPI is used as the backend framework for creating APIs quickly and efficiently. It offers support for modern Python features like type hints and asynchronous processing.
-- <strong>Use</strong>: All backend services and API endpoints are built using FastAPI.</p>
-<p>### Redis
-- <strong>Description</strong>: Redis is used for caching and storing temporary data.
-- <strong>Use</strong>: Helps improve performance by caching frequently accessed data, reducing the load on the database.</p>
-<p>### React
-- <strong>Description</strong>: React is used for building the user interface of the web application.
-- <strong>Use</strong>: The frontend is built using React for a responsive and dynamic user experience.</p>
-<p>### Open Data
-- <strong>Description</strong>: Open Data refers to publicly available datasets that provide useful information such as real-time transit data, bus routes, and more.
-- <strong>Use</strong>: Utilized for fetching transit data in real-time and enriching the application’s functionality.</p>
-<p>### Protocol Buffers (Protobuf)
-- <strong>Description</strong>: Protocol Buffers are used for serializing structured data, especially in cases of inter-service communication.
-- <strong>Use</strong>: Protobuf helps in efficient and compact data transfer between services.</p>
-<p>### Rate Limiter
-- <strong>Description</strong>: A rate limiter is used to restrict the number of requests that can be made to the API within a certain time frame.
-- <strong>Use</strong>: Prevents abuse and ensures fair use of API resources.</p>
-<p>### YOLO (You Only Look Once)
-- <strong>Description</strong>: YOLO is a real-time object detection system.
-- <strong>Use</strong>: Used for detecting buses and other objects from live video feeds or images, providing real-time tracking and analysis.</p>
-<p>### Tailwind CSS
-- <strong>Description</strong>: Tailwind CSS is a utility-first CSS framework.
-- <strong>Use</strong>: Used for styling the frontend with customizable classes to build a visually appealing UI without writing custom CSS from scratch.</p>
-<p>### OpenStreetMap (OSM)
-- <strong>Description</strong>: OpenStreetMap is a free map data provider.
-- <strong>Use</strong>: Integrated to provide interactive maps for displaying bus locations and routes.</p>
-<p>### GTFS Static Data
-- <strong>Description</strong>: GTFS (General Transit Feed Specification) static data provides information about bus schedules, routes, and other transit information.
-- <strong>Use</strong>: Used to generate the schedules and route details in the application.</p>
-<p>### PostgreSQL
-- <strong>Description</strong>: PostgreSQL is a relational database management system.
-- <strong>Use</strong>: Used for storing and querying data such as user information, bus details, and transit updates in a structured way.</p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
+<p>The Bus Buddy API allows users to track buses in real-time, update vehicle statuses, and receive alerts for transit-related events. Below is the API specification and detailed documentation for its endpoints.</p>
+</section>
+<section id="api-overview">
+<h2>API Overview<a class="headerlink" href="#api-overview" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Version</strong>: 0.1.0</p></li>
+<li><p><strong>Base URL</strong>: <cite>/api/v1/</cite></p></li>
+<li><p><strong>Authentication</strong>: Some endpoints require an API key in the header.</p></li>
+</ul>
+</section>
+<section id="endpoints">
+<h2>Endpoints<a class="headerlink" href="#endpoints" title="Link to this heading">¶</a></h2>
+<p>### <cite>/</cite></p>
+<ul class="simple">
+<li><p><strong>GET</strong>: Read the root of the API.</p></li>
+<li><p><strong>Summary</strong>: Returns a simple root response.</p></li>
+<li><p><strong>Response</strong>:
+- <cite>200</cite>: Successful response (empty JSON object).</p></li>
+</ul>
+<p>### <cite>/api/v1/transit/trips</cite></p>
+<ul class="simple">
+<li><p><strong>GET</strong>: Get Transit Trips.</p></li>
+<li><p><strong>Description</strong>: Fetch real-time transit trip updates.</p></li>
+<li><p><strong>Response</strong>:
+- <cite>200</cite>: Successful response (empty JSON object).</p></li>
+</ul>
+<p>### <cite>/api/v1/transit/vehiclePosition</cite></p>
+<ul class="simple">
+<li><p><strong>GET</strong>: Get Vehicle Position.</p></li>
+<li><p><strong>Description</strong>: Fetch real-time vehicle position updates.</p></li>
+<li><p><strong>Response</strong>:
+- <cite>200</cite>: Successful response (empty JSON object).</p></li>
+</ul>
+<p>### <cite>/api/v1/transit/track-bus</cite></p>
+<ul class="simple">
+<li><p><strong>POST</strong>: Track Bus.</p></li>
+<li><p><strong>Description</strong>: Track a specific bus using its trip and vehicle IDs.</p></li>
+<li><p><strong>Request Body</strong>:
+- JSON object with <cite>trip_id</cite> and <cite>vehicle_id</cite> (optional).</p></li>
+<li><p><strong>Response</strong>:
+- <cite>200</cite>: Successful response (empty JSON object).
+- <cite>422</cite>: Validation error with error details.</p></li>
+</ul>
+<p>### <cite>/api/v1/alerts/alerts</cite></p>
+<ul class="simple">
+<li><p><strong>GET</strong>: Get Alerts.</p></li>
+<li><p><strong>Description</strong>: Fetch GTFS Realtime alerts.</p></li>
+<li><p><strong>Response</strong>:
+- <cite>200</cite>: Successful response (empty JSON object).</p></li>
+</ul>
+<p>### <cite>/api/v1/passenger/update_passengers</cite></p>
+<ul class="simple">
+<li><p><strong>POST</strong>: Update Passengers.</p></li>
+<li><p><strong>Description</strong>: Update the number of passengers on a specific bus.</p></li>
+<li><p><strong>Request Body</strong>:
+- JSON object with <cite>vehicle_id</cite>, <cite>passenger_in</cite>, <cite>passenger_out</cite>, and <cite>timestamp</cite>.</p></li>
+<li><p><strong>Response</strong>:
+- <cite>200</cite>: Successful response (empty JSON object).
+- <cite>422</cite>: Validation error with error details.</p></li>
+</ul>
+<p>### <cite>/api/v1/passenger/update_Status</cite></p>
+<ul class="simple">
+<li><p><strong>POST</strong>: Update Status.</p></li>
+<li><p><strong>Description</strong>: Update bus status. This will be handled by the driver.</p></li>
+<li><p><strong>Request Body</strong>:
+- JSON object with <cite>vehicle_id</cite> and <cite>status</cite>.</p></li>
+<li><p><strong>Response</strong>:
+- <cite>200</cite>: Successful response (empty JSON object).
+- <cite>422</cite>: Validation error with error details.</p></li>
+</ul>
+</section>
+<section id="schemas">
+<h2>Schemas<a class="headerlink" href="#schemas" title="Link to this heading">¶</a></h2>
+<p>### <cite>BusTrackingRequest</cite></p>
+<ul class="simple">
+<li><p><strong>Properties</strong>:
+- <cite>trip_id</cite> (string|null)
+- <cite>vehicle_id</cite> (string|null)</p></li>
+<li><p><strong>Description</strong>: Request body for tracking a bus.</p></li>
+</ul>
+<p>### <cite>Driver_status</cite></p>
+<ul class="simple">
+<li><p><strong>Properties</strong>:
+- <cite>vehicle_id</cite> (string): The ID of the vehicle.
+- <cite>status</cite> (boolean): The status of the vehicle.</p></li>
+<li><p><strong>Required</strong>: <cite>vehicle_id</cite>, <cite>status</cite></p></li>
+<li><p><strong>Description</strong>: Request body for updating the bus status.</p></li>
+</ul>
+<p>### <cite>HTTPValidationError</cite></p>
+<ul class="simple">
+<li><p><strong>Properties</strong>:
+- <cite>detail</cite> (array): A list of validation errors.</p></li>
+<li><p><strong>Description</strong>: Represents a validation error response.</p></li>
+</ul>
+<p>### <cite>PassengerUpdate</cite></p>
+<ul class="simple">
+<li><p><strong>Properties</strong>:
+- <cite>vehicle_id</cite> (string): The ID of the vehicle.
+- <cite>passenger_in</cite> (integer): Number of passengers entering.
+- <cite>passenger_out</cite> (integer): Number of passengers exiting.
+- <cite>timestamp</cite> (string, date-time): The timestamp of the update.</p></li>
+<li><p><strong>Required</strong>: <cite>vehicle_id</cite>, <cite>passenger_in</cite>, <cite>passenger_out</cite>, <cite>timestamp</cite></p></li>
+<li><p><strong>Description</strong>: Request body for updating passenger counts.</p></li>
+</ul>
+<p>### <cite>ValidationError</cite></p>
+<ul class="simple">
+<li><p><strong>Properties</strong>:
+- <cite>loc</cite> (array): The location of the error.
+- <cite>msg</cite> (string): The error message.
+- <cite>type</cite> (string): The type of error.</p></li>
+<li><p><strong>Required</strong>: <cite>loc</cite>, <cite>msg</cite>, <cite>type</cite></p></li>
+<li><p><strong>Description</strong>: Represents an individual validation error.</p></li>
+</ul>
 </section>
 </section>
 
@@ -197,8 +277,11 @@
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Stack Used</a><ul>
-<li><a class="reference internal" href="#technologies-used">Technologies Used</a></li>
+<li><a class="reference internal" href="#">API Docs</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#api-overview">API Overview</a></li>
+<li><a class="reference internal" href="#endpoints">Endpoints</a></li>
+<li><a class="reference internal" href="#schemas">Schemas</a></li>
 </ul>
 </li>
 </ul>
@@ -213,14 +296,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="installation.html">
-                    <span class="icon">&lt;</span><span>Setup Buss Buddy</span></a>
+                <a href="stack_used.html">
+                    <span class="icon">&lt;</span><span>Stack Used</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="api.html"><span>API Docs</span><span class="icon">&gt;</span></a>
+                    <a href="database.html"><span>Database Structure</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
