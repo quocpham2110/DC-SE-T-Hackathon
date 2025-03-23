@@ -225,8 +225,9 @@ async def track_bus(request: BusTrackingRequest):
                         crowd_dict["crowd_color"] = "Blue"
 
                     # the driver status is more important than Ai Analysis
-                    if bus_status:
+                    if bus_status != "[]":
                         bus_status_data = json.loads(bus_status)
+                        print(bus_status)
                         if bus_status_data[0]['status'] == 1:
                             crowd_dict["status"] = True
                         else:
