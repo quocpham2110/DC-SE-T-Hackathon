@@ -30,19 +30,29 @@ def parse_realtime_data(filelink):
 
 @alert.get("/alerts")
 async def get_alerts():
-    """Fetches GTFS Realtime alerts."""
+    """Fetches GTFS Realtime alerts and returns only the alert message text."""
     url = os.environ.get("Alerts")
     if not url:
         raise HTTPException(
-            status_code=500, detail="GTFS Realtime URL not configured in environment variables (Alerts)")
+            status_code=500, detail="GTFS Realtime URL not configured in environment variables (Alerts)"
+        )
 
     feed = parse_realtime_data(url)
     if feed is None:
         raise HTTPException(
-            status_code=500, detail="Failed to fetch or parse GTFS Realtime data")
+            status_code=500, detail="Failed to fetch or parse GTFS Realtime data"
+        )
 
-    # Convert the feed to JSON format
-    feed_json = MessageToJson(feed)
+    messages = []  # List to store alert messages
 
-    # Return the JSON response
-    return json.loads(feed_json)
+    for entity in feed.entity:
+        if entity.HasField("alert"):
+            alert_json = json.loads(MessageToJson(entity.alert))
+
+            # Extract description text
+            if "descriptionText" in alert_json and "translation" in alert_json["descriptionText"]:
+                for translation in alert_json["descriptionText"]["translation"]:
+                    if translation.get("language") == "en":  # Filter English messages
+                        messages.append(translation["text"])
+
+    return {"alerts": messages}
