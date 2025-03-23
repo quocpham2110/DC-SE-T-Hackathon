@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Stack Used &#8212; bus buddy 1.0.0.0 documentation</title>
+    <title>AI Implementation &#8212; bus buddy 1.0.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
     <link rel="stylesheet" type="text/css" href="_static/basic_mod.css?v=9b2032db" />
     <script src="_static/documentation_options.js?v=2ab8bd80"></script>
@@ -15,8 +15,8 @@
     <script src="_static/js/petite-vue.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="API Docs" href="api.html" />
-    <link rel="prev" title="Setup Buss Buddy" href="installation.html" /> 
+    <link rel="next" title="Alerts" href="alerts.html" />
+    <link rel="prev" title="Database Structure" href="database.html" /> 
   </head><body data-dark_mode_code_blocks="true">
 
 <div id="top_nav">
@@ -121,12 +121,12 @@
         <div class="sphinxsidebarwrapper"><p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Setup Buss Buddy</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Stack Used</a><ul class="simple">
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="stack_used.html">Stack Used</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API Docs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="database.html">Database Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Ai.html">AI Implementation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">AI Implementation</a><ul class="simple">
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="alerts.html">Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="driver.html">Driver Documentation</a></li>
 </ul>
@@ -140,46 +140,41 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="stack-used">
-<h1>Stack Used<a class="headerlink" href="#stack-used" title="Link to this heading">¶</a></h1>
-<p>This section outlines the technologies and tools used in the Bus Buddy project.</p>
+  <section id="ai-implementation">
+<h1>AI Implementation<a class="headerlink" href="#ai-implementation" title="Link to this heading">¶</a></h1>
+<p>This section explains the AI implementation used in the Bus Buddy project, focusing on the use of YOLOv8 and YOLOv11 for detecting buses and passengers.</p>
 <div class="toctree-wrapper compound">
 </div>
-<section id="technologies-used">
-<h2>Technologies Used<a class="headerlink" href="#technologies-used" title="Link to this heading">¶</a></h2>
-<p>### FastAPI
-- <strong>Description</strong>: FastAPI is used as the backend framework for creating APIs quickly and efficiently. It offers support for modern Python features like type hints and asynchronous processing.
-- <strong>Use</strong>: All backend services and API endpoints are built using FastAPI.</p>
-<p>### Redis
-- <strong>Description</strong>: Redis is used for caching and storing temporary data.
-- <strong>Use</strong>: Helps improve performance by caching frequently accessed data, reducing the load on the database.</p>
-<p>### React
-- <strong>Description</strong>: React is used for building the user interface of the web application.
-- <strong>Use</strong>: The frontend is built using React for a responsive and dynamic user experience.</p>
-<p>### Open Data
-- <strong>Description</strong>: Open Data refers to publicly available datasets that provide useful information such as real-time transit data, bus routes, and more.
-- <strong>Use</strong>: Utilized for fetching transit data in real-time and enriching the application’s functionality.</p>
-<p>### Protocol Buffers (Protobuf)
-- <strong>Description</strong>: Protocol Buffers are used for serializing structured data, especially in cases of inter-service communication.
-- <strong>Use</strong>: Protobuf helps in efficient and compact data transfer between services.</p>
-<p>### Rate Limiter
-- <strong>Description</strong>: A rate limiter is used to restrict the number of requests that can be made to the API within a certain time frame.
-- <strong>Use</strong>: Prevents abuse and ensures fair use of API resources.</p>
-<p>### YOLO (You Only Look Once)
-- <strong>Description</strong>: YOLO is a real-time object detection system.
-- <strong>Use</strong>: Used for detecting buses and other objects from live video feeds or images, providing real-time tracking and analysis.</p>
-<p>### Tailwind CSS
-- <strong>Description</strong>: Tailwind CSS is a utility-first CSS framework.
-- <strong>Use</strong>: Used for styling the frontend with customizable classes to build a visually appealing UI without writing custom CSS from scratch.</p>
-<p>### OpenStreetMap (OSM)
-- <strong>Description</strong>: OpenStreetMap is a free map data provider.
-- <strong>Use</strong>: Integrated to provide interactive maps for displaying bus locations and routes.</p>
-<p>### GTFS Static Data
-- <strong>Description</strong>: GTFS (General Transit Feed Specification) static data provides information about bus schedules, routes, and other transit information.
-- <strong>Use</strong>: Used to generate the schedules and route details in the application.</p>
-<p>### PostgreSQL
-- <strong>Description</strong>: PostgreSQL is a relational database management system.
-- <strong>Use</strong>: Used for storing and querying data such as user information, bus details, and transit updates in a structured way.</p>
+<section id="ai-overview">
+<h2>AI Overview<a class="headerlink" href="#ai-overview" title="Link to this heading">¶</a></h2>
+<p>The system uses YOLO (You Only Look Once) versions 8 and 11 for real-time object detection. These models are used to detect buses and passengers, specifically identifying the “first door” and “second door” areas on the bus. The AI operates asynchronously using multi-threading to ensure smooth performance even under heavy traffic conditions, such as the demands from Durham Region’s public transit system.</p>
+<p>### YOLOv8 and YOLOv11
+- <strong>Purpose</strong>: Detect buses and passengers in real-time using object detection algorithms.
+- <strong>Functionality</strong>: The AI models are trained to recognize different objects, including the first and second doors of a bus and passengers. These models are essential for crowd detection, which is a key feature of the project.
+- <strong>Data for AI</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><cite>vehicle_id</cite>: The ID of the vehicle (string), used for associating detections with a specific bus.</p></li>
+<li><p><strong>API Key</strong>: An API key is required for securing access to the system and ensuring only authorized requests are processed.</p></li>
+</ul>
+</div></blockquote>
+<p>### Asynchronous Processing and Multi-Threading
+- The system is designed to handle high server load efficiently. The detection process is handled asynchronously, using multi-threading to process the data in parallel without causing delays.
+- Data is cached and sent to the database every 15 seconds, reducing the load on the server while still providing real-time updates.</p>
+<p>### Data Storage and Cleanup
+- <strong>Database Storage</strong>: The analysis results are stored in the <cite>passengers</cite> table in the database. The data is used to generate real-time statistics about passengers and bus occupancy.
+- <strong>Data Reset</strong>: To prevent data conflicts and ensure daily accuracy, the database is cleared every day at 12 PM. This ensures fresh data each day, avoiding the accumulation of outdated information.
+- <strong>Optional Data Retention</strong>: The data can be saved for future analysis if needed, providing a historical record of passenger counts and vehicle locations.</p>
+</section>
+<section id="files-overview">
+<h2>Files Overview<a class="headerlink" href="#files-overview" title="Link to this heading">¶</a></h2>
+<p>### <cite>server_updater.py</cite>
+- <strong>Purpose</strong>: Manages the process of sending requests to the server and updating the data.
+- <strong>Functionality</strong>: Sends the detected passenger and vehicle data to the server with the required headers. This script is responsible for keeping the server updated with real-time information.</p>
+<p>### <cite>tracker.py</cite>
+- <strong>Purpose</strong>: Tracks the bus and passengers, and monitors YOLO’s operation.
+- <strong>Functionality</strong>: This script tracks the buses and detects passengers, generating a CSV file with the data and the timestamps of each detection. The CSV file helps keep a record of detections over time.
+- <strong>Training YOLO</strong>: While there wasn’t enough time to implement a full training process with multiple test cases, YOLO is already performing well with good accuracy. The system is capable of improving over time as more data becomes available.</p>
 </section>
 </section>
 
@@ -197,8 +192,9 @@
             <p><a class="toggle_right_sidebar" href="#"><span class="icon">&gt;</span><span>Page contents:</span></a></p>
             <div class="page_toc">
                 <ul>
-<li><a class="reference internal" href="#">Stack Used</a><ul>
-<li><a class="reference internal" href="#technologies-used">Technologies Used</a></li>
+<li><a class="reference internal" href="#">AI Implementation</a><ul>
+<li><a class="reference internal" href="#ai-overview">AI Overview</a></li>
+<li><a class="reference internal" href="#files-overview">Files Overview</a></li>
 </ul>
 </li>
 </ul>
@@ -213,14 +209,14 @@
         <div class="button_nav">
             <div class="left">
                 
-                <a href="installation.html">
-                    <span class="icon">&lt;</span><span>Setup Buss Buddy</span></a>
+                <a href="database.html">
+                    <span class="icon">&lt;</span><span>Database Structure</span></a>
                 
             </div>
 
             <div class="right">
                 
-                    <a href="api.html"><span>API Docs</span><span class="icon">&gt;</span></a>
+                    <a href="alerts.html"><span>Alerts</span><span class="icon">&gt;</span></a>
                 
             </div>
         </div>
