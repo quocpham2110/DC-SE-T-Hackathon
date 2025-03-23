@@ -38,7 +38,7 @@ const RouteShapes = () => {
         <>
             {
                 shapes.length && (<>
-                    <Polyline positions={shapes.map(shape => ([shape.shape_pt_lat, shape.shape_pt_lon]))} color="blue" weight={8}/>
+                    <Polyline positions={shapes.map(shape => ([shape.shape_pt_lat, shape.shape_pt_lon]))} color="blue" weight={7}/>
                     <Marker position={markers.firstPos} icon={createCustomMarkerIcon('green')}>
                         <Popup>
                             Departure point

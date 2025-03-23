@@ -81,7 +81,7 @@ const BusTracking = () => {
 
     const [isRefresh, setIsRefresh] = useState<boolean>(false)
 
-    const refreshBusTracking = useCallback(() => {
+    const refreshBusTracking = useCallback(async () => {
         if (isRefresh) {
             return;
         }
@@ -92,7 +92,7 @@ const BusTracking = () => {
                 trip_id: info.trip_id,
                 vehicle_id: info.vehicle_id
             })
-            fetch(`${apiURL}/${endPoints.trackBus}`, {
+            await fetch(`${apiURL}/${endPoints.trackBus}`, {
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 body
@@ -164,8 +164,8 @@ const BusTracking = () => {
                     <Popup autoPan={true} closeButton={false}>
                         <div className='text-xl font-bold flex flex-row items-center justify-between mb-4'>
                             <span className='text-map-primary'>🚌 Bus {info.route_id}</span>
-                            <button className='cursor-pointer text-map-secondary rounded-full
-                                hover:text-map-primary hover:shadow-md'
+                            <button className='cursor-pointer text-map-secondary rounded-full p-1
+                                hover:text-map-primary hover:shadow-lg'
                                 disabled={isRefresh}
                                 onClick={refreshBusTracking}
                             >
