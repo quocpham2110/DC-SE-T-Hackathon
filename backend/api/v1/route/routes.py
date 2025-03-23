@@ -172,6 +172,10 @@ async def track_bus(request: BusTrackingRequest):
                     crowd = db_query.execute_query(f"""
                         select passenger_in , passenger_out from passengers where vehicle_id = '{vehicle.vehicle.id}';
                                                     """)
+                    bus_status = db_query.execute_query(f"""
+                        select status from passengers where vehicle_id = '{vehicle.vehicle.id}';
+                                                    """)
+
                     if crowd != "[]":
                         print(crowd)
                         crowd_data = json.loads(crowd)
@@ -189,6 +193,9 @@ async def track_bus(request: BusTrackingRequest):
                                 crowd_dict["crowd_color"] = "Yellow"
                                 crowd_dict["status"] = True
 
+                            elif passanger_in < 60:
+                                crowd_dict["crowd_color"] = "orange"
+                                crowd_dict["status"] = True
                             else:
                                 crowd_dict["crowd_color"] = "Red"
                                 crowd_dict["status"] = False
@@ -198,22 +205,32 @@ async def track_bus(request: BusTrackingRequest):
                             crowd_dict["total_passenger"] = total_passenger
                             if total_passenger < 25:
                                 crowd_dict["crowd_color"] = "Green"
+                                crowd_dict["status"] = True
 
                             elif total_passenger < 50:
                                 crowd_dict["crowd_color"] = "Yellow"
+                                crowd_dict["status"] = True
 
                             elif total_passenger < 60:
                                 crowd_dict["crowd_color"] = "orange"
-
+                                crowd_dict["status"] = True
                             else:
                                 crowd_dict["crowd_color"] = "Red"
-
+                                crowd_dict["status"] = False
                         else:
                             crowd_dict["status"] = "not available"
                             crowd_dict["crowd_color"] = "Blue"
                     else:
                         crowd_dict["status"] = "not available"
                         crowd_dict["crowd_color"] = "Blue"
+
+                    # the driver status is more important than Ai Analysis
+                    if bus_status:
+                        bus_status_data = json.loads(bus_status)
+                        if bus_status_data[0]['status'] == 1:
+                            crowd_dict["status"] = True
+                        else:
+                            crowd_dict["status"] = False
 
                     detail.append(crowd_dict)
         return detail

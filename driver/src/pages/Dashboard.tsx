@@ -85,7 +85,7 @@ const Dashboard: React.FC<DashboardProps> = ({ apiKey, vehicleId, driverName, on
         const updateDateTime = () => {
             const now = new Date();
             setCurrentTime(now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
-            setCurrentDate(now.toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' }));
+            setCurrentDate(now.toLocaleDateString([], { month: 'long', day: 'numeric' }));
         };
 
         updateDateTime();
@@ -155,7 +155,7 @@ const Dashboard: React.FC<DashboardProps> = ({ apiKey, vehicleId, driverName, on
                     <Toolbar>
                         <DirectionsBusIcon fontSize="large" sx={{ mr: 2 }} />
                         <Typography variant="h5" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
-                            Bus Driver Portal
+                            Portal
                         </Typography>
                         <Box display="flex" alignItems="center">
                             <Box mr={3} textAlign="right">
